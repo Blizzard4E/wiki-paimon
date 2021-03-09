@@ -1,0 +1,32 @@
+{
+    "name": "Ningguang",
+    "title": "Eclipsing Star",
+    "affiliation": "Liyue Qixing",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "element": "Geo",
+    "birthday": "26 August",
+    "intro": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615285842/Wiki%20Paimon/Characters/Ningguang/Ningguang_Cutout_Art_beja2g.png",
+    "wishArt": "wishartURL",
+    "attackTalents": {
+        "normalAttack": {
+            "img0": "normalattackimgURL_0",
+            "img1": "normalattackimgURL_1",
+            "title": "Normal Attack: Sparkling Scatter",
+            "info": "<span>Normal Attack</span><br> Shoots gems that deal <color=#ffe699ff>Geo DMG.<br> Upon hit, this grants Ningguang 1 Star Jade.<br> <span>Charged Attack</span><br> Consumes a certain amount of stamina to fire off a giant gem that deals <color=#ffe699ff>Geo DMG.<br> If Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.<br> <span>Plunging Attack</span><br> Gathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#ffe699ff>AoE Geo DMG upon impact with the ground.</color=#ffe699ff></color=#ffe699ff></color=#ffe699ff>"
+        },
+        "skill": {
+            "img0": "skillimgURL_0",
+            "img1": "skillimgURL_1",
+            "title": "Jade Screen",
+            "info": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing <color=#ffe699ff>AoE Geo DMG.<br> <span class=\"skill_bold\">Jade Screen</span><br> • Blocks opponents' projectiles.<br> • Endurance scales based on Ningguang's Max HP.<br> Jade Screen is considered a <color=#ffe699ff>Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.<br></color=#ffe699ff></color=#ffe699ff>"
+        },
+        "burst": {
+            "img0": "burstimgURL_0",
+            "img1": "burstimgURL_1",
+            "title": "Starshatter",
+            "info": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#ffe699ff>Geo DMG.<br> If Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.<br></color=#ffe699ff>"
+        }
+    }
+}

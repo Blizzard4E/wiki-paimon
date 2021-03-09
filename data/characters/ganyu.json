@@ -1,0 +1,32 @@
+{
+    "name": "Ganyu",
+    "title": "Plenilune Gaze",
+    "affiliation": "Yuehai Pavilion",
+    "rarity": 5,
+    "weapon": "Bow",
+    "element": "Cryo",
+    "birthday": "2 December",
+    "intro": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615289340/Wiki%20Paimon/Characters/Ganyu/Ganyu_Cutout_Art_peqlbs.png",
+    "wishArt": "wishartURL",
+    "attackTalents": {
+        "normalAttack": {
+            "img0": "normalattackimgURL_0",
+            "img1": "normalattackimgURL_1",
+            "title": "Normal Attack: Liutian Archery",
+            "info": "<span>Normal Attack</span><br> Perform up to 6 consecutive shots with a bow.<br> <span>Charged Attack</span><br> Perform a more precise <color=#ffd780ff>Aimed Shot with increased DMG.<br> While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:<br> • Charge Level 1: Fires off an icy arrow that deals <color=#99ffffff>Cryo DMG.<br> • Charge Level 2: Fires off a Frostflake Arrow that deals <color=#99ffffff>Cryo DMG. The Frostflake Arrow blooms after hitting its target, dealing <color=#99ffffff>AoE Cryo DMG.<br> <span>Plunging Attack</span><br> Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.</color=#99ffffff></color=#99ffffff></color=#99ffffff></color=#ffd780ff>"
+        },
+        "skill": {
+            "img0": "skillimgURL_0",
+            "img1": "skillimgURL_1",
+            "title": "Trail of the Qilin",
+            "info": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99ffffff>AoE Cryo DMG.<br> <span class=\"skill_bold\">Ice Lotus</span><br> • Continuously taunts surrounding opponents, attracting them to attack it.<br> • Endurance scales based on Ganyu's Max HP.<br> • Blooms profusely when destroyed or once its duration ends, dealing <color=#99ffffff>AoE Cryo DMG.<br></color=#99ffffff></color=#99ffffff>"
+        },
+        "burst": {
+            "img0": "burstimgURL_0",
+            "img1": "burstimgURL_1",
+            "title": "Celestial Shower",
+            "info": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.<br> During its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99ffffff>Cryo DMG.<br></color=#99ffffff>"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Tartaglia",
+    "title": "Childe",
+    "affiliation": "Fatui",
+    "rarity": 5,
+    "weapon": "Bow",
+    "element": "Hydro",
+    "birthday": "20 July",
+    "intro": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615289339/Wiki%20Paimon/Characters/Tartaglia/Tartaglia_Cutout_Art_nzhgzv.png",
+    "wishArt": "wishartURL",
+    "attackTalents": {
+        "normalAttack": {
+            "img0": "normalattackimgURL_0",
+            "img1": "normalattackimgURL_1",
+            "title": "Normal Attack: Cutting Torrent",
+            "info": "<span>Normal Attack</span><br> Perform up to 6 consecutive shots with a bow.<br> <span>Charged Attack</span><br> Perform a more precise <color=#ffd780ff>Aimed Shot with increased DMG.<br> While aiming, the power of Hydro will accumulate on the arrowhead. A arrow fully charged with the torrent will deal <color=#80c0ffff>Hydro DMG and apply the Riptide status.<br> <span>Riptide</span><br> Opponents affected by Riptide will suffer from <color=#80c0ffff>AoE Hydro DMG effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.<br> • Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.<br> • Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.<br> <span>Plunging Attack</span><br> Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.<br> When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.</color=#80c0ffff></color=#80c0ffff></color=#ffd780ff>"
+        },
+        "skill": {
+            "img0": "skillimgURL_0",
+            "img1": "skillimgURL_1",
+            "title": "Foul Legacy: Raging Tide",
+            "info": "Unleashes a set of weaponry made of pure water, dealing <color=#80c0ffff>Hydro DMG to surrounding opponents and entering Melee Stance.<br> In this Stance, Tartaglia's Normal and Charged Attacks are converted to <color=#80c0ffff>Hydro DMG that cannot be overridden by any other elemental infusion and change as follows:<br> <span class=\"skill_bold\">Normal Attack</span><br> Perform up to 6 consecutive <color=#80c0ffff>Hydro strikes.<br> <span class=\"skill_bold\">Charged Attack</span><br> Consumes a certain amount of Stamina to unleash a cross slash, dealing <color=#80c0ffff>Hydro DMG.<br> <span class=\"skill_bold\">Riptide Slash</span><br> Hitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals <color=#80c0ffff>AoE Hydro DMG. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.<br> After 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.<br> If the return to a ranged stance occurs automatically after 30s, the CD is even longer.<br></color=#80c0ffff></color=#80c0ffff></color=#80c0ffff></color=#80c0ffff></color=#80c0ffff>"
+        },
+        "burst": {
+            "img0": "burstimgURL_0",
+            "img1": "burstimgURL_1",
+            "title": "Havoc: Obliteration",
+            "info": "Performs different attacks based on what stance Tartaglia is in when casting.<br> <span class=\"skill_bold\">Ranged Stance: Flash of Havoc</span><br> Swiftly fires a Hydro-imbued magic arrow, dealing <color=#80c0ffff>AoE Hydro DMG and applying the Riptide status.<br> Returns a portion of its Energy Cost after use.<br> <span class=\"skill_bold\">Melee Stance: Light of Obliteration</span><br> Performs a slash with a large AoE, dealing massive <color=#80c0ffff>Hydro DMG to all surrounding opponents, which triggers Riptide Blast.<br> <span class=\"skill_bold\">Riptide Blast</span><br> When the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <color=#80c0ffff>AoE Hydro DMG.<br> DMG dealt in this way is considered Elemental Burst DMG.<br></color=#80c0ffff></color=#80c0ffff></color=#80c0ffff>"
+        }
+    }
+}

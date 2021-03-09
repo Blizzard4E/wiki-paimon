@@ -1,0 +1,32 @@
+{
+    "name": "Xiao",
+    "title": "Vigilant Yaksha",
+    "affiliation": "Liyue Adeptus",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "element": "Anemo",
+    "birthday": "17 April",
+    "intro": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" or \"Vigilant Yaksha.\"",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615285870/Wiki%20Paimon/Characters/Xiao/Xiao_Cutout_Art_oqvmib.png",
+    "wishArt": "wishartURL",
+    "attackTalents": {
+        "normalAttack": {
+            "img0": "normalattackimgURL_0",
+            "img1": "normalattackimgURL_1",
+            "title": "Normal Attack: Whirlwind Thrust",
+            "info": "<span>Normal Attack</span><br> Performs up to 6 consecutive spear strikes.<br> <span>Charged Attack</span><br> Consumes a certain amount of Stamina to perform an upward thrust.<br> <span>Plunging Attack</span><br> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.<br> Xiao does not take DMG from performing Plunging Attacks."
+        },
+        "skill": {
+            "img0": "skillimgURL_0",
+            "img1": "skillimgURL_1",
+            "title": "Lemniscatic Wind Cycling",
+            "info": "Xiao lunges forward, dealing Anemo DMG to opponents in his path.<br> Can be used in mid-air.<br> Starts with 2 charges.<br>"
+        },
+        "burst": {
+            "img0": "burstimgURL_0",
+            "img1": "burstimgURL_1",
+            "title": "Bane of All Evil",
+            "info": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.<br> <span>Yaksha's Mask</span><br> • Greatly increases Xiao's jumping ability.<br> • Increases his attack AoE and attack DMG.<br> • Converts attack DMG into Anemo DMG, which cannot be overridden by any other elemental infusion.<br> In this state, Xiao will continuously lose HP.<br> The effects of this skill end when Xiao leaves the field.<br>"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Hu Tao",
+    "title": "Fragrance in Thaw",
+    "affiliation": "Wangsheng Funeral Parlor",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "element": "Pyro",
+    "birthday": "15 July",
+    "intro": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615290502/Wiki%20Paimon/Characters/Hu%20Tao/HuTao_Cutout_Art_n8dssa.png",
+    "wishArt": "wishartURL",
+    "attackTalents": {
+        "normalAttack": {
+            "img0": "normalattackimgURL_0",
+            "img1": "normalattackimgURL_1",
+            "title": "Normal Attack: Secret Spear of Wangsheng",
+            "info": "<span>Normal Attack</span><br> Performs up to six consecutive spear strikes.<br> <span>Charged Attack</span><br> Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br> <span>Plunging Attack</span><br> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "skill": {
+            "img0": "skillimgURL_0",
+            "img1": "skillimgURL_1",
+            "title": "Guide to Afterlife",
+            "info": "Only an unwavering flame can cleanse the impurities of this world.<br> Hu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.<br> <span class=\"skill_bold\">Paramita Papilio</span><br> • Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.<br> • Converts attack DMG to <color=#ff9999ff>Pyro DMG, which cannot be overridden by any other elemental infusion.<br> • Charged Attacks apply the Blood Blossom effect to the enemies hit.<br> • Increases Hu Tao's resistance to interruption.<br> <span class=\"skill_bold\">Blood Blossom</span><br> Enemies affected by Blood Blossom will take <color=#ff9999ff>Pyro DMG every 4s. This DMG is considered Elemental Skill DMG.<br> Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.<br> <color=#ffd780ff>Paramita Papilio ends when its duration is over, or Hu Tao has left the battlefield or fallen.<br></color=#ffd780ff></color=#ff9999ff></color=#ff9999ff>"
+        },
+        "burst": {
+            "img0": "burstimgURL_0",
+            "img1": "burstimgURL_1",
+            "title": "Spirit Soother",
+            "info": "Commands a blazing spirit to attack, dealing <color=#ff9999ff>Pyro DMG in a large AoE.<br> Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.<br> If Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.<br></color=#ff9999ff>"
+        }
+    }
+}

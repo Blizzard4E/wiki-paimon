@@ -1,0 +1,32 @@
+{
+    "name": "Sucrose",
+    "title": "Harmless Sweetie",
+    "affiliation": "Knights of Favonius",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "element": "Anemo",
+    "birthday": "26 November",
+    "intro": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615289339/Wiki%20Paimon/Characters/Sucrose/Sucrose_Cutout_Art_zvszr1.png",
+    "wishArt": "wishartURL",
+    "attackTalents": {
+        "normalAttack": {
+            "img0": "normalattackimgURL_0",
+            "img1": "normalattackimgURL_1",
+            "title": "Normal Attack: Wind Spirit Creation",
+            "info": "<span>Normal Attack</span><br> Performs up to 4 attacks using Wind Spirits, dealing <color=#80ffd7ff>Anemo DMG.<br> <span>Charged Attack</span><br> Consumes a certain amount of Stamina and deals <color=#80ffd7ff>AoE Anemo DMG after a short casting time.<br> <span>Plunging Attack</span><br> Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80ffd7ff>AoE Anemo DMG upon impact with the ground.</color=#80ffd7ff></color=#80ffd7ff></color=#80ffd7ff>"
+        },
+        "skill": {
+            "img0": "skillimgURL_0",
+            "img1": "skillimgURL_1",
+            "title": "Astable Anemohypostasis Creation - 6308",
+            "info": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <color=#80ffd7ff>Anemo DMG.<br></color=#80ffd7ff>"
+        },
+        "burst": {
+            "img0": "burstimgURL_0",
+            "img1": "burstimgURL_1",
+            "title": "Forbidden Creation - Isomer 75 / Type II",
+            "info": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.<br> While it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <color=#80ffd7ff>Anemo DMG.<br> <span class=\"skill_bold\">Elemental Absorption</span><br> If the Wind Spirit comes into contact with <color=#80c0ffff>Hydro/<color=#ff9999ff>Pyro/<color=#99ffffff>Cryo/<color=#ffacffff>Electro energy, it will deal additional elemental DMG of that type.<br> Elemental Absorption may only occur once per use.<br></color=#ffacffff></color=#99ffffff></color=#ff9999ff></color=#80c0ffff></color=#80ffd7ff>"
+        }
+    }
+}
