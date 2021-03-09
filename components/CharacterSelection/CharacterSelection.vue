@@ -11,6 +11,7 @@
                 electro: selectedChar.element == 'Electro',
                 dendro: selectedChar.element == 'Dendro'
                                 }">{{selectedChar.name}}</h1>
+            <div v-else style="min-height: 153px"></div>
             <ul class="character-list">
                 <li v-for="character in characters" :key="character.id">
                     <a @click="updateSelectedChar(character)">{{character}}</a>
@@ -106,7 +107,6 @@ export default {
     .character-selection {
         display: grid;
         grid-template-columns: 3fr 4fr 2fr;
-        min-height: 30rem;
     }
     .character-image {
         display: flex;
@@ -129,6 +129,7 @@ export default {
         overflow-y: visible;
     }
     .character-list {
+        min-height: 30rem;
         max-height: 30rem;
         overflow-y: scroll;
         overflow-x: visible;
