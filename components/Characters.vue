@@ -1,15 +1,22 @@
 <template>
-    <section class="background">
-        <CharacterSelection @update-selected-char='updateSelectedChar'></CharacterSelection>
-    </section>
+    <main>
+        <section class="background">
+            <CharacterSelection @update-selected-char='updateSelectedChar'></CharacterSelection>
+        </section>
+        <section>
+            <AttackAbilities></AttackAbilities>
+        </section>
+    </main>
 </template>
 
 <script>
-import CharacterSelection from './CharacterSelection/CharacterSelection'
+import CharacterSelection from './Characters/CharacterSelection';
+import AttackAbilities from './Characters/AttackAbilities';
 
 export default {
     components: {
-        CharacterSelection
+        CharacterSelection,
+        AttackAbilities
     },
     data() {
         return {

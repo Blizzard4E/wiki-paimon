@@ -167,7 +167,7 @@ export default {
         font-size: 4.7rem;
     }
     .character-list>li>a {
-        color: #e9e7d9;
+        color: #ece6da;
         transition: 0.15s;
         padding: 1rem 0;
     }
@@ -182,7 +182,7 @@ export default {
         font-family: 'Big Shoulders Display';
         font-weight: normal;
         font-size: 3rem;
-        color: #e9e7d9;
+        color: #ece6da;
         animation-name: fade-in-up;
         animation-duration: 0.5s;
     }
@@ -190,7 +190,7 @@ export default {
         font-family: "Nunito Light";
         font-weight: normal;
         font-size: 1rem;
-        color: #e9e7d9;
+        color: #ece6da;
         animation-name: fade-in-up;
         animation-duration: 0.5s;
     }
