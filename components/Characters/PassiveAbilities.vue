@@ -191,11 +191,13 @@ export default {
     .wish-art {
         width: 100%;
         height: auto;
-        animation: moving 3s linear infinite;
+        animation: moving 8s linear infinite;
     }
     @keyframes moving {
-        0% {transform: translateY(5px);}
-        50% {transform: translateY(-5px);}
-        100% {transform: translateY(5px);}
+        0% {transform: translateY(0px);}
+        25% {transform: translateY(-5px);}
+        50% {transform: translateY(5px);}
+        75% {transform: translateY(-5px);}
+        100% {transform: translateY(0px);}
     }
 </style>

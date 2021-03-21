@@ -116,16 +116,18 @@ export default {
     .character-image > img {
         height: 39.5rem;
         transition: 0.2s;
-        animation: scale-up 0.5s linear, moving 4s infinite linear;
+        animation: moving 5s linear infinite 0.5s, scale-up 0.2s linear;
     }
     @keyframes scale-up {
-        from {transform: scale(0.5);}
+        from {transform: scale(0.9);}
         to {transform: scale(1);}
     }
     @keyframes moving {
-        0% {transform: translateY(8px);}
-        50% {transform: translateY(-8px);}
-        100% {transform: translateY(8px);}
+        0% {transform: translateY(0px);}
+        25% {transform: translateY(-5px);}
+        50% {transform: translateY(5px);}
+        75% {transform: translateY(-5px);}
+        100% {transform: translateY(0px);}
     }
     .character-selector {
         max-width: 400px;
