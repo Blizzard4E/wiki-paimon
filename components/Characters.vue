@@ -4,7 +4,8 @@
             <CharacterSelection @update-selected-char='updateSelectedChar'></CharacterSelection>
         </section>
         <section>
-            <AttackAbilities></AttackAbilities>
+            <AttackAbilities v-bind:selectedChar="character"></AttackAbilities>
+            <PassiveAbilities v-bind:selectedChar="character"></PassiveAbilities>
         </section>
     </main>
 </template>
@@ -12,21 +13,23 @@
 <script>
 import CharacterSelection from './Characters/CharacterSelection';
 import AttackAbilities from './Characters/AttackAbilities';
+import PassiveAbilities from './Characters/PassiveAbilities';
 
 export default {
     components: {
         CharacterSelection,
-        AttackAbilities
+        AttackAbilities,
+        PassiveAbilities
     },
     data() {
         return {
-            selectedChar: ''
+            character: {}
         }
     },
     methods: {
-        updateSelectedChar(charName) {
-            this.selectedChar = charName;
-            console.log(this.selectedChar);
+        updateSelectedChar(_character) {
+            this.character = _character;
+            console.log(this.character);
         }
     }
 }

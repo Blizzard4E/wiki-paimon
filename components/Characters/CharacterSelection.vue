@@ -50,12 +50,12 @@ export default {
             //Stop Rendering Image
             this.triggerAnimation = false;
 
-            //Update Selected Character For Parents
-            this.$emit('update-selected-char', charName);
-
             //Import Selected Character From Data
             let newSelectedChar = await import(`../../data/characters/${charName.replace(' ', '')}.json`);
             this.selectedChar = newSelectedChar;
+
+            //Update Selected Character For Parents
+            this.$emit('update-selected-char', this.selectedChar);
 
             //Change Element Icons
             if(this.selectedChar.element == "Anemo")
@@ -116,12 +116,16 @@ export default {
     .character-image > img {
         height: 39.5rem;
         transition: 0.2s;
-        animation-name: scale-up;
-        animation-duration: 0.5s;
+        animation: scale-up 0.5s linear, moving 4s infinite linear;
     }
     @keyframes scale-up {
         from {transform: scale(0.5);}
         to {transform: scale(1);}
+    }
+    @keyframes moving {
+        0% {transform: translateY(8px);}
+        50% {transform: translateY(-8px);}
+        100% {transform: translateY(8px);}
     }
     .character-selector {
         max-width: 400px;
@@ -151,14 +155,6 @@ export default {
         font-size: 8rem;
         animation-name: fade-in-up;
         animation-duration: 0.5s;
-    }
-    @keyframes appear-top-down {
-        from {
-            transform: scaleY(0);
-        };
-        to {
-            transform: scaleY(1);
-        };
     }
     .character-list>li {
         font-family: 'Big Shoulders Display';

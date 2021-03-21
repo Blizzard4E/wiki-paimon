@@ -1,90 +1,33 @@
 <template>
     <article v-if="canShow" class="container abilities">
-        <section>
-            <h1>Attack Abilities</h1>
-            <div class="abilities-icons-holder">
-                <a @click="selectAbility(0)" v-bind:class="{
-                    abilityIcon: true,
-                    active: currentAbility == 0,
-                    characterSelected: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }">
-                    <img :src="selectedChar.attackTalents.normalAttack.svg" alt="Ability Icon">
-                </a>
-                <div class="line">
-                    <div></div>
-                </div>
-                <a @click="selectAbility(1)" v-bind:class="{
-                    abilityIcon: true,
-                    active: currentAbility == 1,
-                    characterSelected: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }">
-                    <img :src="selectedChar.attackTalents.skill.svg" alt="Ability Icon">
-                </a>
-                <div class="line">
-                    <div></div>
-                </div>
-                <a @click="selectAbility(2)" v-bind:class="{
-                    abilityIcon: true,
-                    active: currentAbility == 2,
-                    characterSelected: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }">
-                    <img :src="selectedChar.attackTalents.burst.svg" alt="Ability Icon">
-                </a>
-            </div>
-            <div>
-                <div v-if="currentAbility==0" class="abilitiesInfo">
-                    <h2 >{{selectedChar.attackTalents.normalAttack.title}}</h2>
-                    <p v-html="selectedChar.attackTalents.normalAttack.info"></p>
-                </div>
-            </div>
-            <div>
-                <div v-if="currentAbility==1" class="abilitiesInfo">
-                    <h2>{{selectedChar.attackTalents.skill.title}}</h2>
-                    <p v-html="selectedChar.attackTalents.skill.info"></p>
-                </div>
-            </div>
-            <div>
-                <div v-if="currentAbility==2" class="abilitiesInfo">
-                    <h2>{{selectedChar.attackTalents.burst.title}}</h2>
-                    <p v-html="selectedChar.attackTalents.burst.info"></p>
-                </div>
-            </div>
+        <section class="wish-art-display">
+            <img class="wish-art" :src="selectedChar.wishArt" alt="Character Wish Art">
         </section>
-        <section class="abilities-display">
-            <div>
-                <div v-if="currentAbility==0">
-                    <img v-for="gif in selectedChar.attackTalents.normalAttack.gifs" :key="gif.id" :src="gif" class="abilitiy-gif" alt="Abilities Gif Showcase">
+        <section>
+            <h1>Passive Abilities</h1>
+            <div class="abilities-icons-holder">
+                <div class="passive-ability" v-for="(passive, index) in selectedChar.passiveTalents" :key="index.id">
+                    <a @click="selectAbility(index)" v-bind:class="{
+                    abilityIcon: true,
+                    active: currentAbility == index,
+                    characterSelected: true,
+                    pyro: selectedChar.element == 'Pyro',
+                    anemo: selectedChar.element == 'Anemo',
+                    geo: selectedChar.element == 'Geo',
+                    hydro: selectedChar.element == 'Hydro',
+                    cryo: selectedChar.element == 'Cryo',
+                    electro: selectedChar.element == 'Electro',
+                    dendro: selectedChar.element == 'Dendro'
+                }">
+                        <img :src="passive.svg" alt="Passive Ability Icon">
+                    </a>
+                    <div class="line"><div></div></div>
                 </div>
             </div>
-            <div>
-                <div v-if="currentAbility==1">
-                    <img v-for="gif in selectedChar.attackTalents.skill.gifs" :key="gif.id" :src="gif" class="abilitiy-gif" alt="Abilities Gif Showcase">
-                </div>
-            </div>
-            <div>
-                <div v-if="currentAbility==2">
-                    <img v-for="gif in selectedChar.attackTalents.burst.gifs" :key="gif.id" :src="gif" class="abilitiy-gif" alt="Abilities Gif Showcase">
+            <div v-for="(passive, index) in selectedChar.passiveTalents" :key="index.id">
+                <div v-if="currentAbility==index" class="abilitiesInfo">
+                    <h2>{{selectedChar.passiveTalents[index].title}}</h2>
+                    <p v-html="selectedChar.passiveTalents[index].info"></p>
                 </div>
             </div>
         </section>
@@ -118,7 +61,7 @@ export default {
 <style scoped>
     .abilities {
         display: grid;
-        grid-template-columns: 4fr 3fr;
+        grid-template-columns: 1fr 1fr;
         margin-top: 3.5rem;
         margin-bottom: 3rem;
     }
@@ -131,10 +74,15 @@ export default {
     }
     .abilities-icons-holder {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-right: 8rem;
         margin-left: 4rem;
         margin-top: 2rem;
+    }
+    .passive-ability {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 1rem;
     }
     .line {
         display: flex;
@@ -146,7 +94,10 @@ export default {
         min-height: 1px;
         background: #101520; 
     }
-    .abilityIcon  {
+    .passive-ability:nth-child(4n) > .line, .passive-ability:last-child > .line {
+        display: none;
+    }
+    .abilityIcon {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -213,6 +164,9 @@ export default {
         font-size: 1rem;
         color: #101520;
     }
+    p >>> .ability-ref {
+        color: #ece6da;
+    }
     p >>> span {
         font-family: "Nunito Bold";
         font-weight: normal;
@@ -228,19 +182,19 @@ export default {
         margin-top: 0.6rem;
         color: #101520;
     }
-    .abilities-display {
+    .wish-art-display {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
-    .abilitiy-gif {
-        width: 500px;
-        height: 271px;
-        background: #38FFBD;
-        padding: 2px;
-        border: #101520 0.5rem solid;
-        margin: 0.25rem 0;
-        animation-name: fade-in-up;
-        animation-duration: 0.2s;
+    .wish-art {
+        width: 100%;
+        height: auto;
+        animation: moving 3s linear infinite;
+    }
+    @keyframes moving {
+        0% {transform: translateY(6px);}
+        50% {transform: translateY(-6px);}
+        100% {transform: translateY(6px);}
     }
 </style>
