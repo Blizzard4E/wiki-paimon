@@ -74,17 +74,44 @@
         <section class="abilities-display">
             <div>
                 <div v-if="currentAbility==0">
-                    <img v-for="gif in selectedChar.attackTalents.normalAttack.gifs" :key="gif.id" :src="gif" class="abilitiy-gif" alt="Abilities Gif Showcase">
+                    <img v-for="gif in selectedChar.attackTalents.normalAttack.gifs" :key="gif.id" :src="gif" v-bind:class="{
+                    abilityGif: true,
+                    pyro: selectedChar.element == 'Pyro',
+                    anemo: selectedChar.element == 'Anemo',
+                    geo: selectedChar.element == 'Geo',
+                    hydro: selectedChar.element == 'Hydro',
+                    cryo: selectedChar.element == 'Cryo',
+                    electro: selectedChar.element == 'Electro',
+                    dendro: selectedChar.element == 'Dendro'
+                }" alt="Abilities Gif Showcase">
                 </div>
             </div>
             <div>
                 <div v-if="currentAbility==1">
-                    <img v-for="gif in selectedChar.attackTalents.skill.gifs" :key="gif.id" :src="gif" class="abilitiy-gif" alt="Abilities Gif Showcase">
+                    <img v-for="gif in selectedChar.attackTalents.skill.gifs" :key="gif.id" :src="gif" v-bind:class="{
+                    abilityGif: true,
+                    pyro: selectedChar.element == 'Pyro',
+                    anemo: selectedChar.element == 'Anemo',
+                    geo: selectedChar.element == 'Geo',
+                    hydro: selectedChar.element == 'Hydro',
+                    cryo: selectedChar.element == 'Cryo',
+                    electro: selectedChar.element == 'Electro',
+                    dendro: selectedChar.element == 'Dendro'
+                }" alt="Abilities Gif Showcase">
                 </div>
             </div>
             <div>
                 <div v-if="currentAbility==2">
-                    <img v-for="gif in selectedChar.attackTalents.burst.gifs" :key="gif.id" :src="gif" class="abilitiy-gif" alt="Abilities Gif Showcase">
+                    <img v-for="gif in selectedChar.attackTalents.burst.gifs" :key="gif.id" :src="gif" v-bind:class="{
+                    abilityGif: true,
+                    pyro: selectedChar.element == 'Pyro',
+                    anemo: selectedChar.element == 'Anemo',
+                    geo: selectedChar.element == 'Geo',
+                    hydro: selectedChar.element == 'Hydro',
+                    cryo: selectedChar.element == 'Cryo',
+                    electro: selectedChar.element == 'Electro',
+                    dendro: selectedChar.element == 'Dendro'
+                }" alt="Abilities Gif Showcase">
                 </div>
             </div>
         </section>
@@ -154,9 +181,7 @@ export default {
         min-width: 72px;
         border: #101520 1px solid;
         transition: 0.2s;
-    }
-    .abilityIcon:hover, .active {
-        background: #101520; 
+        z-index: 0;
     }
     .abilityIcon.anemo:hover>img, .active.anemo>img {
         filter: invert(100%) sepia(22%) saturate(6010%) hue-rotate(78deg) brightness(99%) contrast(105%);
@@ -164,8 +189,8 @@ export default {
     .abilityIcon.geo:hover>img, .active.geo>img {
         filter: invert(81%) sepia(73%) saturate(4934%) hue-rotate(0deg) brightness(108%) contrast(103%);
     }
-    .abilityIcon.pyro>:hover>img, .active.pyro>img {
-        filter: invert(32%) sepia(86%) saturate(2168%) hue-rotate(344deg) brightness(114%) contrast(94%);
+    .abilityIcon.pyro:hover>img, .active.pyro>img {
+        filter: invert(36%) sepia(35%) saturate(4266%) hue-rotate(343deg) brightness(110%) contrast(94%);
     }
     .abilityIcon.hydro:hover>img, .active.hydro>img {
         filter: invert(63%) sepia(49%) saturate(5630%) hue-rotate(159deg) brightness(101%) contrast(101%);
@@ -179,9 +204,13 @@ export default {
     .abilityIcon.dendro:hover>img, .active.dendro>img {
         filter: invert(83%) sepia(22%) saturate(1533%) hue-rotate(25deg) brightness(109%) contrast(82%);
     }
+    .abilityIcon:hover, .active {
+        background: #101520; 
+    }
     .abilityIcon>img {
         width: 47px;
         height: 47px;
+        filter: invert(5%) sepia(42%) saturate(802%) hue-rotate(183deg) brightness(97%) contrast(94%);
     }
     .abilitiesInfo {
         max-width: 30rem;
@@ -213,6 +242,9 @@ export default {
         font-size: 1rem;
         color: #101520;
     }
+    p >>> .ability-ref {
+        color: #ece6da;
+    }
     p >>> span {
         font-family: "Nunito Bold";
         font-weight: normal;
@@ -233,14 +265,22 @@ export default {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .abilitiy-gif {
+    .abilityGif {
         width: 500px;
-        height: 271px;
-        background: #38FFBD;
+        height: auto;
         padding: 2px;
         border: #101520 0.5rem solid;
         margin: 0.25rem 0;
         animation-name: fade-in-up;
         animation-duration: 0.2s;
+    }
+    .abilityGif.anemo {
+        background: #38FFBD;
+    }
+    .abilityGif.geo {
+        background: #FFCC00;
+    }
+    .abilityGif.pyro {
+        background: #F84F38;
     }
 </style>

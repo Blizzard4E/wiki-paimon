@@ -8,25 +8,49 @@
     "birthday": "13 September",
     "intro": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
     "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615285839/Wiki%20Paimon/Characters/Albedo/Albedo_Cutout_Art_crz6wy.png",
-    "wishArt": "wishartURL",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322490/Wiki%20Paimon/Characters/Albedo/Character_Albedo_Wish_c8xbcu.png",
     "attackTalents": {
         "normalAttack": {
-            "img0": "normalattackimgURL_0",
-            "img1": "normalattackimgURL_1",
-            "title": "Normal Attack: Favonius Bladework - Weiss",
-            "info": "<span>Normal Attack</span><br> Perform up to 5 rapid strikes.<br> <span>Charged Attack</span><br> Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br> <span>Plunging Attack</span><br> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616321712/Wiki%20Paimon/Characters/Albedo/Talent_Albedo_Favonius_Bladework_-_Weiss_mijjei.gif"
+            ],
+            "title": "Favonius Bladework - Weiss",
+            "info": "<h3>Normal Attack</h3> Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
         },
         "skill": {
-            "img0": "skillimgURL_0",
-            "img1": "skillimgURL_1",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616321653/Wiki%20Paimon/Characters/Albedo/Abiogenesis_Solar_Isotoma_m5h4rn.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616321655/Wiki%20Paimon/Characters/Albedo/Talent_Albedo_Abiogenesis_Solar_Isotoma_Press_xbh9cm.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616321787/Wiki%20Paimon/Characters/Albedo/Talent_Albedo_Abiogenesis_Solar_Isotoma_Hold_mjx0my.gif"
+            ],
             "title": "Abiogenesis: Solar Isotoma",
-            "info": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.<br> <span class=\"skill_bold\">Solar Isotoma</span><br> has the following properties:<br> • When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF. <br> • Transient Blossoms can only be generated once every 2s.<br> • When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.<br> • Solar Isotoma is considered a Geo construct. Only one Solar Isotoma created by Albedo himself can exist at a time. <br> <color=#ffd780ff>Hold to designate the location of the skill.<br></color=#ffd780ff>"
+            "info": "Albedo creates a Solar Isotoma using alchemy, which deals <span class='geo'>AoE Geo DMG</span> on appearance.<br><h3>Solar Isotoma</h3>has the following properties:<br>▪ When enemies within the Solar Isotoma zone take damage, the Solar Isotoma will generate Transient Blossoms which deal <span class='geo'>AoE Geo DMG</span>. DMG dealt scales off Albedo's DEF. Transient Blossoms can only be generated once every 2s.<br>▪ When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.<br>▪ Solar Isotoma is a <span class='geo'>Geo Construct</span>.<br><br><span class='ability-ref'>Hold</span> to designate the location of the skill."
         },
         "burst": {
-            "img0": "burstimgURL_0",
-            "img1": "burstimgURL_1",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616321653/Wiki%20Paimon/Characters/Albedo/Rite_of_Progeniture_Tectonic_Tide_h2w7xv.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616321825/Wiki%20Paimon/Characters/Albedo/Talent_Albedo_Rite_of_Progeniture_Tectonic_Tide_g5hoou.gif"
+            ],
             "title": "Rite of Progeniture: Tectonic Tide",
-            "info": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.<br> If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.<br> Tectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.<br>"
+            "info": "Under Albedo's command, Geo crystals surge and burst forth, dealing <span class='geo'>AoE Geo DMG</span> in front of him.<br>If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <span class='geo'>AoE Geo DMG</span>.<br><br>Tecotonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms."
         }
-    }
+    },
+    "passiveTalents": [
+        {
+            "title": "Calcite Might",
+            "info": "Transient Blossoms generated by <span class='ability-ref'>Abiogenesis: Solar Isotoma</span> deal 25% more DMG to opponents whose HP is below 50%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616321651/Wiki%20Paimon/Characters/Albedo/Calcite_Suppression_h6vfoa.svg"
+        },
+        {
+            "title": "Homuncular Nature",
+            "info": "Using <span class='ability-ref'>Rite of Progeniture: Tectonic Tide</span> increases the Elemental Mastery of nearby party members by 125 for 10s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616321651/Wiki%20Paimon/Characters/Albedo/Homuncular_Nature_tibb3u.svg"
+        },
+        {
+            "title": "Flash of Genius",
+            "info": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616321651/Wiki%20Paimon/Characters/Albedo/Genius_Unearthed_xq24nd.svg"
+        }
+    ]
 }

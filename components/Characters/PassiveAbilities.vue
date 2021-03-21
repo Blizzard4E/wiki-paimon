@@ -115,8 +115,8 @@ export default {
     .abilityIcon.geo:hover>img, .active.geo>img {
         filter: invert(81%) sepia(73%) saturate(4934%) hue-rotate(0deg) brightness(108%) contrast(103%);
     }
-    .abilityIcon.pyro>:hover>img, .active.pyro>img {
-        filter: invert(32%) sepia(86%) saturate(2168%) hue-rotate(344deg) brightness(114%) contrast(94%);
+    .abilityIcon.pyro:hover>img, .active.pyro>img {
+        filter: invert(36%) sepia(35%) saturate(4266%) hue-rotate(343deg) brightness(110%) contrast(94%);
     }
     .abilityIcon.hydro:hover>img, .active.hydro>img {
         filter: invert(63%) sepia(49%) saturate(5630%) hue-rotate(159deg) brightness(101%) contrast(101%);
@@ -133,6 +133,7 @@ export default {
     .abilityIcon>img {
         width: 47px;
         height: 47px;
+        filter: invert(5%) sepia(42%) saturate(802%) hue-rotate(183deg) brightness(97%) contrast(94%);
     }
     .abilitiesInfo {
         max-width: 30rem;
@@ -193,8 +194,8 @@ export default {
         animation: moving 3s linear infinite;
     }
     @keyframes moving {
-        0% {transform: translateY(6px);}
-        50% {transform: translateY(-6px);}
-        100% {transform: translateY(6px);}
+        0% {transform: translateY(5px);}
+        50% {transform: translateY(-5px);}
+        100% {transform: translateY(5px);}
     }
 </style>
