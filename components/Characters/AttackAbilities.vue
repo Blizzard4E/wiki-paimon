@@ -131,7 +131,8 @@ export default {
     },
     watch: {
         selectedChar: function() {
-            this.canShow = true
+            this.canShow = true,
+            this.currentAbility = 0;
         }
     },
     methods: {
@@ -282,5 +283,8 @@ export default {
     }
     .abilityGif.pyro {
         background: #F84F38;
+    }
+    .abilityGif.hydro {
+        background: #00B5EC;
     }
 </style>

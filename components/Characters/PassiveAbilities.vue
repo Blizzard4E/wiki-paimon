@@ -47,7 +47,8 @@ export default {
     },
     watch: {
         selectedChar: function() {
-            this.canShow = true
+            this.canShow = true;
+            this.currentAbility = 0;
         }
     },
     methods: {
