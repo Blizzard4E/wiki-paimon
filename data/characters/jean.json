@@ -1,0 +1,55 @@
+{
+    "name": "Jean",
+    "title": "Dandelion Knight",
+    "affiliation": "Knights of Favonius",
+    "rarity": 5,
+    "weapon": "Sword",
+    "element": "Anemo",
+    "birthday": "14 March",
+    "intro": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius of Mondstadt.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1616577948/Wiki%20Paimon/Characters/Jean/Character_Jean_Portrait_ypys08.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1616577950/Wiki%20Paimon/Characters/Jean/Character_Jean_Wish_fx4hmq.png",
+    "attackTalents": {
+        "normalAttack": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616577952/Wiki%20Paimon/Characters/Jean/jean_normal_x9esv6.gif"
+            ],
+            "title": "Favonius Bladework",
+            "info": "<h3>Normal Attack</h3>Performs up to 5 consecutive strikes.<br><h3>Charged Attack</h3>Consumes a certain amount of stamina to launch an opponent using the power of wind. Launched opponents will slowly fall to the ground.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "skill": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616577947/Wiki%20Paimon/Characters/Jean/Gale_Blade_dwmxhj.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616577963/Wiki%20Paimon/Characters/Jean/Talent_Gale_Blade_f75vya.gif"
+            ],
+            "title": "Gale Blade",
+            "info": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive <span class='anemo'>Anemo DMG</span>.<h3>Hold</h3>At the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.<br>Direction can be adjusted.<br>Character is immobile during skill duration."
+        },
+        "burst": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616577947/Wiki%20Paimon/Characters/Jean/Dandelion_Breeze_n0xgd3.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616577958/Wiki%20Paimon/Characters/Jean/Talent_Dandelion_Breeze_stbrq0.gif"
+            ],
+            "title": "Dandelion Breeze",
+            "info": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and causing <span class='anemo'>Anemo DMG</span>. At the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.<h3>Dandelion Field</h3>▪ Continuously regenerates HP of characters within the AoE and continuously imbues them with <span class='anemo'>Anemo</span>.<br>▪ Deals <span class='anemo'>Anemo DMG</span> to opponents entering or exiting the Dandelion Field."
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Wind Companion",
+            "info": "Hits by Jean's <span class='ability-ref'>Normal Attacks</span> have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616577951/Wiki%20Paimon/Characters/Jean/Wind_Companion_p2b82p.svg"
+        },
+        {
+            "title": "Let the Wind Lead",
+            "info": "Using <span class='ability-ref'>Dandelion Breeze</span> will regenerate 20% of its Energy.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616577949/Wiki%20Paimon/Characters/Jean/Let_the_Wind_Lead_ryoyc3.svg"
+        },
+        {
+            "title": "Guiding Breeze",
+            "info": "When a Perfect Cooking is achieved on a dish with restorative effects, Jean has a 12% chance to obtain double the product.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616577947/Wiki%20Paimon/Characters/Jean/Guiding_Breeze_hxct98.svg"
+        }
+    ]
+}

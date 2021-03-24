@@ -1,0 +1,55 @@
+{
+    "name": "Beidou",
+    "title": "Uncrowned Lord of the Ocean",
+    "affiliation": "The Crux",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "element": "Electro",
+    "birthday": "4 February",
+    "intro": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1616575289/Wiki%20Paimon/Characters/Beidou/Character_Beidou_Portrait_pfhz3p.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1616575289/Wiki%20Paimon/Characters/Beidou/Character_Beidou_Wish_nsahmo.png",
+    "attackTalents": {
+        "normalAttack": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616507056/Wiki%20Paimon/Weapon%20Styles/Claymore_Weapon_y7kpsf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616575295/Wiki%20Paimon/Characters/Beidou/Oceanborne__28Normal_29_ovmsyd.gif"
+            ],
+            "title": "Oceanborne",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 successive strikes.<h3>Charged Attack</h3>Drains Stamina over time to perform continuous slashes. At end of the sequence, perform a more powerful slash.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "skill": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616576344/Wiki%20Paimon/Characters/Beidou/Tidecaller_nbhbyx.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616575303/Wiki%20Paimon/Characters/Beidou/Talent_Tidecaller_oiwrko.gif"
+            ],
+            "title": "Tidecaller",
+            "info": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.<br><h3>Press</h3>Accumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <span class='electro'>Electro DMG</span>.<h3>Hold</h3>Lifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.<br>Attacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <span class='electro'>Electro DMG</span>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.<br>The shield possesses the following properties:<br>▪ Has 250% <span class='electro'>Electro DMG</span> Absorption Efficiency.<br>▪ Applies the Electro Element to Beidou upon activation."
+        },
+        "burst": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616576344/Wiki%20Paimon/Characters/Beidou/Stormbreaker_lu2euu.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616575404/Wiki%20Paimon/Characters/Beidou/Talent_Stormbreaker_wsyk4x.gif"
+            ],
+            "title": "Stormbreaker",
+            "info": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <span class='electro'>Electro DMG</span> to nearby opponents.<h3>Thunderbeast's Targe</h3><br>▪ When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <span class='electro'>Electro DMG</span>.<br>▪ Increases the character's resistance to interruption, and decreases DMG taken.<br>▪ Triggers a maximum of 1 lightning discharge per second."
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Retribution",
+            "info": "Counterattacking with <span class='ability-ref'>Tidecaller</span> at the precise moment when the character is hit grants the maximum DMG Bonus.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616576409/Wiki%20Paimon/Characters/Beidou/Retribution_ejcaq6.svg"
+        },
+        {
+            "title": "Lightning Storm",
+            "info": "Gain the following effects for 10s after unleashing <span class='ability-ref'>Tidecaller</span> with its maximum DMG Bonus:<br>▪ DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.<br>▪ Greatly reduced delay before unleashing Charged Attacks.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616576344/Wiki%20Paimon/Characters/Beidou/Lightning_Storm_m8mbkg.svg"
+        },
+        {
+            "title": "Conqueror of Tides",
+            "info": "Decreases swimming Stamina consumption of your characters in the party by 20%.<br>Not stackable with Passive Talents that provide the exact same effects.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616576344/Wiki%20Paimon/Characters/Beidou/Conqueror_of_Tides_qdpe1w.svg"
+        }
+    ]
+}

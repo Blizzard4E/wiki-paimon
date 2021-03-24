@@ -123,10 +123,10 @@ export default {
         filter: invert(63%) sepia(49%) saturate(5630%) hue-rotate(159deg) brightness(101%) contrast(101%);
     }
     .abilityIcon.cryo:hover>img, .active.cryo>img {
-        filter: invert(95%) sepia(73%) saturate(1039%) hue-rotate(149deg) brightness(106%) contrast(105%);
+        filter: invert(97%) sepia(94%) saturate(6400%) hue-rotate(107deg) brightness(99%) contrast(105%);
     }
     .abilityIcon.electro:hover>img, .active.electro>img {
-        filter: invert(71%) sepia(27%) saturate(1008%) hue-rotate(210deg) brightness(106%) contrast(106%);
+        filter: invert(39%) sepia(71%) saturate(875%) hue-rotate(234deg) brightness(104%) contrast(103%);
     }
     .abilityIcon.dendro:hover>img, .active.dendro>img {
         filter: invert(83%) sepia(22%) saturate(1533%) hue-rotate(25deg) brightness(109%) contrast(82%);

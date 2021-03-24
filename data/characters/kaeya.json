@@ -1,0 +1,56 @@
+{
+    "name": "Kaeya",
+    "title": "Frostwind Swordsman",
+    "affiliation": "Knights of Favonius",
+    "rarity": 4,
+    "weapon": "Sword",
+    "element": "Cryo",
+    "birthday": "30 November",
+    "intro": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius of Mondstadt.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579438/Wiki%20Paimon/Characters/Kaeya/Character_Kaeya_Portrait_grkud2.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579444/Wiki%20Paimon/Characters/Kaeya/Character_Kaeya_Wish_obt1x6.png",
+    "attackTalents": {
+        "normalAttack": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616579450/Wiki%20Paimon/Characters/Kaeya/Talent_Kaeya_Normal_Attack_nlbtcy.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616579568/Wiki%20Paimon/Characters/Kaeya/Talent_Kaeya_Charged_Attack_pxskwc.gif"
+            ],
+            "title": "Ceremonial Bladework",
+            "info": "<h3>Normal Attack</h3>Performs up to 5 rapid strikes.<br><h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "skill": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579437/Wiki%20Paimon/Characters/Kaeya/Frostgnaw_vl9jh7.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616579526/Wiki%20Paimon/Characters/Kaeya/Talent_Frostgnaw_gq0l1a.gif"
+            ],
+            "title": "Frostgnaw",
+            "info": "Unleashes a frigid blast, dealing <span class='cryo'>Cryo DMG</span> to opponents in front of Kaeya."
+        },
+        "burst": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579437/Wiki%20Paimon/Characters/Kaeya/Glacial_Heart_skjvmz.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616579459/Wiki%20Paimon/Characters/Kaeya/Talent_Glacial_Waltz_wdfar4.gif"
+            ],
+            "title": "Glacial Waltz",
+            "info": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve 4 times around him for 8 seconds.<br>These icicles will follow the character around and deal <span class='cryo'>Cryo DMG</span> to opponents in their path for so long as they persist."
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Wind Companion",
+            "info": "Every hit with <span class='ability-ref'>Frostgnaw</span> regenerates HP for Kaeya equal to 15% of his ATK.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579437/Wiki%20Paimon/Characters/Kaeya/Cold-Blooded_Strike_lryqtj.svg"
+        },
+        {
+            "title": "Let the Wind Lead",
+            "info": "Opponents <span class='cryo'>Frozen</span> by <span class='ability-ref'>Frostgnaw</span> will drop additional Elemental Particles. <span class='ability-ref'>Frostgnaw</span> may only produce a maximum of 2 additional Elemental Particles per use.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579437/Wiki%20Paimon/Characters/Kaeya/Glacial_Heart_skjvmz.svg"
+        },
+        {
+            "title": "Guiding Breeze",
+            "info": "Decreases sprinting Stamina consumption of your characters in the party by 20%.<br>Not stackable with Passive Talents that provide the exact same effects.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579440/Wiki%20Paimon/Characters/Kaeya/Hidden_Strength_djrrjr.svg"
+        }
+    ]
+}

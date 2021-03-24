@@ -4,29 +4,53 @@
     "affiliation": "Yuehai Pavilion",
     "rarity": 5,
     "weapon": "Bow",
-    "element": "Cryo",
+    "element": "Electro",
     "birthday": "2 December",
     "intro": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
     "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615289340/Wiki%20Paimon/Characters/Ganyu/Ganyu_Cutout_Art_peqlbs.png",
-    "wishArt": "wishartURL",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1616506105/Wiki%20Paimon/Characters/Ganyu/Character_Ganyu_Wish_bisnwn.png",
     "attackTalents": {
         "normalAttack": {
-            "img0": "normalattackimgURL_0",
-            "img1": "normalattackimgURL_1",
-            "title": "Normal Attack: Liutian Archery",
-            "info": "<span>Normal Attack</span><br> Perform up to 6 consecutive shots with a bow.<br> <span>Charged Attack</span><br> Perform a more precise <color=#ffd780ff>Aimed Shot with increased DMG.<br> While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:<br> • Charge Level 1: Fires off an icy arrow that deals <color=#99ffffff>Cryo DMG.<br> • Charge Level 2: Fires off a Frostflake Arrow that deals <color=#99ffffff>Cryo DMG. The Frostflake Arrow blooms after hitting its target, dealing <color=#99ffffff>AoE Cryo DMG.<br> <span>Plunging Attack</span><br> Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.</color=#99ffffff></color=#99ffffff></color=#99ffffff></color=#ffd780ff>"
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616419005/Wiki%20Paimon/Weapon%20Styles/Bow_Weapon_emtwos.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616505085/Wiki%20Paimon/Characters/Ganyu/Talent_Liutian_Archery__Normal_ttw9w4.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616505044/Wiki%20Paimon/Characters/Ganyu/Talent_Ganyu_Liutian_Archery_xaswhv.gif"
+            ],
+            "title": "Liutian Archery",
+            "info": "<h3>Normal Attack</h3>Perform up to 6 consecutive shots with a bow.<br><h3>Charged Attack</h3>Perform a more precise Aimed Shot with increased DMG. While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:<br>▪ Charge Level 1: Fires off an icy arrow that deals <span class='cryo'>Cryo DMG</span>.<br>▪ Charge Level 2: Fires off a Frostflake Arrow that deals <span class='cryo'>Cryo DMG</span>.<br><br>The Frostflake Arrow blooms after hitting its target, dealing <span class='cryo'>AoE Cryo DMG</span>.<h3>Plunging Attack</h3>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
         },
         "skill": {
-            "img0": "skillimgURL_0",
-            "img1": "skillimgURL_1",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616505041/Wiki%20Paimon/Characters/Ganyu/Trail_of_the_Qilin_zypxzm.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616505049/Wiki%20Paimon/Characters/Ganyu/Talent_Ganyu_Trail_of_the_Qilin_egklbu.gif"
+            ],
             "title": "Trail of the Qilin",
-            "info": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99ffffff>AoE Cryo DMG.<br> <span class=\"skill_bold\">Ice Lotus</span><br> • Continuously taunts surrounding opponents, attracting them to attack it.<br> • Endurance scales based on Ganyu's Max HP.<br> • Blooms profusely when destroyed or once its duration ends, dealing <color=#99ffffff>AoE Cryo DMG.<br></color=#99ffffff></color=#99ffffff>"
+            "info": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <span class='cryo'>AoE Cryo DMG</span>.<br><br><h3>Ice Lotus</h3>▪ Continuously taunts surrounding opponents, attracting them to attack it.<br>▪ Endurance scales based on Ganyu's Max HP.<br>Blooms profusely when destroyed or once its duration ends, dealing <span class='cryo'>AoE Cryo DMG</span>."
         },
         "burst": {
-            "img0": "burstimgURL_0",
-            "img1": "burstimgURL_1",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616505043/Wiki%20Paimon/Characters/Ganyu/Celestial_Shower_aqbycw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616505051/Wiki%20Paimon/Characters/Ganyu/Talent_Ganyu_Celestial_Shower_ldrnb5.gif"
+            ],
             "title": "Celestial Shower",
-            "info": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.<br> During its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99ffffff>Cryo DMG.<br></color=#99ffffff>"
+            "info": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.<br><br>During its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <span class='cryo'>Cryo DMG</span>."
         }
-    }
+    },
+    "passiveTalents": [
+        {
+            "title": "Undivided Heart",
+            "info": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616505043/Wiki%20Paimon/Characters/Ganyu/Undivided_Heart_lzjhup.svg"
+        },
+        {
+            "title": "Harmony between Heaven and Earth",
+            "info": "<span class='ability-ref'>Celestial Shower</span> grants a 20% <span class='cryo'>Cryo DMG Bonus</span> to active members in the AoE.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616505045/Wiki%20Paimon/Characters/Ganyu/Harmony_between_Heaven_and_Earth_xf7dhf.svg"
+        },
+        {
+            "title": "Preserved for the Hunt",
+            "info": "Refunds 15% of the ores used when crafting Bow-type weapons.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616505041/Wiki%20Paimon/Characters/Ganyu/Preserved_for_the_Hunt_exkzdg.svg"
+        }
+    ]
 }
