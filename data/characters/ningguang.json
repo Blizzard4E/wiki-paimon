@@ -11,22 +11,41 @@
     "wishArt": "wishartURL",
     "attackTalents": {
         "normalAttack": {
-            "img0": "normalattackimgURL_0",
-            "img1": "normalattackimgURL_1",
-            "title": "Normal Attack: Sparkling Scatter",
-            "info": "<span>Normal Attack</span><br> Shoots gems that deal <color=#ffe699ff>Geo DMG.<br> Upon hit, this grants Ningguang 1 Star Jade.<br> <span>Charged Attack</span><br> Consumes a certain amount of stamina to fire off a giant gem that deals <color=#ffe699ff>Geo DMG.<br> If Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.<br> <span>Plunging Attack</span><br> Gathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#ffe699ff>AoE Geo DMG upon impact with the ground.</color=#ffe699ff></color=#ffe699ff></color=#ffe699ff>"
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616327137/Wiki%20Paimon/Weapon%20Styles/Catalyst_Weapon_vportw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616326623/Wiki%20Paimon/Characters/Klee/Talent_Kaboom___Normal_yjesql.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616326680/Wiki%20Paimon/Characters/Klee/Talent_Kaboom___Charged_Attack_fifx5q.gif"
+            ],
+            "title": "Kaboom!",
+            "info": "<h3>Normal Attack</h3>Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <span class='pyro'>AoE Pyro DMG</span>.<br><h3>Charged Attack</h3>Consumes a certain amount of Stamina and deals <span class='pyro'>AoE Pyro DMG</span> to opponents after a short casting time.<h3>Plunging Attack</h3>Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span class='pyro'>AoE Pyro DMG</span> upon impact with the ground."
         },
         "skill": {
-            "img0": "skillimgURL_0",
-            "img1": "skillimgURL_1",
-            "title": "Jade Screen",
-            "info": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing <color=#ffe699ff>AoE Geo DMG.<br> <span class=\"skill_bold\">Jade Screen</span><br> • Blocks opponents' projectiles.<br> • Endurance scales based on Ningguang's Max HP.<br> Jade Screen is considered a <color=#ffe699ff>Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.<br></color=#ffe699ff></color=#ffe699ff>"
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616326617/Wiki%20Paimon/Characters/Klee/Jumpy_Dumpty_erwlkk.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616326642/Wiki%20Paimon/Characters/Klee/Talent_Jumpy_Dumpty_awwmft.gif"
+            ],
+            "title": "Jumpy Dumpty",
+            "info": "<span class='ability-ref'>Jumpy Dumpty</span> is tons of boom-bang-fun!<br><br>When thrown, <span class='ability-ref'>Jumpy Dumpty</span>bounces thrice, igniting and dealing <span class='pyro'>AoE Pyro DMG</span> with every bounce.<br>On the third bounce, the bomb splits into 8 mines. The mines will explode upon contact with opponents, or after a short period of time, dealing <span class='pyro'>AoE Pyro DMG</span>.<br>Starts with 2 charges."
         },
         "burst": {
-            "img0": "burstimgURL_0",
-            "img1": "burstimgURL_1",
-            "title": "Starshatter",
-            "info": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#ffe699ff>Geo DMG.<br> If Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.<br></color=#ffe699ff>"
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616326617/Wiki%20Paimon/Characters/Klee/Sparks_n_Splash_cubjwj.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1616326740/Wiki%20Paimon/Characters/Klee/Talent_Sparks__n__Splash_np9wls.gif"
+            ],
+            "title": "Sparks 'n' Splash",
+            "info": "Klee's Blazing Delight! For 10 seconds, summons 5 times 4 <span class='ability-ref'>Sparks 'n' Splash</span> to attack nearby opponents, dealing <span class='pyro'>AoE Pyro DMG</span>."
         }
-    }
+    },
+    "passiveTalents": [
+        {
+            "title": "Sparkling Burst",
+            "info": "When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616326617/Wiki%20Paimon/Characters/Klee/Sparkling_Burst_kmpqwf.svg"
+        },
+        {
+            "title": "All Of My Treasures!",
+            "info": "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616326620/Wiki%20Paimon/Characters/Klee/All_Of_My_Treasures_jxmfgk.svg"
+        }
+    ]
 }
