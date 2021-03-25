@@ -28,7 +28,7 @@
             "info": "Unleashes a frigid blast, dealing <span class='cryo'>Cryo DMG</span> to opponents in front of Kaeya."
         },
         "burst": {
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579437/Wiki%20Paimon/Characters/Kaeya/Glacial_Heart_skjvmz.svg",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579438/Wiki%20Paimon/Characters/Kaeya/Glacial_Waltz_snfb5g.svg",
             "gifs": [
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1616579459/Wiki%20Paimon/Characters/Kaeya/Talent_Glacial_Waltz_wdfar4.gif"
             ],
@@ -43,7 +43,7 @@
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579437/Wiki%20Paimon/Characters/Kaeya/Cold-Blooded_Strike_lryqtj.svg"
         },
         {
-            "title": "Let the Wind Lead",
+            "title": "Glacial Heart",
             "info": "Opponents <span class='cryo'>Frozen</span> by <span class='ability-ref'>Frostgnaw</span> will drop additional Elemental Particles. <span class='ability-ref'>Frostgnaw</span> may only produce a maximum of 2 additional Elemental Particles per use.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579437/Wiki%20Paimon/Characters/Kaeya/Glacial_Heart_skjvmz.svg"
         },
