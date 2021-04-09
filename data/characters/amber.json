@@ -1,0 +1,55 @@
+{
+    "name": "Amber",
+    "title": "Gliding Champion",
+    "affiliation": "Knights of Favonius",
+    "rarity": 4,
+    "weapon": "Bow",
+    "element": "Pyro",
+    "birthday": "10 August",
+    "intro": "Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1617555545/Wiki%20Paimon/Characters/Amber/Character_Amber_Portrait_fv16hd.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1617555545/Wiki%20Paimon/Characters/Amber/Character_Amber_Wish_nlodo3.png",
+    "attackTalents": {
+        "normalAttack": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616419005/Wiki%20Paimon/Weapon%20Styles/Bow_Weapon_emtwos.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1617555553/Wiki%20Paimon/Characters/Amber/Talent_Sharpshooter__28Normal_29_zkfx1r.gif"
+            ],
+            "title": "Sharpshooter",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 consecutive shots with a bow.<br><h3>Charged Attack</h3>Perform a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <span class='pyro'>Pyro DMG</span>.<h3>Plunging Attack</h3>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "skill": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1617555544/Wiki%20Paimon/Characters/Amber/Explosive_Puppet_k2coyv.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1617555550/Wiki%20Paimon/Characters/Amber/Talent_Explosive_Puppet_xervjd.gif"
+            ],
+            "title": "Explosive Puppet",
+            "info": "The ever-reliable Baron Bunny takes the stage.<br><br><h3>Baron Bunny</h3>▪ Continuously taunts the enemy, drawing their fire.<br>▪ Baron Bunny's HP scales with Amber's Max HP.<br>▪ When destroyed or when its timer expires, Baron Bunny explodes, dealing <span class='pyro'>AoE Pyro DMG</span>.<br><br><span class='ability-ref'>Hold:</span>Adjusts the throwing direction of Baron Bunny. The longer the button is held, the further the throw."
+        },
+        "burst": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1617555544/Wiki%20Paimon/Characters/Amber/Fiery_Rain_e60tkl.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1617555557/Wiki%20Paimon/Characters/Amber/Talent_Fiery_Rain_hinmpq.gif"
+            ],
+            "title": "Fiery Rain",
+            "info": "Fires off a shower of arrows, dealing continuous <span class='pyro'>AoE Pyro DMG</span>."
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Every Arrow Finds Its Target",
+            "info": "Increases the CRIT Rate of <span class='ability-ref'>Fiery Rain</span> by 10% and widens its AoE by 30%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1617555544/Wiki%20Paimon/Characters/Amber/Every_Arrow_Finds_Its_Target_scykbp.svg"
+        },
+        {
+            "title": "Precise Shot",
+            "info": "Aimed Shot hits on weak spots increase ATK by 15% for 10s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1617555546/Wiki%20Paimon/Characters/Amber/Precise_Shot_b1rvlm.svg"
+        },
+        {
+            "title": "Gliding Champion",
+            "info": "Decreases gliding Stamina consumption for your own party members by 20%.<br>Not stackable with Passive Talents that provide the exact same effects.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1617555544/Wiki%20Paimon/Characters/Amber/Gliding_Champion_zmq5u0.svg"
+        }
+    ]
+}
