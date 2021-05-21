@@ -1,0 +1,55 @@
+{
+    "name": "Xingqiu",
+    "title": "Juvenile Galant",
+    "affiliation": "Feiyun Commerce Guild",
+    "rarity": 4,
+    "weapon": "Sword",
+    "element": "Hydro",
+    "birthday": "9 October",
+    "intro": "A young man carrying a longsword who is frequently seen at book booths. He has a heart of gold and yearns for justice and fairness for all.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621588197/Wiki%20Paimon/Characters/Xingqiu/Character_Xingqiu_Portrait_zirmpz.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621588197/Wiki%20Paimon/Characters/Xingqiu/Character_Xingqiu_Wish_im19pl.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Guhua Style",
+            "info": "<h3>Normal Attack</h3> Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621587711/Wiki%20Paimon/Characters/Xingqiu/Talent_Guhua_Style__28Normal_29_dfwjrf.gif"
+            ]
+        },
+        "skill": {
+            "title": "Guhua Sword: Fatal Rainscreen",
+            "info": "Xingqiu performs twin strikes with his sword, dealing <span class='hydro'> Hydro DMG</span>. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.,<br><br>The Rain Swords have the following properties:<br>▪ When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.<br>▪ Increase the character's resistance to interruption.<br>▪ 20% of Xingqiu's <span class='hydro'>Hydro DMG Bonus</span> will be converted to additional DMG Reduction for the Rain Swords. The maximum amount of additional DMG Reduction that can be gained this way is 24%.<br>▪ The initial maximum number of Rain Swords is 3.<br>▪ Using this ability applies the <span class='hydro'>Wet</span> status onto the character.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621587699/Wiki%20Paimon/Characters/Xingqiu/Guhua_Sword_Fatal_Rainscreen_urm7k3.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621587709/Wiki%20Paimon/Characters/Xingqiu/Talent_Guhua_Sword_-_Fatal_Rainscreen_t0qo7u.gif"
+            ]
+        },
+        "burst": {
+            "title": "Guhua Sword: Raincutter",
+            "info": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.<br>Rainbow Bladework:<br>▪ Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <span class='hydro'> Hydro DMG</span>.<br>▪ Rain Swords will remain at the maximum number throughout the ability's duration.<br>▪ These effects carry over to other characters.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621587699/Wiki%20Paimon/Characters/Xingqiu/Guhua_Sword_Raincutter_pzq5iz.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621587718/Wiki%20Paimon/Characters/Xingqiu/Talent_Guhua_Sword_-_Raincutter_kdmny6.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Hydropathic",
+            "info": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621587699/Wiki%20Paimon/Characters/Xingqiu/Hydropathic_vy95jy.svg"
+        },
+        {
+            "title": "Blades Amidst Raindrops",
+            "info": "Xingqiu gains a 20% <span class='hydro'>Hydro DMG Bonus</span>.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621587699/Wiki%20Paimon/Characters/Xingqiu/Blades_Amidst_Raindrops_o167ls.svg"
+        },
+        {
+            "title": "Flash of Genius",
+            "info": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621588211/Wiki%20Paimon/Characters/Xingqiu/Flash_of_Genius_ivedrd.svg"
+        }
+    ]
+}

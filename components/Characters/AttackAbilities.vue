@@ -194,7 +194,7 @@ export default {
         filter: invert(36%) sepia(35%) saturate(4266%) hue-rotate(343deg) brightness(110%) contrast(94%);
     }
     .abilityIcon.hydro:hover>img, .active.hydro>img {
-        filter: invert(63%) sepia(49%) saturate(5630%) hue-rotate(159deg) brightness(101%) contrast(101%);
+        filter: invert(73%) sepia(41%) saturate(6341%) hue-rotate(146deg) brightness(102%) contrast(101%);
     }
     .abilityIcon.cryo:hover>img, .active.cryo>img {
         filter: invert(76%) sepia(32%) saturate(885%) hue-rotate(145deg) brightness(106%) contrast(99%);
@@ -285,7 +285,7 @@ export default {
         background: #F84F38;
     }
     .abilityGif.hydro {
-        background: #00B5EC;
+        background: #00CBEA;
     }
     .abilityGif.cryo {
         background: #4EF3FE;

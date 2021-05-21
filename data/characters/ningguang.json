@@ -7,45 +7,51 @@
     "element": "Geo",
     "birthday": "26 August",
     "intro": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
-    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615285842/Wiki%20Paimon/Characters/Ningguang/Ningguang_Cutout_Art_beja2g.png",
-    "wishArt": "wishartURL",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621596785/Wiki%20Paimon/Characters/Ningguang/Character_Ningguang_Portrait_xi1dvl.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621596786/Wiki%20Paimon/Characters/Ningguang/Character_Ningguang_Wish_ij06xo.png",
     "attackTalents": {
         "normalAttack": {
+            "title": "Sparkling Scatter",
+            "info": "<h3>Normal Attack</h3>Shoots gems that deal <span class='geo'>Geo DMG</span>. Upon hit, this grants Ningguang 1 Star Jade.<br><h3>Charged Attack</h3>Consumes a certain amount of stamina to fire off a giant gem that deals <span class='geo'>Geo DMG</span>. If Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.<br><h3>Plunging Attack</h3>Gathering the might of Geo, Ningguang plunges toward the ground from mid-air, damaging all opponents in her path. Deals <span class='geo'>AoE Geo DMG</span> upon impact with the ground.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616327137/Wiki%20Paimon/Weapon%20Styles/Catalyst_Weapon_vportw.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1616326623/Wiki%20Paimon/Characters/Klee/Talent_Kaboom___Normal_yjesql.gif",
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1616326680/Wiki%20Paimon/Characters/Klee/Talent_Kaboom___Charged_Attack_fifx5q.gif"
-            ],
-            "title": "Kaboom!",
-            "info": "<h3>Normal Attack</h3>Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <span class='pyro'>AoE Pyro DMG</span>.<br><h3>Charged Attack</h3>Consumes a certain amount of Stamina and deals <span class='pyro'>AoE Pyro DMG</span> to opponents after a short casting time.<h3>Plunging Attack</h3>Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span class='pyro'>AoE Pyro DMG</span> upon impact with the ground."
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621596788/Wiki%20Paimon/Characters/Ningguang/Talent_Sparkling_Scatter__28Normal_29_jnaifd.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621596792/Wiki%20Paimon/Characters/Ningguang/Talent_Sparkling_Scatter__28Charged_29_xnt86k.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621596798/Wiki%20Paimon/Characters/Ningguang/Talent_Sparkling_Scatter_Plunge_oymknq.gif"
+            ]
         },
         "skill": {
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616326617/Wiki%20Paimon/Characters/Klee/Jumpy_Dumpty_erwlkk.svg",
+            "title": "Jade Screen",
+            "info": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE <span class='geo'>Geo DMG</span>.<br><h3>Jade Screen</h3>▪ Blocks opponents' projectiles.<br>▪ Endurance scales based on Ningguang's Max HP.<br><br><span class='ability-ref'>Jade Screen</span> is considered a <span class='geo'>Geo Construct</span> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at a time.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621596784/Wiki%20Paimon/Characters/Ningguang/Jade_Screen_ebcmo0.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1616326642/Wiki%20Paimon/Characters/Klee/Talent_Jumpy_Dumpty_awwmft.gif"
-            ],
-            "title": "Jumpy Dumpty",
-            "info": "<span class='ability-ref'>Jumpy Dumpty</span> is tons of boom-bang-fun!<br><br>When thrown, <span class='ability-ref'>Jumpy Dumpty</span>bounces thrice, igniting and dealing <span class='pyro'>AoE Pyro DMG</span> with every bounce.<br>On the third bounce, the bomb splits into 8 mines. The mines will explode upon contact with opponents, or after a short period of time, dealing <span class='pyro'>AoE Pyro DMG</span>.<br>Starts with 2 charges."
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621596793/Wiki%20Paimon/Characters/Ningguang/Talent_Jade_Screen_w6jles.gif"
+            ]
         },
         "burst": {
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616326617/Wiki%20Paimon/Characters/Klee/Sparks_n_Splash_cubjwj.svg",
+            "title": "Starshatter",
+            "info": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <span class='geo'>Geo DMG</span>.<br><br>If <span class='ability-ref'>Starshatter</span> is cast when a <span class='ability-ref'>Jade Screen</span> is nearby, the <span class='ability-ref'>Jade Screen</span> will fire additional gem projectiles at the same time.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621596784/Wiki%20Paimon/Characters/Ningguang/Starshatter_d68s07.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1616326740/Wiki%20Paimon/Characters/Klee/Talent_Sparks__n__Splash_np9wls.gif"
-            ],
-            "title": "Sparks 'n' Splash",
-            "info": "Klee's Blazing Delight! For 10 seconds, summons 5 times 4 <span class='ability-ref'>Sparks 'n' Splash</span> to attack nearby opponents, dealing <span class='pyro'>AoE Pyro DMG</span>."
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621596790/Wiki%20Paimon/Characters/Ningguang/Talent_Starshatter_ttckhv.gif"
+            ]
         }
     },
     "passiveTalents": [
         {
-            "title": "Sparkling Burst",
-            "info": "When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.",
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616326617/Wiki%20Paimon/Characters/Klee/Sparkling_Burst_kmpqwf.svg"
+            "title": "Backup Plan",
+            "info": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621596783/Wiki%20Paimon/Characters/Ningguang/Backup_Plan_nspr5a.svg"
         },
         {
-            "title": "All Of My Treasures!",
-            "info": "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616326620/Wiki%20Paimon/Characters/Klee/All_Of_My_Treasures_jxmfgk.svg"
+            "title": "Strategic Reserve",
+            "info": "A character that passes through the <span class='ability-ref'>Jade Screen</span> will gain a 12% <span class='geo'>Geo DMG</span> Bonus for 10s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621596784/Wiki%20Paimon/Characters/Ningguang/Strategic_Reserve_csaftu.svg"
+        },
+        {
+            "title": "Trove of Marvelous Treasures",
+            "info": "Displays the location of nearby ore veins (Iron Ore, White Iron Ore, Crystal Ore, Magical Crystal Ore, and Starsilver) on the mini-map.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621596787/Wiki%20Paimon/Characters/Ningguang/Trove_of_Marvelous_Treasures_jcy8ly.svg"
         }
     ]
 }

@@ -1,0 +1,57 @@
+{
+    "name": "Xiangling",
+    "title": "Exquisite Delicacy",
+    "affiliation": "Wanmin Restaurant",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "element": "Pyro",
+    "birthday": "2 Novemeber",
+    "intro": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621595059/Wiki%20Paimon/Characters/Xiangling/Character_Xiangling_Portrait_zw1zh8.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621595046/Wiki%20Paimon/Characters/Xiangling/Character_Xiangling_Wish_oe9iss.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Dough-Fu",
+            "info": "<h3>Normal Attack</h3> Performs up to five consecutive spear strikes.<br> <h3>Charged Attack</h3> Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br> <h3>Plunging Attack</h3> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1615555817/Wiki%20Paimon/Weapon%20Styles/Spear_Weapon_m4fybb.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621595538/Wiki%20Paimon/Characters/Xiangling/Talent_Dough-Fu__28Normal_29_anhstp.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621595537/Wiki%20Paimon/Characters/Xiangling/Talent_Dough-Fu__28Charged_29_bfapfi.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621595539/Wiki%20Paimon/Characters/Xiangling/Talent_Dough-Fu_Plunge_a9za6q.gif"
+            ]
+        },
+        "skill": {
+            "title": "Guoba Attack",
+            "info": "Summons Guoba the Panda. After 2 seconds, Guoba starts breathing fire at an opponent, dealing <span class='pyro'>AoE Pyro DMG</span> every 1.5 seconds 4 times.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621595043/Wiki%20Paimon/Characters/Xiangling/Guoba_Attack_qrctu3.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621595548/Wiki%20Paimon/Characters/Xiangling/Talent_Guoba_Attack_bbzlk0.gif"
+            ]
+        },
+        "burst": {
+            "title": "Pyronado",
+            "info": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her. The Pyronado will move with your character for so long as the ability persists, dealing <span class='pyro'>Pyro DMG</span> to all opponents in its path.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1615555903/Wiki%20Paimon/Characters/Xiao/Talent_Bane_of_All_Evil_jw9kbx.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621595547/Wiki%20Paimon/Characters/Xiangling/Talent_Pyronado_ygdobq.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Crossfire",
+            "info": "Increases the flame range of Guoba by 20%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621595043/Wiki%20Paimon/Characters/Xiangling/Crossfire_rrnrwl.svg"
+        },
+        {
+            "title": "Beware, It's Super Hot!",
+            "info": "When <span class='ability-ref'>Guoba Attack</span>'s effects end, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621595043/Wiki%20Paimon/Characters/Xiangling/Beware_It_s_Super_Hot_ef8g6l.svg"
+        },
+        {
+            "title": "Chef de Cuisine",
+            "info": "When a Perfect Cooking is achieved on an ATK-boosting dish, Xiangling has a 12% chance to receive double the product.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621595046/Wiki%20Paimon/Characters/Xiangling/Chef_de_Cuisine_ixqetu.svg"
+        }
+    ]
+}
