@@ -28,7 +28,7 @@
         },
         "burst": {
             "title": "Guhua Sword: Raincutter",
-            "info": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.<br>Rainbow Bladework:<br>▪ Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <span class='hydro'> Hydro DMG</span>.<br>▪ Rain Swords will remain at the maximum number throughout the ability's duration.<br>▪ These effects carry over to other characters.",
+            "info": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.<br><h3>Rainbow Bladework</h3>▪ Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <span class='hydro'> Hydro DMG</span>.<br>▪ Rain Swords will remain at the maximum number throughout the ability's duration.<br>▪ These effects carry over to other characters.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621587699/Wiki%20Paimon/Characters/Xingqiu/Guhua_Sword_Raincutter_pzq5iz.svg",
             "gifs": [
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1621587718/Wiki%20Paimon/Characters/Xingqiu/Talent_Guhua_Sword_-_Raincutter_kdmny6.gif"

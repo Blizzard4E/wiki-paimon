@@ -1,0 +1,55 @@
+{
+    "name": "Bennett",
+    "title": "Trial by Fire",
+    "affiliation": "Adventurers' Guild",
+    "rarity": 4,
+    "weapon": "Sword",
+    "element": "Pyro",
+    "birthday": "29 February",
+    "intro": "A young man carrying a longsword who is frequently seen at book booths. He has a heart of gold and yearns for justice and fairness for all.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621669058/Wiki%20Paimon/Characters/Bennett/Character_Bennett_Portrait_pvgugx.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621670957/Wiki%20Paimon/Characters/Bennett/Character_Bennett_Wish_nrsyut.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Strike of Fortune",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621587711/Wiki%20Paimon/Characters/Xingqiu/Talent_Guhua_Style__28Normal_29_dfwjrf.gif"
+            ]
+        },
+        "skill": {
+            "title": "Passion Overload",
+            "info": "Bennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.<br><h3>Tap</h3>A single, swift flame strike that deals <span class='pyro'>Pyro DMG</span>.<h3>Hold</h3>Charges up, resulting in different effects when unleashed based on the Charge Level<br>▪ Level 1: Strikes twice, dealing <span class='pyro'>Pyro DMG</span> and launching opponents.<br>▪ Level 2: Unleashes 3 consecutive attacks that deal impressive <span class='pyro'>Pyro DMG</span>, but the last attack triggers an explosion that launches both Bennett and the enemy.<br>Bennett takes no damage from being launched, but can take fall damage if he falls down a cliff.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621669057/Wiki%20Paimon/Characters/Bennett/Passion_Overload_o4nyaf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621669069/Wiki%20Paimon/Characters/Bennett/Talent_Passion_Overload_qhzt9g.gif"
+            ]
+        },
+        "burst": {
+            "title": "Fantastic Voyage",
+            "info": "Bennett performs a jumping slam attack that deals <span class='pyro'>Pyro DMG</span>, creating an Inspiration Field for 12 seconds.<br><h3>Inspiration Field</h3>▪ If the health of a character within the AoE is equal to or falls below 70%, their health will regenerate each second. The amount of HP restores scales off Bennett's Max HP.<br>▪ If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that scales based on Bennett's Base ATK.<br>▪ Imbues characters within the AoE with <span class='pyro'>Pyro</span>.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621669057/Wiki%20Paimon/Characters/Bennett/Fantastic_Voyage_nr82og.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621669063/Wiki%20Paimon/Characters/Bennett/Talent_Fantastic_Voyage_p0mhbg.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Rekindle",
+            "info": "Decreases <span class='ability-ref'>Passion Overload</span>'s CD by 20%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621669060/Wiki%20Paimon/Characters/Bennett/Rekindle_c4qolo.svg"
+        },
+        {
+            "title": "Fearnaught",
+            "info": "When inside <span class='ability-ref'>Fantastic Voyage</span>'s circle, <span class='ability-ref'>Passion Overload</span>'s CD is decreased by 50% and Bennett cannot be launched by this skill's explosion.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621669057/Wiki%20Paimon/Characters/Bennett/Fearnaught_yyixso.svg"
+        },
+        {
+            "title": "It Should Be Safe...",
+            "info": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621669057/Wiki%20Paimon/Characters/Bennett/It_Should_Be_Safe_nku0wb.svg"
+        }
+    ]
+}

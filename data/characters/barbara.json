@@ -1,0 +1,57 @@
+{
+    "name": "Barbara",
+    "title": "Shining Idol",
+    "affiliation": "Church of Favonius",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "element": "Hydro",
+    "birthday": "5 July",
+    "intro": "Every citizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621666408/Wiki%20Paimon/Characters/Barbara/Character_Barbara_Portrait_usw0e8.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621666409/Wiki%20Paimon/Characters/Barbara/Character_Barbara_Wish_x8k3k0.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Whisper of Water",
+            "info": "<h3>Normal Attack</h3>Consumes a certain amount of Stamina to deal <span class='hydro'>AoE Hydro DMG</span> after a short casting time.<h3>Charged Attack</h3>Consumes a certain amount of Stamina to deal <span class='hydro'>AoE Hydro DMG</span> after a short casting time.<h3>Plunging Attack</h3>Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span class='hydro'>AoE Hydro DMG</span> upon impact with the ground.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616327137/Wiki%20Paimon/Weapon%20Styles/Catalyst_Weapon_vportw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621666420/Wiki%20Paimon/Characters/Barbara/Talent_Whisper_of_Water_jyco7g.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621666415/Wiki%20Paimon/Characters/Barbara/Talent_Whisper_of_Water_Charged_d2oneo.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621666420/Wiki%20Paimon/Characters/Barbara/Talent_Whisper_of_Water_Plunge_ysijqi.gif"
+            ]
+        },
+        "skill": {
+            "title": "Let the Show Begin♪",
+            "info": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <span class='hydro'>Hydro DMG</span> to surrounding opponents and afflicting them with the <span class='hydro'>Wet</span> status.<h3>Melody Loop</h3>▪ Barbara's Normal Attacks heal your characters in the party and nearby allied characters for a certain amount of HP, which scales with Barbara's Max HP.<br>▪ Her Charged Attack generates 4 times the amount of healing.<br>▪ Regenerates a certain amount of HP at regular intervals for your active character.<br>▪ Applies the <span class='hydro'>Wet</span> status to the character and opponents who come in contact with them.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621667032/Wiki%20Paimon/Characters/Barbara/Let_the_Show_Begin_b3mnyw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621666423/Wiki%20Paimon/Characters/Barbara/Talent_Let_the_Show_Begin_w2wcsa.gif"
+            ]
+        },
+        "burst": {
+            "title": "Shining Miracle♪",
+            "info": "Heals nearby allied characters and your characters in the party for a large amount of HP that scales with Barbara's Max HP.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621667032/Wiki%20Paimon/Characters/Barbara/Shining_Miracle_gzoqgb.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621666418/Wiki%20Paimon/Characters/Barbara/Talent_Shining_Miracle_bc3qzz.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Glorious Season",
+            "info": "The Stamina Consumption of characters within <span class='ability-ref'>Let the Show Begin</span>'s Melody Loop is reduced by 12%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621667032/Wiki%20Paimon/Characters/Barbara/Glorious_Season_ifaphi.svg"
+        },
+        {
+            "title": "Encore",
+            "info": "When your active character gains an Elemental Orb/Particle, the duration of <span class='ability-ref'>Let the Show Begin</span>'s Melody Loop is extended by 1s. The maximum extension is 5s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621667032/Wiki%20Paimon/Characters/Barbara/Encore_ei8rij.svg"
+        },
+        {
+            "title": "With My Whole Heart♪",
+            "info": "When a Perfect Cooking is achieved on a dish with restorative effects, Barbara has a 12% chance to obtain double the product.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621667032/Wiki%20Paimon/Characters/Barbara/With_My_Whole_Heart_mqothc.svg"
+        }
+    ]
+}

@@ -1,57 +1,57 @@
 {
     "name": "Xinyan",
-    "title": "Dance of the Shimmering Wave",
-    "affiliation": "Knights of Favonius",
+    "title": "Blazing Riff",
+    "affiliation": "Liyue Harbor",
     "rarity": 4,
     "weapon": "Claymore",
     "element": "Pyro",
     "birthday": "16 October",
-    "intro": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
-    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621600180/Wiki%20Paimon/Characters/Eula/Character_Eula_Portrait_j7xytn.png",
-    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621600182/Wiki%20Paimon/Characters/Eula/Character_Eula_Wish_nobkcx.png",
+    "intro": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621602995/Wiki%20Paimon/Characters/Xinyan/Character_Xinyan_Portrait_xfancc.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621602996/Wiki%20Paimon/Characters/Xinyan/Character_Xinyan_Wish_rhfkkj.png",
     "attackTalents": {
         "normalAttack": {
-            "title": "Favonius Bladework - Edel",
-            "info": "<h3>Normal Attack</h3>Perform up to five consecutive strikes.<h3>Charged Attack</h3>Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "title": "Dance on Fire",
+            "info": "<h3>Normal Attack</h3>Performs up to 4 consecutive strikes.<h3>Charged Attack</h3>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br>At end of the sequence, perform a more powerful slash.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616507056/Wiki%20Paimon/Weapon%20Styles/Claymore_Weapon_y7kpsf.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1621600187/Wiki%20Paimon/Characters/Eula/Talent_Favonius_Bladework_-_Edel__28Normal_29_ubu3zn.gif",
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1621600185/Wiki%20Paimon/Characters/Eula/Talent_Favonius_Bladework_-_Edel__28Charged_29_jwip5s.gif"
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621602999/Wiki%20Paimon/Characters/Xinyan/Talent_Dance_on_Fire__28Normal_Attack_29_ekydm0.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621602999/Wiki%20Paimon/Characters/Xinyan/Talent_Dance_on_Fire__Charged_Attack_pyjjp1.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621603000/Wiki%20Paimon/Characters/Xinyan/Talent_Dance_on_Fire__28Plunge_29_yubqx5.gif"
             ]
         },
         "skill": {
-            "title": "Icetide Vortex",
-            "info": "Sharp frost, swift blade.<br><h3>Press</h3>Slashes swiftly, dealing <span class='cryo'>Cryo DMG</span>. When it hits an opponent, Eula gains a stack of Grimheart that stacks up to two times. These stats can only be gained once every 0.3s.<h3>Hold</h3>Wielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <span class='cryo'>AoE Cryo DMG</span> to opponents in front of her.<br>If Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.<br>Each consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <span class='cryo'>Cryo DMG</span> to nearby opponents.",
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621600179/Wiki%20Paimon/Characters/Eula/Icetide_Vortex_zf5yxb.svg",
+            "title": "Sweeping Fervor",
+            "info": "Xinyan brandishes her instrument, dealing <span class='pyro'>Pyro DMG</span> on nearby opponents, forming a shield made out of her audience's passion.<br><br>The shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.<br>▪ Hitting 0-1 opponents grants Shield Level 1: Ad Lib.<br>▪ Hitting 2 opponents grants Shield Level 2: Lead-In.<br>▪ Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <span class='pyro'>Pyro DMG</span> to nearby opponents.<br><br>The shield has the following special properties:<br>▪ When unleashed, it infuses Xinyan with Pyro.<br>▪ It has 250% DMG Absorption effectiveness against <span class='pyro'>Pyro DMG</span>.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621602993/Wiki%20Paimon/Characters/Xinyan/Sweeping_Fervor_ny7htr.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1621600195/Wiki%20Paimon/Characters/Eula/Talent_Icetide_Vortex_Press_lihflz.gif",
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1621600190/Wiki%20Paimon/Characters/Eula/Talent_Icetide_Vortex_Hold_hg6mto.gif"
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621602999/Wiki%20Paimon/Characters/Xinyan/Talent_Sweeping_Fervor_nbboko.gif"
             ]
         },
         "burst": {
-            "title": "Glacial Illumination",
-            "info": "Brandishes her greatsword, dealing <span class='cryo'>Cryo DMG</span> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.<br><br>While present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.<br>Once its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.<br>This DMG scales on the number of energy stacks the Lightfall Sword has accumulated.<br>If Eula leaves the field, the Lightfall Sword will immediately explode.",
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621600179/Wiki%20Paimon/Characters/Eula/Glacial_Illumination_x7pwxb.svg",
+            "title": "Riff Revolution",
+            "info": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd. The sheer intensity of the atmosphere will cause explosions that deal <span class='pyro'>Pyro DMG</span> to nearby opponents.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621602993/Wiki%20Paimon/Characters/Xinyan/Riff_Revolution_gadmcz.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1621601440/Wiki%20Paimon/Characters/Eula/Talent_Glacial_Illumination_en0y29.gif"
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621603006/Wiki%20Paimon/Characters/Xinyan/Talent_Riff_Revolution_al4cgv.gif"
             ]
         }
     },
     "passiveTalents": [
         {
-            "title": "Roiling Rime",
-            "info": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of <span class='ability-ref'>Icetide Vortex</span>, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by <span class='ability-ref'>Glacial Illumination</span>.",
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621600179/Wiki%20Paimon/Characters/Eula/Roiling_Rime_ehywjn.svg"
+            "title": "\"The Show Goes On, Even Without an Audience...\"",
+            "info": "Decreases the number of opponents <span class='ability-ref'>Sweeping Fervor</span> must hit to trigger each level of shielding.<br>▪ Shield Level 2: Lead-In requirement reduced to 1 opponent hit.<br>▪ Shield Level 3: Rave requirement reduced to 2 opponents hit or more.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621602997/Wiki%20Paimon/Characters/Xinyan/The_Show_Goes_On_Even_Without_an_Audience_tzjqdy.svg"
         },
         {
-            "title": "Wellspring of War-Lust",
-            "info": "When <span class='ability-ref'>Glacial Illumination</span> is cast, the CD of <span class='ability-ref'>Icetide Vortex</span> is reset and Eula gains 1 stack of Grimheart.",
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621600183/Wiki%20Paimon/Characters/Eula/Wellspring_of_War-Lust_bwgsmt.svg"
+            "title": "\"...Now That's Rock 'N' Roll!\"",
+            "info": "Characters shielded by <span class='ability-ref'>Sweeping Fervor</span> deal 15% increased Physical DMG.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621602993/Wiki%20Paimon/Characters/Xinyan/Now_That_s_Rock_N_Roll_volh9j.svg"
         },
         {
-            "title": "Aristocratic Introspection",
-            "info": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
-            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621600179/Wiki%20Paimon/Characters/Eula/Aristocratic_Introspection_jsnccq.svg"
+            "title": "A Rad Recipe",
+            "info": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621602993/Wiki%20Paimon/Characters/Xinyan/A_Rad_Recipe_zkewrv.svg"
         }
     ]
 }
