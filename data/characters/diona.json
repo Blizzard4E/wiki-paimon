@@ -1,0 +1,58 @@
+{
+    "name": "Diona",
+    "title": "Kätzlein Cocktail",
+    "affiliation": "Cat's Tail Tavern",
+    "rarity": 4,
+    "weapon": "Bow",
+    "element": "Cryo",
+    "birthday": "18 january",
+    "intro": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621843920/Wiki%20Paimon/Characters/Diona/Character_Diona_Portrait_katcmp.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621843921/Wiki%20Paimon/Characters/Diona/Character_Diona_Wish_ihk2na.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Kätzlein Style",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 consecutive shots with a bow.<h3>Charged Attack</h3>Perform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <span class='cryo'>Cryo Damage</span>.<h3>Plunging Attack</h3>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616419005/Wiki%20Paimon/Weapon%20Styles/Bow_Weapon_emtwos.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621843929/Wiki%20Paimon/Characters/Diona/Talent_K%C3%A4tzlein_Style__Normal_wvskpi.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621843935/Wiki%20Paimon/Characters/Diona/Talent_K%C3%A4tzlein_Style__Charged_Attack_gdztvb.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621843928/Wiki%20Paimon/Characters/Diona/Talent_Katzlein_Style_Plunge_hg59sw.gif"
+            ]
+        },
+        "skill": {
+            "title": "Icy Paws",
+            "info": "Fires an Icy Paw that deals <span class='cryo'>Cryo DMG</span> to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.<br><h3>Press</h3>Rapidly fires off 2 Icy Paws.<h3>Hold</h3>Dashes back quickly before firing 5 Icy Paws. The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.<br>The shield has a 250% <span class='cryo'>Cryo DMG</span> Absorption Bonus, and will infuse Diona with <span class='cryo'>Cryo</span> at the point of formation for a short duration.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621843918/Wiki%20Paimon/Characters/Diona/Icy_Paws_ahsx4z.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621843927/Wiki%20Paimon/Characters/Diona/Talent_Icy_Paws_Press_eywr4n.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621843925/Wiki%20Paimon/Characters/Diona/Talent_Icy_Paws_Hold_x8ufw1.gif"
+            ]
+        },
+        "burst": {
+            "title": "Signature Mix",
+            "info": "Tosses out a special cold brew that deals AoE <span class='cryo'>Cryo DMG</span> and creates a Drunken Mist in an AoE.<br><br>Every 2 seconds, for 12 seconds, Drunken Mist:<br>▪ Deals <span class='cryo'>Cryo DMG</span> to opponents within the field.<br>▪ Regenerates the HP of characters within the field.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621843920/Wiki%20Paimon/Characters/Diona/Signature_Mix_gqycrr.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621843934/Wiki%20Paimon/Characters/Diona/Talent_Signature_Mix_zdlog9.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Cat's Tail Secret Menu",
+            "info": "Characters shielded by <span class='ability-ref'>Icy Paws</span> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621843918/Wiki%20Paimon/Characters/Diona/Cat_s_Tail_Secret_Menu_dyeyzh.svg"
+        },
+        {
+            "title": "Drunkards' Farce",
+            "info": "Opponents who enter the AoE of <span class='ability-ref'>Signature Mix</span> have 10% decreased ATK for 15s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621843918/Wiki%20Paimon/Characters/Diona/Drunkards_Farce_vxkany.svg"
+        },
+        {
+            "title": "Complimentary Bar Food",
+            "info": "When a Perfect Cooking is achieved on a dish with restorative effects, Diona has a 12% chance to obtain double the product.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621843918/Wiki%20Paimon/Characters/Diona/Complimentary_Bar_Food_rdg9nu.svg"
+        }
+    ]
+}

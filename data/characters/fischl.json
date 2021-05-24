@@ -1,0 +1,57 @@
+{
+    "name": "Fischl",
+    "title": "Prinzessin der Verurteilung",
+    "affiliation": "Adventurers' Guild",
+    "rarity": 4,
+    "weapon": "Bow",
+    "element": "Electro",
+    "birthday": "27 May",
+    "intro": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621845730/Wiki%20Paimon/Characters/Fischl/Character_Fischl_Portrait_ujofxs.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621846394/Wiki%20Paimon/Characters/Fischl/Character_Fischl_Wish_u2ud9p.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Bolts of Downfall",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 consecutive shots with a bow.<h3>Charged Attack</h3> Perform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense <span class='electro'>Electro DMG</span>.<h3>Plunging Attack</h3>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616419005/Wiki%20Paimon/Weapon%20Styles/Bow_Weapon_emtwos.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621845741/Wiki%20Paimon/Characters/Fischl/Talent_Bolts_of_Downfall__Normal_e512ps.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621845753/Wiki%20Paimon/Characters/Fischl/Talent_Bolts_of_Downfall__Charged_Attack_xdixuu.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621845747/Wiki%20Paimon/Characters/Fischl/Talent_Bolts_of_Downfall_Plunge_hydhnz.gif"
+            ]
+        },
+        "skill": {
+            "title": "Nightrider",
+            "info": "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <span class='electro'>Electro DMG</span> in a small AoE.<br><br>For the ability's duration, Oz will continuously attack nearby opponents with Freikugel.<br>Hold to adjust the location Oz will be summoned to.<br>Press again any time during the ability's duration to once again summon him to Fischl's side.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621845729/Wiki%20Paimon/Characters/Fischl/Asset_5_q4nd2y.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621845736/Wiki%20Paimon/Characters/Fischl/Talent_Nightrider_rsezlg.gif"
+            ]
+        },
+        "burst": {
+            "title": "Midnight Phantasmagoria",
+            "info": "Summons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration:<br>▪ Fischl takes on Oz's form, greatly increasing her Movement Speed.<br>▪ Strikes nearby opponents with lightning, dealing <span class='electro'>Electro DMG</span> to opponents she comes in contact with. Each opponent can only be struck once.<br>▪ Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621845729/Wiki%20Paimon/Characters/Fischl/Asset_4_nfjasv.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621845743/Wiki%20Paimon/Characters/Fischl/Talent_Midnight_Phantasmagoria_mmbvkr.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Stellar Predator",
+            "info": "When Fischl hits Oz with a fully-charged <span class='ability-ref'>Aimed Shot</span>, Oz brings down Thundering Retribution, dealing <span class='electro'>AoE Electro DMG</span> equal to 152.7% of the arrow's DMG.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621845729/Wiki%20Paimon/Characters/Fischl/Asset_3_nvzmyk.svg"
+        },
+        {
+            "title": "Undone Be Thy Sinful Hex",
+            "info": "If your active character triggers an <span class='electro'>Electro-related Elemental Reaction</span> when Oz is on the field, the opponent shall be stricken with Thundering Retribution, dealing <span class='electro'>Electro DMG</span> equal to 80% of Fischl's ATK.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621845729/Wiki%20Paimon/Characters/Fischl/Asset_2_djajhq.svg"
+        },
+        {
+            "title": "Mein Hausgarten",
+            "info": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621845729/Wiki%20Paimon/Characters/Fischl/Asset_1_tlwlmg.svg"
+        }
+    ]
+}
