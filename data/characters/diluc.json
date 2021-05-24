@@ -1,0 +1,57 @@
+{
+    "name": "Diluc",
+    "title": "The Dark Side of Dawn",
+    "affiliation": "Dawn Winery",
+    "rarity": 5,
+    "weapon": "Claymore",
+    "element": "Pyro",
+    "birthday": "30 April",
+    "intro": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621762705/Wiki%20Paimon/Characters/Diluc/Character_Diluc_Portrait_cx0hbl.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621762707/Wiki%20Paimon/Characters/Diluc/Character_Diluc_Wish_iuhlkh.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Tempered Sword",
+            "info": "<h3>Normal Attack</h3>Performs up to 4 consecutive strikes.<h3>Charged Attack</h3>Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616507056/Wiki%20Paimon/Weapon%20Styles/Claymore_Weapon_y7kpsf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621762716/Wiki%20Paimon/Characters/Diluc/Talent_Tempered_Sword__Normal_j8w3rz.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621762721/Wiki%20Paimon/Characters/Diluc/Talent_Tempered_Sword__Charged_Attack_y7zxui.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621762714/Wiki%20Paimon/Characters/Diluc/Talent_Tempered_Sword_Plunge_p5ia1v.gif"
+            ]
+        },
+        "skill": {
+            "title": "Searing Onslaught",
+            "info": "Performs a forward slash that deals <span class='pyro'>Pyro DMG</span>.<br><br>This skill can be used 3 times consecutively. Enters CD if not cast again within a short period.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621762704/Wiki%20Paimon/Characters/Diluc/Searing_Onslaught_przcqz.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621762718/Wiki%20Paimon/Characters/Diluc/Talent_Searing_Onslaught_haprvl.gif"
+            ]
+        },
+        "burst": {
+            "title": "Dawn",
+            "info": "Releases intense flames to knock nearby opponents back, dealing <span class='pyro'>Pyro DMG</span>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <span class='pyro'>Pyro DMG</span> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <span class='pyro'>AoE Pyro DMG</span>.<br>The searing flames that run down his blade cause it to be infused with <span class='pyro'>Pyro</span>.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621762704/Wiki%20Paimon/Characters/Diluc/Dawn_ygp6bs.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621762729/Wiki%20Paimon/Characters/Diluc/Talent_Dawn_sldtda.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Relentless",
+            "info": "Diluc's <span class='ability-ref'>Charged Attack</span> Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621762704/Wiki%20Paimon/Characters/Diluc/Relentless_ymgwep.svg"
+        },
+        {
+            "title": "Blessing of Phoenix",
+            "info": "The <span class='pyro'>Pyro Enchantment</span> provided by <span class='ability-ref'>Dawn</span> lasts for 4s longer. Additionally. Diluc gains 20% <span class='pyro'>Pyro DMG Bonus</span> during the duration of this effect.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621762704/Wiki%20Paimon/Characters/Diluc/Blessing_of_Phoenix_ym1zgd.svg"
+        },
+        {
+            "title": "Tradition of the Dawn Knight",
+            "info": "Refunds 15% of the ores used when crafting Claymore-type weapons.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621762708/Wiki%20Paimon/Characters/Diluc/Tradition_of_the_Dawn_Knight_jen6eb.svg"
+        }
+    ]
+}

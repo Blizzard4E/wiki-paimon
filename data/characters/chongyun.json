@@ -1,0 +1,57 @@
+{
+    "name": "Chongyun",
+    "title": "Frozen Ardor",
+    "affiliation": "Liyue Harbor",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "element": "Cryo",
+    "birthday": "7 September",
+    "intro": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621761111/Wiki%20Paimon/Characters/Chongyun/Character_Chongyun_Portrait_zcup6n.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621761112/Wiki%20Paimon/Characters/Chongyun/Character_Chongyun_Wish_xdtenj.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Demonbane",
+            "info": "<h3>Normal Attack</h3>Performs up to 4 consecutive strikes.<h3>Charged Attack</h3> Drains Stamina over time to perform continuous swirling attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616507056/Wiki%20Paimon/Weapon%20Styles/Claymore_Weapon_y7kpsf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621761118/Wiki%20Paimon/Characters/Chongyun/Talent_Demonbane__Ice_Unleashed_fudebu.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621761128/Wiki%20Paimon/Characters/Chongyun/Talent_Demonbane__Charged_Attack_ia7xo8.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621761118/Wiki%20Paimon/Characters/Chongyun/Talent_Demonbane_Plunge_btnuom.gif"
+            ]
+        },
+        "skill": {
+            "title": "Spirit Blade: Chonghua's Layered Frost",
+            "info": "Chongyun strikes the ground with his greatsword, causing a <span class='cryo'>Cryo</span> explosion in a circular AoE in front of him that deals <span class='cryo'>Cryo DMG</span>.<br><br>After a short delay, the cold air created by the <span class='cryo'>Cryo</span> explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with Cryo.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621761110/Wiki%20Paimon/Characters/Chongyun/Layered_Frost_nwlus8.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621761121/Wiki%20Paimon/Characters/Chongyun/Talent_Spirit_Blade_-_Chonghua_s_Layered_Frost_xd4fnp.gif"
+            ]
+        },
+        "burst": {
+            "title": "Spirit Blade: Cloud-Parting Star",
+            "info": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.<br><br>When the spirit blades explode, they will deal <span class='cryo'>AoE Cryo DMG</span> and launch opponents.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621761110/Wiki%20Paimon/Characters/Chongyun/Cloud-Parting_Star_jkpd6z.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621761118/Wiki%20Paimon/Characters/Chongyun/Talent_Spirit_Blade_-_Cloud-Parting_Star_tizlz1.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Steady Breathing",
+            "info": "Sword, Claymore, or Polearm-wielding characters within the field created by <span class='ability-ref'>Spirit Blade: Chonghua's Layered Frost</span> have their Normal ATK SPD increased by 8%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621761113/Wiki%20Paimon/Characters/Chongyun/Steady_Breathing_av7yp9.svg"
+        },
+        {
+            "title": "Rimechaser Blade",
+            "info": "When the field created by <span class='ability-ref'>Spirit Blade: Chonghua's Layered Frost</span> disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as <span class='cryo'>AoE Cryo DMG</span>.<br>Opponents hit by this blade will have their <span class='cryo'>Cryo RES</span> decreased by 10% for 8s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621761110/Wiki%20Paimon/Characters/Chongyun/Rimechaser_Blade_s5itg9.svg"
+        },
+        {
+            "title": "Gallant Journey",
+            "info": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621761110/Wiki%20Paimon/Characters/Chongyun/Gallant_Journey_oioi0i.svg"
+        }
+    ]
+}
