@@ -22,7 +22,7 @@
         },
         "skill": {
             "title": "Mirror Reflection of Doom",
-            "info": "Creates an illusory Phantom of fate from coalesced waterspouts.<br><br>The Phantom has the following special properties:<br>▪ Continuously taunts nearby opponents, attracting their fire.<br>▪ Each second, 4 times, deals <span  class='hydro'>AoE Hydro DMG</span >.<br>▪ When its duration expires, the Phantom explodes, dealing <span  class='hydro'>AoE Hydro DMG</span >.<h3>Hold</h3>Utilizes water currents to move backwards swiftly before conjuring a Phantom<br>Only one Phantom created by Mirror Reflection of Doom can exist at any time.",
+            "info": "Creates an illusory Phantom of fate from coalesced waterspouts.<br><br>The Phantom has the following special properties:<br>▪ Continuously taunts nearby opponents, attracting their fire.<br>▪ Each second, 4 times, deals <span  class='hydro'>AoE Hydro DMG</span >.<br>▪ When its duration expires, the Phantom explodes, dealing <span  class='hydro'>AoE Hydro DMG</span >.<h3>Hold</h3>Utilizes water currents to move backwards swiftly before conjuring a Phantom<br>Only one Phantom created by <span class='ability-ref'>Mirror Reflection of Doom</span> can exist at any time.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621925331/Wiki%20Paimon/Characters/Mona/Asset_5_jgxwn7.svg",
             "gifs": [
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1621925341/Wiki%20Paimon/Characters/Mona/Talent_Mona_Elemental_Skill_b7j7pz.gif"
