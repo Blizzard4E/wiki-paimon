@@ -1,0 +1,62 @@
+{
+    "name": "Mona",
+    "title": "Astral Reflection",
+    "affiliation": "Hexenzirkel",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "element": "Hydro",
+    "birthday": "31 August",
+    "intro": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621925333/Wiki%20Paimon/Characters/Mona/Character_Mona_Portrait_rfeqk9.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621925335/Wiki%20Paimon/Characters/Mona/Character_Mona_Wish_iflzet.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Ripple of Fate",
+            "info": "<h3>Normal Attack</h3>Perform up to 4 water splash attacks that deal <span class='hydro'>Hydro DMG</span>.<h3>Charged Attack</h3>Consumes a certain amount of Stamina to deal <span  class='hydro'>AoE Hydro DMG</span > after a short casting time.<h3>Plunging Attack</h3>Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span  class='hydro'>AoE Hydro DMG</span > upon impact with the ground.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616327137/Wiki%20Paimon/Weapon%20Styles/Catalyst_Weapon_vportw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621925340/Wiki%20Paimon/Characters/Mona/Talent_Ripple_of_Fate__28Normal_29_fpmhp4.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621925344/Wiki%20Paimon/Characters/Mona/Talent_Ripple_of_Fate__28Charged_Attack_29_fzsbb7.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621925348/Wiki%20Paimon/Characters/Mona/Talent_Ripple_of_Fate__28Plunge_29_ad8izv.gif"
+            ]
+        },
+        "skill": {
+            "title": "Mirror Reflection of Doom",
+            "info": "Creates an illusory Phantom of fate from coalesced waterspouts.<br><br>The Phantom has the following special properties:<br>▪ Continuously taunts nearby opponents, attracting their fire.<br>▪ Each second, 4 times, deals <span  class='hydro'>AoE Hydro DMG</span >.<br>▪ When its duration expires, the Phantom explodes, dealing <span  class='hydro'>AoE Hydro DMG</span >.<h3>Hold</h3>Utilizes water currents to move backwards swiftly before conjuring a Phantom<br>Only one Phantom created by Mirror Reflection of Doom can exist at any time.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621925331/Wiki%20Paimon/Characters/Mona/Asset_5_jgxwn7.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621925341/Wiki%20Paimon/Characters/Mona/Talent_Mona_Elemental_Skill_b7j7pz.gif"
+            ]
+        },
+        "burst": {
+            "title": "Stellaris Phantasm",
+            "info": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to the opponents in a large AoE.<h3>Illusory Bubble</h3>Traps opponents inside a pocket of destiny and also makes them <span class='hydro'>Wet</span>. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects:<br>▪ Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.<br>▪ Removes the Illusory Bubble, dealing <span class='hydro'>Hydro DMG</span> in the process.<h3>Omen</h3> During its duration, increases DMG taken by opponents.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621925332/Wiki%20Paimon/Characters/Mona/Asset_4_n4aeke.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621925360/Wiki%20Paimon/Characters/Mona/Talent_Mona_Elemental_Burst_wpmllb.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Illusory Torrent",
+            "info": "<h3>Alternate Sprint</h3>Mona cloaks herself within the water's flow, consuming stamina to move rapidly.<br><br>When under the effect of Illusory Torrent, Mona can move at high speed on water.<br>Applies the <span class='hydro'>Wet</span> status to nearby opponents when she reappears.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621927038/Wiki%20Paimon/Characters/Mona/Asset_6_fta9dp.svg"
+        },
+        {
+            "title": "Come 'n' Get Me, Hag!",
+            "info": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.<br><br>A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <span class='ability-ref'>Mirror Reflection of Doom</span>.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621925329/Wiki%20Paimon/Characters/Mona/Asset_3_hogxi6.svg"
+        },
+        {
+            "title": "Waterborne Destiny",
+            "info": "Increases Mona's <span class='hydro'>Hydro DMG Bonus</span> by a degree equivalent to 20% of her Energy Recharge rate.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621925331/Wiki%20Paimon/Characters/Mona/Asset_2_sgal3z.svg"
+        },
+        {
+            "title": "Principium of Astrology",
+            "info": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund one count of one material out of all the crafting materials used.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621925328/Wiki%20Paimon/Characters/Mona/Asset_1_avelxv.svg"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "Lisa",
+    "title": "Witch of Purple Rose",
+    "affiliation": "Knights of Favonius",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "element": "Electro",
+    "birthday": "9 June",
+    "intro": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621857286/Wiki%20Paimon/Characters/Lisa/Character_Lisa_Portrait_rdfdbj.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621857289/Wiki%20Paimon/Characters/Lisa/Character_Lisa_Wish_pka8nq.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Lightning Touch",
+            "info": "<h3>Normal Attack</h3>Performs up to 4 Electro attacks, dealing <span class='electro'>Electro DMG</span class='electro'>.<h3>Charged Attack</h3>Consumes a certain amount of Stamina to deal <span class='electro'>Electro DMG</span class='electro'> after a short casting time.<h3>Plunging Attack</h3>Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span class='electro'>AoE Electro DMG</span class='electro'> upon impact with the ground.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616327137/Wiki%20Paimon/Weapon%20Styles/Catalyst_Weapon_vportw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621857299/Wiki%20Paimon/Characters/Lisa/Talent_Lightning_Touch__28Normal_29_lsiyrp.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621857306/Wiki%20Paimon/Characters/Lisa/Talent_Lightning_Touch__28Charged_29_fygss5.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621857298/Wiki%20Paimon/Characters/Lisa/Talent_Lightning_Touch_Plunge_hpwpdx.gif"
+            ]
+        },
+        "skill": {
+            "title": "Violet Arc",
+            "info": "Channels the power of lightning to sweep bothersome matters away<h3>Press</h3>Releases a homing lightning orb. On hit, it deals <span class='electro'>Electro DMG</span class='electro'>, and applies a stack of the Conductive status (Max 3 stacks) to opponents in a small AoE.<h3>Hold</h3>After an extended casting time, calls down lightning from the heavens, dealing massive <span class='electro'>Electro DMG</span class='electro'> to all nearby opponents.<br>Deals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them and clears their Conductive status.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621857285/Wiki%20Paimon/Characters/Lisa/Asset_5_vvc10b.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621857309/Wiki%20Paimon/Characters/Lisa/Talent_Violet_Arc__28Press_29_yx9ovi.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621857300/Wiki%20Paimon/Characters/Lisa/Talent_Violet_Arc__28Hold_29_hjhqzl.gif"
+            ]
+        },
+        "burst": {
+            "title": "Lightning Rose",
+            "info": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing <span class='electro'>Electro DMG</span class='electro'>.<br><br>The Lightning Rose will continuously emit lightning to knock back opponents and deal <span class='electro'>Electro DMG</span class='electro'> for so long as it persists.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621857285/Wiki%20Paimon/Characters/Lisa/Asset_4_edegjf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621857304/Wiki%20Paimon/Characters/Lisa/Talent_Lightning_Rose_chniu4.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Induced Aftershock",
+            "info": "Hits by <span class='ability-ref'>Charged Attacks</span> apply <span class='ability-ref'>Violet Arc</span>'s Conductive status to opponents.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621857285/Wiki%20Paimon/Characters/Lisa/Asset_6_xfppjk.svg"
+        },
+        {
+            "title": "Static Electricity Field",
+            "info": "Opponents hit by <span class='ability-ref'>Lightning Rose</span> have their DEF decreased by 15% for 10s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621857285/Wiki%20Paimon/Characters/Lisa/Asset_2_dl72py.svg"
+        },
+        {
+            "title": "General Pharmaceutics",
+            "info": "When Lisa crafts a potion, she has a 20% chance to refund one count of one material out of all the crafting materials used.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1621857285/Wiki%20Paimon/Characters/Lisa/Asset_1_y8x91g.svg"
+        }
+    ]
+}

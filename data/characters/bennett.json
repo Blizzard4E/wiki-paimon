@@ -15,7 +15,8 @@
             "info": "<h3>Normal Attack</h3>Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1621587711/Wiki%20Paimon/Characters/Xingqiu/Talent_Guhua_Style__28Normal_29_dfwjrf.gif"
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621669067/Wiki%20Paimon/Characters/Bennett/Talent_Strike_of_Fortune__Normal_cnm31x.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621669066/Wiki%20Paimon/Characters/Bennett/Talent_Strike_of_Fortune__Charged_Attack_viq9xo.gif"
             ]
         },
         "skill": {
