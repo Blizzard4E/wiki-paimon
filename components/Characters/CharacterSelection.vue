@@ -98,7 +98,7 @@ export default {
     },
     mounted() {
         this.characters = characters;
-        this.updateSelectedChar('chongyun');
+        this.updateSelectedChar('albedo');
     }
 }
 </script>
