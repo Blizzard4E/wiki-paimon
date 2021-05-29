@@ -1,0 +1,58 @@
+{
+    "name": "Noelle",
+    "title": "Wolf Boy",
+    "affiliation": "Wolvendom",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "element": "Electro",
+    "birthday": "9 September",
+    "intro": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271961/Wiki%20Paimon/Characters/Razor/Character_Razor_Portrait_rzjca1.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271961/Wiki%20Paimon/Characters/Razor/Character_Razor_Wish_kxtxdz.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Steel Fang",
+            "info": "<h3>Normal Attack</h3>Performs up to 4 consecutive slashes.<h3>Charged Attack</h3>Drains Stamina over time to perform continuous swirling attacks against all nearby opponents. At end of the sequence, perform a more powerful slash.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616507056/Wiki%20Paimon/Weapon%20Styles/Claymore_Weapon_y7kpsf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271975/Wiki%20Paimon/Characters/Razor/Talent_Steel_Fang__28Normal_29_aivdnl.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271964/Wiki%20Paimon/Characters/Razor/Talent_Steel_Fang__28Charged_Attack_29_coc47o.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271967/Wiki%20Paimon/Characters/Razor/Talent_Steel_Fang__28Plunge_29_ufszlz.gif"
+            ]
+        },
+        "skill": {
+            "title": "Claw and Thunder",
+            "info": "Hunts his prey using the techniques taught to him by his master and his Lupical.<h3>Press</h3>Swings the Thunder Wolf Claw, dealing <span class='electro'>Electro DMG</span> to opponents in front of Razor.<br>Upon striking an opponent, Razor gains an Electro Sigil, which increases his Energy Recharge rate.<br>Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.<h3>Hold</h3>Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive <span class='electro'>Electro DMG</span>, and clears all of Razor's Electro Sigils. Each Electro Sigil cleared in this manner will be converted into Energy for Razor.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271958/Wiki%20Paimon/Characters/Razor/Asset_35_i3ov7f.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271964/Wiki%20Paimon/Characters/Razor/Talent_Claw_and_Thunder_Press_fhnqh9.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271970/Wiki%20Paimon/Characters/Razor/Talent_Claw_and_Thunder_s75qxg.gif"
+            ]
+        },
+        "burst": {
+            "title": "Lightning Fang",
+            "info": "Summons the Wolf Within which deals <span class='electro'>Electro DMG</span> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into elemental energy for him.<br>The Wolf Within will fight alongside Razor for the skill's duration.<h3>The Wolf Within</h3>▪ Strikes alongside Razor's <span class='ability-ref'>Normal Attacks</span>, dealing <span class='electro'>Electro DMG</span>.<br>▪ Raises Razor's ATK SPD and Electro RES.<br>▪ Causes Razor to be immune to DMG inflicted by the Electro-Charged status.<br>▪ Disables Razor's <span class='ability-ref'>Charged Attacks</span>.<br>▪ Increases Razor's resistance to interruption.<br><br>These effects end when Razor leaves the battlefield.<br>When Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271959/Wiki%20Paimon/Characters/Razor/Asset_34_g0btit.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271980/Wiki%20Paimon/Characters/Razor/Talent_Lightning_Fang_img267.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Awakening",
+            "info": "Decreases <span class='ability-ref'>Claw and Thunder</span>'s CD by 18%. Using <span class='ability-ref'>Lightning Fang</span> resets the CD of <span class='ability-ref'>Claw and Thunder</span>.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271957/Wiki%20Paimon/Characters/Razor/Asset_33_hqgg2f.svg"
+        },
+        {
+            "title": "Hunger",
+            "info": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271954/Wiki%20Paimon/Characters/Razor/Asset_32_nzlpfe.svg"
+        },
+        {
+            "title": "Wolvensprint",
+            "info": "Decreases sprinting Stamina consumption of your characters in the party by 20%.<br>Not stackable with Passive Talents that provide the exact same effects.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271954/Wiki%20Paimon/Characters/Razor/Asset_31_krtbid.svg"
+        }
+    ]
+}

@@ -6,27 +6,52 @@
     "weapon": "Claymore",
     "element": "Geo",
     "birthday": "21 March",
-    "intro": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
-    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1615289339/Wiki%20Paimon/Characters/Noelle/Noelle_Cutout_Art_edtuid.png",
-    "wishArt": "wishartURL",
+    "intro": "A maid in the service of the Knights of Favonius that dreams of joining their ranks someday.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271940/Wiki%20Paimon/Characters/Noelle/Character_Noelle_Portrait_xqxlrf.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271945/Wiki%20Paimon/Characters/Noelle/Character_Noelle_Wish_iyn6yf.png",
     "attackTalents": {
         "normalAttack": {
-            "img0": "normalattackimgURL_0",
-            "img1": "normalattackimgURL_1",
-            "title": "Normal Attack: Favonius Bladework - Maid",
-            "info": "<span>Normal Attack</span><br> Perform up to 4 consecutive strikes.<br> <span>Charged Attack</span><br> Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br> At end of the sequence, perform a more powerful slash. <br> <span>Plunging Attack</span><br> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            "title": "Favonius Bladework - Maid",
+            "info": "<h3>Normal Attack</h3>Performs up to 4 consecutive slashes.<h3>Charged Attack</h3>Drains Stamina over time to perform continuous swirling attack on all nearby opponents. At the end of the sequence, performs an additional powerful slash.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616507056/Wiki%20Paimon/Weapon%20Styles/Claymore_Weapon_y7kpsf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271953/Wiki%20Paimon/Characters/Noelle/Talent_Favonius_Bladework_-_Maid__28Normal_29_hnnjtb.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271950/Wiki%20Paimon/Characters/Noelle/Talent_Favonius_Bladework_-_Maid__28Charged_Attack_29_zu3grl.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271952/Wiki%20Paimon/Characters/Noelle/Talent_Favonius_Bladework_-_Maid__28Plunge_29_ykbpsh.gif"
+            ]
         },
         "skill": {
-            "img0": "skillimgURL_0",
-            "img1": "skillimgURL_1",
             "title": "Breastplate",
-            "info": "Summons protective stone armor, dealing <color=#ffe699ff>Geo DMG to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.<br> The shield has the following properties:<br> • When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.<br> • Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.<br> The amount of HP healed when regeneration is triggered scales based on Noelle's DEF.<br></color=#ffe699ff>"
+            "info": "Summons protective stone armor, dealing <span class='geo'>Geo DMG</span> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.<br><br>The shield has the following properties:<br>▪ When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.<br>▪ Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.<br><br>The amount of HP healed when regeneration is triggered scales based on Noelle's DEF.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271939/Wiki%20Paimon/Characters/Noelle/Asset_25_pyzlu0.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271949/Wiki%20Paimon/Characters/Noelle/Talent_Breastplate_ijwvu8.gif"
+            ]
         },
         "burst": {
-            "img0": "burstimgURL_0",
-            "img1": "burstimgURL_1",
             "title": "Sweeping Time",
-            "info": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#ffe699ff>Geo DMG.<br> Afterwards, Noelle gains the following effects:<br> • Larger attack AoE.<br> • Converts attack DMG to <color=#ffe699ff>Geo DMG that cannot be overridden by any other elemental infusion.<br> • Increased ATK that scales based on her DEF.<br></color=#ffe699ff></color=#ffe699ff>"
+            "info": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <span class='geo'>Geo DMG</span>.<br><br>Afterwards, Noelle gains the following effects:<br>▪ Larger attack AoE<br>▪ Converts attack DMG to <span class='geo'>Geo DMG</span> that cannot be overridden by any other elemental infusion.<br>▪ Increased ATK that scales based on her DEF.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271939/Wiki%20Paimon/Characters/Noelle/Asset_24_ptyosq.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271946/Wiki%20Paimon/Characters/Noelle/Talent_Sweeping_Time_prj4ie.gif"
+            ]
         }
-    }
+    },
+    "passiveTalents": [
+        {
+            "title": "Devotion",
+            "info": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:<br>▪ Creates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. The shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG. This effect can only occur once every 60s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271940/Wiki%20Paimon/Characters/Noelle/Asset_23_viaq57.svg"
+        },
+        {
+            "title": "Nice and Clean",
+            "info": "Every 4 <span class='ability-ref'>Normal</span> or <span class='ability-ref'>Charged Attack</span> hits will decrease the CD of Breastplate by 1s.<br>Hitting multiple opponents with a single attack is only counted as 1 hit.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271939/Wiki%20Paimon/Characters/Noelle/Asset_22_ydha0m.svg"
+        },
+        {
+            "title": "Maid's Knighthood",
+            "info": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271939/Wiki%20Paimon/Characters/Noelle/Asset_21_j16mab.svg"
+        }
+    ]
 }

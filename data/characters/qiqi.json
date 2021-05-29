@@ -1,0 +1,57 @@
+{
+    "name": "Qiqi",
+    "title": "Icy Resurrection",
+    "affiliation": "Bubu Pharmacy",
+    "rarity": 5,
+    "weapon": "Sword",
+    "element": "Cryo",
+    "birthday": "3 March",
+    "intro": "An apprentice and herb-picker at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271950/Wiki%20Paimon/Characters/Qiqi/Character_Qiqi_Portrait_npcwwl.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271952/Wiki%20Paimon/Characters/Qiqi/Character_Qiqi_Wish_cjarzj.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Ancient Sword Art",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271959/Wiki%20Paimon/Characters/Qiqi/Talent_Ancient_Sword_Art_yrqbod.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271960/Wiki%20Paimon/Characters/Qiqi/Talent_Ancient_Sword_Art__28Charged_Attack_29_tkixah.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271959/Wiki%20Paimon/Characters/Qiqi/Talent_Ancient_Sword_Art__28Plunge_29_xvu89y.gif"
+            ]
+        },
+        "skill": {
+            "title": "Adeptus Art: Herald of Frost",
+            "info": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <span class='cryo'>Cryo DMG</span> to surrounding opponents.<h3>Herald of Frost</h3>▪ On hit, Qiqi's <span class='ability-ref'>Normal Attacks</span> and <span class='ability-ref'>Charged Attacks</span> regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.<br>▪ Periodically regenerates your active character's HP.<br>▪ Follows the character around, dealing <span class='cryo'>Cryo DMG</span> to opponents in their path.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271949/Wiki%20Paimon/Characters/Qiqi/Asset_30_v9mmqw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271953/Wiki%20Paimon/Characters/Qiqi/Talent_Adeptus_Art_Herald_of_Frost_bylppf.gif"
+            ]
+        },
+        "burst": {
+            "title": "Adeptus Art: Preserver of Fortune",
+            "info": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <span class='cryo'>Cryo DMG</span>.<h3>Fortune-Preserving Talisman</h3>▪ When opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271950/Wiki%20Paimon/Characters/Qiqi/Asset_29_jvws7z.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271959/Wiki%20Paimon/Characters/Qiqi/Talent_Adeptus_Art_Preserver_of_Fortune_dr5lkf.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Life-Prolonging Methods",
+            "info": "When a character under the effects of <span class='ability-ref'>Adeptus Art: Herald of Frost</span> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271949/Wiki%20Paimon/Characters/Qiqi/Asset_28_ou4ylp.svg"
+        },
+        {
+            "title": "A Glimpse into Arcanum",
+            "info": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271947/Wiki%20Paimon/Characters/Qiqi/Asset_27_lgyjut.svg"
+        },
+        {
+            "title": "Former Life Memories",
+            "info": "Displays the location of nearby resources unique to Liyue on the mini-map.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271945/Wiki%20Paimon/Characters/Qiqi/Asset_26_kn81sv.svg"
+        }
+    ]
+}

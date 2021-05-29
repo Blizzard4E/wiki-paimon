@@ -1,0 +1,57 @@
+{
+    "name": "Rosaria",
+    "title": "Thorny Benevolence",
+    "affiliation": "Church of Favonius",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "element": "Cryo",
+    "birthday": "24 January",
+    "intro": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271970/Wiki%20Paimon/Characters/Rosaria/Character_Rosaria_Portrait_dtdk6y.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271971/Wiki%20Paimon/Characters/Rosaria/Character_Rosaria_Wish_lsddns.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Spear of the Church",
+            "info": "<h3>Normal Attack</h3> Performs up to five consecutive spear strikes.<br> <h3>Charged Attack</h3> Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br><h3>Plunging Attack</h3> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1615555817/Wiki%20Paimon/Weapon%20Styles/Spear_Weapon_m4fybb.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271980/Wiki%20Paimon/Characters/Rosaria/Talent_Spear_of_the_Church_oo0rdz.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271984/Wiki%20Paimon/Characters/Rosaria/Talent_Spear_of_the_Church_hold_rfiqks.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271989/Wiki%20Paimon/Characters/Rosaria/Talent_Spear_of_the_Church_Plunge_vfqmnv.gif"
+            ]
+        },
+        "skill": {
+            "title": "Ravaging Confession",
+            "info": "Rosaria swiftly positions herself behind her opponent, then pierces and slashes the enemy with her polearm, dealing <span class='cryo'>Cryo DMG</span>.<br>Rosaria cannot use this ability to move behind larger opponents.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271968/Wiki%20Paimon/Characters/Rosaria/Asset_40_yzu0im.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1621595548/Wiki%20Paimon/Characters/Xiangling/Talent_Guoba_Attack_bbzlk0.gif"
+            ]
+        },
+        "burst": {
+            "title": "Rites of Termination",
+            "info": "Rosaria's unique take on this prayer ritual.<br><br>First, she swings her weapon to slash surrounding enemies; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <span class='cryo'>Cryo DMG</span>.<br>While active, the Ice Lance periodically releases a blast of cold air, dealing <span class='cryo'>Cryo DMG</span> to surrounding enemies.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271968/Wiki%20Paimon/Characters/Rosaria/Asset_39_fa3ece.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622271976/Wiki%20Paimon/Characters/Rosaria/Talent_Ravaging_Confession_iguzvw.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Regina Probationum",
+            "info": "When Rosaria strikes an opponent from behind using <span class='ability-ref'>Ravaging Confession</span>, Rosaria's CRIT Rate increases by 12% for 5s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271968/Wiki%20Paimon/Characters/Rosaria/Asset_38_doaazr.svg"
+        },
+        {
+            "title": "Shadow Samaritan",
+            "info": "Casting <span class='ability-ref'>Rites of Termination</span> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.<br>Rosaria's CRIT Rate Bonus gained this way cannot exceed 15%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271966/Wiki%20Paimon/Characters/Rosaria/Asset_37_osnhap.svg"
+        },
+        {
+            "title": "Night Walk",
+            "info": "At night (18:00 - 6:00), increases the Movement SPD of your own party members by 10%.<br>Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the same effects.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622271964/Wiki%20Paimon/Characters/Rosaria/Asset_36_wibesq.svg"
+        }
+    ]
+}
