@@ -1,0 +1,56 @@
+{
+    "name": "Yanfei",
+    "title": "Wise Innocence",
+    "affiliation": "Liyue Harbor",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "element": "Pyro",
+    "birthday": "20 July",
+    "intro": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294721/Wiki%20Paimon/Characters/Yanfei/Character_Yanfei_Portrait_nmxvhl.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294722/Wiki%20Paimon/Characters/Yanfei/Character_Yanfei_Wish_dbolal.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Seal of Approval",
+            "info": "<h3>Normal Attack</h3> Shoots fireballs that deal up to three counts of <span class='pyro'>Pyro DMG</span>. When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh. Each Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.<h3>Charged Attack</h3>Consumes Stamina and all Scarlet Seals before dealing <span class='pyro'>AoE Pyro DMG</span> to the opponents after a short casting time. This Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.<h3>Plunging Attack</h3>Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span class='pyro'>AoE Pyro DMG</span> upon impact with the ground.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616327137/Wiki%20Paimon/Weapon%20Styles/Catalyst_Weapon_vportw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294723/Wiki%20Paimon/Characters/Yanfei/Talent_Seal_of_Approval__28Normal_29_xjl9yj.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294742/Wiki%20Paimon/Characters/Yanfei/Talent_Seal_of_Approval__28Charged_29_zlabov.gif"
+            ]
+        },
+        "skill": {
+            "title": "Signed Edict",
+            "info": "Summons blistering flames that deal <span class='pyro'>AoE Pyro DMG</span>.<br>If this attack hits an enemy, Yanfei is granted the maximum number of Scarlet Seals.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294720/Wiki%20Paimon/Characters/Yanfei/Asset_20_gvc3ts.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294731/Wiki%20Paimon/Characters/Yanfei/Talent_Signed_Edict_tavjvi.gif"
+            ]
+        },
+        "burst": {
+            "title": "Done Deal",
+            "info": "Triggers a spray of intense flames that rush at nearby opponents, dealing <span class='pyro'>AoE Pyro DMG</span>, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.<h3>Brilliance</h3>Perodically grants Yanfei a Scarlet Seal. Increases the DMG of her Charged Attacks. The Brilliance effect stops when Yanfei leaves the field or falls in battle.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294719/Wiki%20Paimon/Characters/Yanfei/Asset_16_djjcwk.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294724/Wiki%20Paimon/Characters/Yanfei/Talent_Done_Deal_jyzvsv.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Proviso",
+            "info": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's <span class='pyro'>Pyro DMG</span> Bonus by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294719/Wiki%20Paimon/Characters/Yanfei/Asset_19_mcqzcp.svg"
+        },
+        {
+            "title": "Blazing Eye",
+            "info": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of <span class='pyro'>AoE Pyro DMG</span> equal to 80% of her ATK. This DMG counts as Charged Attack DMG.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294719/Wiki%20Paimon/Characters/Yanfei/Asset_18_hlgh8p.svg"
+        },
+        {
+            "title": "Encyclopedic Expertise",
+            "info": "Displays the location of nearby resources unique to Liyue on the mini-map.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294716/Wiki%20Paimon/Characters/Yanfei/Asset_17_rn125g.svg"
+        }
+    ]
+}

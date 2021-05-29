@@ -1,0 +1,57 @@
+{
+    "name": "Zhongli",
+    "title": "Vago Mundo",
+    "affiliation": "Liyue Harbor",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "element": "Geo",
+    "birthday": "31 December",
+    "intro": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1621595059/Wiki%20Paimon/Characters/Xiangling/Character_Xiangling_Portrait_zw1zh8.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1621595046/Wiki%20Paimon/Characters/Xiangling/Character_Xiangling_Wish_oe9iss.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Rain of Stone",
+            "info": "<h3>Normal Attack</h3> Performs up to 6 consecutive spear strikes.<br> <h3>Charged Attack</h3> Consumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1615555817/Wiki%20Paimon/Weapon%20Styles/Spear_Weapon_m4fybb.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622295117/Wiki%20Paimon/Characters/Zhongli/Talent_Rain_of_Stone__28Normal_29-min_yc4nnz.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294754/Wiki%20Paimon/Characters/Zhongli/Talent_Rain_of_Stone__28Charged_29_q71cw3.gif"
+            ]
+        },
+        "skill": {
+            "title": "Dominus Lapidis",
+            "info": "Every mountain, rock, and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.<h3>Press</h3>Commands the omnipresent power of the earth to solidify into a Stone Stele, standing 30 seconds, dealing <span class='geo'>AoE Geo DMG</span> at the creation.<h3>Hold</h3>Causes nearby Geo energy to explode, causing the following effects:▪ If their maximum number hasn't been reached, creates a Stone Stele.<br>▪ Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP. Possesses 150% DMG Absorption against all Elemental and Physical DMG.<br>▪ Deals <span class='geo'>AoE Geo DMG</span>.<br>▪ If there are nearby targets with the <span class='geo'>Geo element</span>, it will drain a large amount of <span class='geo'>Geo element</span> from a maximum of 2 such targets. This effect does not cause DMG.<h3>Stone Stele</h3>When created, deals <span class='geo'>AoE Geo DMG</span>. Additionally, every 2 seconds, it will resonate with other nearby <span class='geo'>Geo Constructs</span>, dealing Geo DMG to surrounding opponents. Stele creation and Resonance generate 0.5 elemental particles.<br>The Stone Stele is considered a Geo Construct that can both be climbed and used to block attacks.<br>Only one Stele created by Zhongli himself may initially exist at any one time.<h3>Jade Shield</h3>Possesses 150% DMG Absorption against all Elemental and Physical DMG.<br>Characters protected by the <span class='ability-ref'>Jade Shield</span> will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622295292/Wiki%20Paimon/Characters/Zhongli/Asset_6_fjx9tp.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294733/Wiki%20Paimon/Characters/Zhongli/Talent_Dominus_Lapidis_Press_iim93z.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294737/Wiki%20Paimon/Characters/Zhongli/Talent_Dominus_Lapidis_Hold_vsxlcl.gif"
+            ]
+        },
+        "burst": {
+            "title": "Planet Befall",
+            "info": "Brings a falling meteor down to earth, dealing massive <span class='geo'>Geo DMG</span> to opponents caught in its AoE and applying the <span class='geo'>Petrification</span> status to them.<h3>Petrification</h3>Opponents affected by the <span class='geo'>Petrification</span> status cannot move.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622295291/Wiki%20Paimon/Characters/Zhongli/Asset_5_ywr51p.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294732/Wiki%20Paimon/Characters/Zhongli/Talent_Planet_Befall_uddvpa.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Resonant Waves",
+            "info": "When the <span class='ability-ref'>Jade Shield</span> takes DMG, it will Fortify:▪ Fortified characters have 5% increased Shield Strength.<br>Can stack up to 5 times, and lasts until the <span class='ability-ref'>Jade Shield</span> disappears.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294727/Wiki%20Paimon/Characters/Zhongli/Asset_4_b3kmwn.svg"
+        },
+        {
+            "title": "Dominance of Earth",
+            "info": "Zhongli deals bonus DMG based on his Max HP:▪ <span class='ability-ref'>Normal Attack</span>, <span class='ability-ref'>Charged Attack</span>, and <span class='ability-ref'>Plunging Attack DMG</span> is increased by 1.39% of Max HP.<br>▪ <span class='ability-ref'>Dominus Lapidis</span> Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.<br>▪ <span class='ability-ref'>Planet Befall</span> deals additional DMG equal to 33% of Zhongli's Max HP.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294723/Wiki%20Paimon/Characters/Zhongli/Asset_2_sodpym.svg"
+        },
+        {
+            "title": "Arcanum of Crystal",
+            "info": "Refunds 15% of the ores used when crafting Polearm-type weapons.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294725/Wiki%20Paimon/Characters/Zhongli/Asset_3_eyehhd.svg"
+        }
+    ]
+}

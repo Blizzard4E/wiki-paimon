@@ -1,0 +1,57 @@
+{
+    "name": "Venti",
+    "title": "Windborne Bard",
+    "affiliation": "City of Mondstadt",
+    "rarity": 5,
+    "weapon": "Bow",
+    "element": "Anemo",
+    "birthday": "16 June",
+    "intro": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294712/Wiki%20Paimon/Characters/Venti/Character_Venti_Portrait_ukhpgi.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294715/Wiki%20Paimon/Characters/Venti/Character_Venti_Wish_jrblbw.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Divine Marksmanship",
+            "info": "<h3>Normal Attack</h3>Perform up to 6 consecutive shots with a bow.<h3>Charged Attack</h3>Perform a more precise Aimed Shot with increased DMG. While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <span class='anemo'>Anemo DMG</span>.<h3>Plunging Attack</h3>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616419005/Wiki%20Paimon/Weapon%20Styles/Bow_Weapon_emtwos.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294720/Wiki%20Paimon/Characters/Venti/Talent_Divine_Marksmanship__28Normal_29_fnstuh.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294719/Wiki%20Paimon/Characters/Venti/Talent_Divine_Marksmanship__28Splitting_Gales_29_wbbkw8.gif"
+            ]
+        },
+        "skill": {
+            "title": "Skyward Sonnet",
+            "info": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!<h3>Press</h3>Summons a Wind Domain at the opponent's location, dealing <span class='anemo'>AoE Anemo DMG</span> and launching opponents into the air.<h3>Hold</h3>Summons an even larger Wind Domain with Venti as the epicenter, dealing <span class='anemo'>AoE Anemo DMG</span> and launching affected opponents into the air. After unleashing the Hold version of this ability, Venti rides the wind into the air.<br>Opponents hit by Skyward Sonnet will fall to the ground slowly.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294711/Wiki%20Paimon/Characters/Venti/Asset_25_pegrtg.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294718/Wiki%20Paimon/Characters/Venti/Talent_Skyward_Sonnet__28Press_29_vo2mey.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294717/Wiki%20Paimon/Characters/Venti/Talent_Skyward_Sonnet__28Embrace_of_Winds_29_hhclss.gif"
+            ]
+        },
+        "burst": {
+            "title": "Wind's Grand Ode",
+            "info": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in objects and opponents and deals continuous <span class='anemo'>Anemo DMG</span>.<h3>Elemental Absorption</h3>If the Stormeye comes into contact with <span class='hydro'>Hydro</span>/<span class='pyro'>Pyro</span>/<span class='cryo'>Cryo</span>/<span class='electro'>Electro</span> elements, it will deal additional elemental DMG of that type.<br>Elemental Absorption may only occur once per use.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294711/Wiki%20Paimon/Characters/Venti/Asset_24_kh7pvw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622294725/Wiki%20Paimon/Characters/Venti/Talent_Wind_27s_Grand_Ode_tc8k8e.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Embrace of Winds",
+            "info": "Holding <span class='ability-ref'>Skyward Sonne</span>t creates an upcurrent that lasts for 20s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294711/Wiki%20Paimon/Characters/Venti/Asset_23_iug159.svg"
+        },
+        {
+            "title": "Stormeye",
+            "info": "Regenerates 15 Energy for Venti after the effects of <span class='ability-ref'>Wind's Grand Ode</span> end. If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294711/Wiki%20Paimon/Characters/Venti/Asset_22_xtmx7s.svg"
+        },
+        {
+            "title": "Windrider",
+            "info": "Decreases gliding Stamina consumption for your own party members by 20%.<br>Not stackable with Passive Talents that provide the exact same effects.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622294711/Wiki%20Paimon/Characters/Venti/Asset_21_hvhnoq.svg"
+        }
+    ]
+}
