@@ -1,34 +1,106 @@
 <template>
-    <article class="character-selection container">
-        <section class="character-selector">
-            <h1 v-if="triggerAnimation" v-bind:class="{
-                characterSelected: true,
-                pyro: selectedChar.element == 'Pyro',
-                anemo: selectedChar.element == 'Anemo',
-                geo: selectedChar.element == 'Geo',
-                hydro: selectedChar.element == 'Hydro',
-                cryo: selectedChar.element == 'Cryo',
-                electro: selectedChar.element == 'Electro',
-                dendro: selectedChar.element == 'Dendro'
-                                }">{{selectedChar.name}}</h1>
-            <div v-else style="min-height: 153px"></div>
-            <ul class="character-list">
-                <li v-for="character in characters" :key="character.id">
-                    <a @click="updateSelectedChar(character)">{{character}}</a>
-                </li>
-            </ul>
-        </section>
-        <figure class="character-image">
-            <img v-if="triggerAnimation" :src="selectedChar.cutout" alt="Character Art">
-        </figure>
-        <summary class="character-summary">
-            <div v-if="triggerAnimation">
-                <h2 class="character-title">{{selectedChar.title}}</h2>
-                <p class="character-intro">{{selectedChar.intro}}</p>
-                <img class="character-element" :src="elementIcon" alt="Character Element Image">
-            </div>
-        </summary>
-    </article>
+    <div>
+        <div class="dt">
+            <article class="character-selection container">
+                <section class="character-selector">
+                    <h1 v-if="triggerAnimation" v-bind:class="{
+                        characterSelected: true,
+                        pyro: selectedChar.element == 'Pyro',
+                        anemo: selectedChar.element == 'Anemo',
+                        geo: selectedChar.element == 'Geo',
+                        hydro: selectedChar.element == 'Hydro',
+                        cryo: selectedChar.element == 'Cryo',
+                        electro: selectedChar.element == 'Electro',
+                        dendro: selectedChar.element == 'Dendro'
+                                        }">{{selectedChar.name}}</h1>
+                    <div v-else style="min-height: 153px"></div>
+                    <ul class="character-list">
+                        <li v-for="character in characters" :key="character.id">
+                            <a @click="updateSelectedChar(character)">{{character}}</a>
+                        </li>
+                    </ul>
+                </section>
+                <figure class="character-image">
+                    <img v-if="triggerAnimation" :src="selectedChar.cutout" alt="Character Art">
+                </figure>
+                <summary class="character-summary">
+                    <div v-if="triggerAnimation">
+                        <h2 class="character-title">{{selectedChar.title}}</h2>
+                        <p class="character-intro">{{selectedChar.intro}}</p>
+                        <img class="character-element" :src="elementIcon" alt="Character Element Image">
+                    </div>
+                </summary>
+            </article>
+        </div>
+        <div class="pb sd tb">
+            <article class="character-selection">
+                <section class="character-selector">
+                    <h1 v-if="triggerAnimation" v-bind:class="{
+                        characterSelected: true,
+                        pyro: selectedChar.element == 'Pyro',
+                        anemo: selectedChar.element == 'Anemo',
+                        geo: selectedChar.element == 'Geo',
+                        hydro: selectedChar.element == 'Hydro',
+                        cryo: selectedChar.element == 'Cryo',
+                        electro: selectedChar.element == 'Electro',
+                        dendro: selectedChar.element == 'Dendro'
+                                        }">{{selectedChar.name}}</h1>
+                    <div v-else style="min-height: 153px"></div>
+                    <ul class="character-list">
+                        <li v-for="character in characters" :key="character.id">
+                            <a @click="updateSelectedChar(character)">{{character}}</a>
+                        </li>
+                    </ul>
+                </section>
+                <figure class="character-image">
+                    <img v-if="triggerAnimation" :src="selectedChar.cutout" alt="Character Art">
+                </figure>
+                <summary class="character-summary">
+                    <div class="sd">
+                        <div v-if="triggerAnimation">
+                            <h2 class="character-title">{{selectedChar.title}}</h2>
+                            <p class="character-intro">{{selectedChar.intro}}</p>
+                            <img class="character-element" :src="elementIcon" alt="Character Element Image">
+                        </div>
+                    </div>
+                </summary>
+            </article>
+        </div>
+        <div class="mb">
+            <article class="character-selection">
+                <figure class="character-image">
+                    <img v-if="triggerAnimation" :src="selectedChar.cutout" alt="Character Art">
+                </figure>
+                <section class="character-selector">
+                    <h1 v-if="triggerAnimation" v-bind:class="{
+                        characterSelected: true,
+                        pyro: selectedChar.element == 'Pyro',
+                        anemo: selectedChar.element == 'Anemo',
+                        geo: selectedChar.element == 'Geo',
+                        hydro: selectedChar.element == 'Hydro',
+                        cryo: selectedChar.element == 'Cryo',
+                        electro: selectedChar.element == 'Electro',
+                        dendro: selectedChar.element == 'Dendro'
+                                        }">{{selectedChar.name}}</h1>
+                    <div v-else style="min-height: 153px"></div>
+                    <ul class="character-list">
+                        <li v-for="character in characters" :key="character.id">
+                            <a @click="updateSelectedChar(character)">{{character}}</a>
+                        </li>
+                    </ul>
+                </section>
+                <summary class="character-summary">
+                    <div class="sd tb">
+                        <div v-if="triggerAnimation">
+                            <h2 class="character-title">{{selectedChar.title}}</h2>
+                            <p class="character-intro">{{selectedChar.intro}}</p>
+                            <img class="character-element" :src="elementIcon" alt="Character Element Image">
+                        </div>
+                    </div>
+                </summary>
+            </article>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -141,7 +213,6 @@ export default {
         overflow-x: visible;
         scroll-snap-align: center;
         transition: 0.3s;
-
         /* Hide scrollbar */
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
@@ -208,5 +279,82 @@ export default {
             transform: translateY(0);
             opacity: 1;
         };
+    }
+    @media only screen and (max-width: 599.98px) {
+        .character-selection {
+            grid-template-columns: 1fr;
+            margin: 0 1rem;
+        }
+        .characterSelected {
+            font-size: 4rem;
+        }
+        .character-list>li {
+            font-size: 3rem;
+        }
+        .character-image > img  {
+            height: 20rem;
+        }
+        .character-list {
+            min-height: 10rem;
+            max-height: 10rem;
+            overflow-y: scroll;
+            overflow-x: visible;
+            scroll-snap-align: center;
+            transition: 0.3s;
+            /* Hide scrollbar */
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    }
+
+    @media (min-width: 600px) and (max-width: 767.98px) {
+        .character-selection {
+            margin: 0 1rem;
+        }
+        .characterSelected {
+            font-size: 5.5rem;
+        }
+        .character-list>li {
+            font-size: 4.5rem;
+        }
+        .character-image > img  {
+            height: 30rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .character-selection {
+            margin: 0 1rem;
+        }
+        .characterSelected {
+            font-size: 5.5rem;
+        }
+        .character-list>li {
+            font-size: 3.7rem;
+        }
+        .character-image > img  {
+            height: 25rem;
+        }
+        .character-list {
+            min-height: 25rem;
+            max-height: 25rem;
+            overflow-y: scroll;
+            overflow-x: visible;
+            scroll-snap-align: center;
+            transition: 0.3s;
+            /* Hide scrollbar */
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .character-selection {
+            margin: 0 1rem;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+
     }
 </style>

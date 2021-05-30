@@ -72,8 +72,7 @@
             </div>
         </section>
         <section class="abilities-display">
-            <div>
-                <div v-if="currentAbility==0">
+            <div v-if="currentAbility==0">
                     <img v-for="gif in selectedChar.attackTalents.normalAttack.gifs" :key="gif.id" :src="gif" v-bind:class="{
                     abilityGif: true,
                     pyro: selectedChar.element == 'Pyro',
@@ -84,35 +83,30 @@
                     electro: selectedChar.element == 'Electro',
                     dendro: selectedChar.element == 'Dendro'
                 }" alt="Abilities Gif Showcase">
-                </div>
             </div>
-            <div>
-                <div v-if="currentAbility==1">
-                    <img v-for="gif in selectedChar.attackTalents.skill.gifs" :key="gif.id" :src="gif" v-bind:class="{
-                    abilityGif: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }" alt="Abilities Gif Showcase">
-                </div>
+            <div v-if="currentAbility==1">
+                <img v-for="gif in selectedChar.attackTalents.skill.gifs" :key="gif.id" :src="gif" v-bind:class="{
+                abilityGif: true,
+                pyro: selectedChar.element == 'Pyro',
+                anemo: selectedChar.element == 'Anemo',
+                geo: selectedChar.element == 'Geo',
+                hydro: selectedChar.element == 'Hydro',
+                cryo: selectedChar.element == 'Cryo',
+                electro: selectedChar.element == 'Electro',
+                dendro: selectedChar.element == 'Dendro'
+            }" alt="Abilities Gif Showcase">
             </div>
-            <div>
-                <div v-if="currentAbility==2">
-                    <img v-for="gif in selectedChar.attackTalents.burst.gifs" :key="gif.id" :src="gif" v-bind:class="{
-                    abilityGif: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }" alt="Abilities Gif Showcase">
-                </div>
+            <div v-if="currentAbility==2">
+                <img v-for="gif in selectedChar.attackTalents.burst.gifs" :key="gif.id" :src="gif" v-bind:class="{
+                abilityGif: true,
+                pyro: selectedChar.element == 'Pyro',
+                anemo: selectedChar.element == 'Anemo',
+                geo: selectedChar.element == 'Geo',
+                hydro: selectedChar.element == 'Hydro',
+                cryo: selectedChar.element == 'Cryo',
+                electro: selectedChar.element == 'Electro',
+                dendro: selectedChar.element == 'Dendro'
+            }" alt="Abilities Gif Showcase">
             </div>
         </section>
     </article>
@@ -156,6 +150,7 @@ export default {
         font-size: 3.3rem;
         color: #101520;
         text-transform: uppercase;
+        margin-left: 1rem;
     }
     .abilities-icons-holder {
         display: grid;
@@ -261,10 +256,11 @@ export default {
         margin-top: 0.6rem;
         color: #101520;
     }
-    .abilities-display {
+    .abilities-display>div {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
     .abilityGif {
         width: 500px;
@@ -292,5 +288,72 @@ export default {
     }
     .abilityGif.electro {
         background: #B15DFF;
+    }
+    @media only screen and (max-width: 599.98px) {
+        section {
+            min-width: 100%;
+        }
+        .abilities {
+            grid-template-columns: 1fr;
+            margin-top: 1rem;
+        }
+        .abilityGif {
+            margin-top: 2rem;
+            width: 300px;
+        }
+        .abilitiesInfo {
+            max-width: 15rem;
+            margin-left: 1rem;
+        }
+        p >>> h3 {
+            font-size: 1.25rem;
+        }
+    }
+
+    @media (min-width: 600px) and (max-width: 767.98px) {
+        .abilities {
+            grid-template-columns: 1fr;
+        }
+        .abilityGif {
+            margin-top: 2rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .abilities {
+            grid-template-columns: 1fr;
+        }
+        .abilityGif {
+            margin-top: 2rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+        p >>> h3 {
+            font-size: 1.1rem;
+        }
+        .abilityIcon {
+            min-width: 64px;
+            min-height: 64px;
+        }
+        .abilityIcon>img {
+            width: 36px;
+            height: 36px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1299.98px) {
+        .abilityGif {
+            width: 380px;
+        }
+        h1 {
+            margin-left: 0;
+        }
+    }
+
+    @media only screen and (min-width: 1300px) {
+        h1 {
+            margin-left: 0;
+        }
     }
 </style>

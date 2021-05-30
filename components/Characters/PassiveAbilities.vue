@@ -1,7 +1,7 @@
 <template>
     <article v-if="canShow" class="container abilities">
         <section class="wish-art-display">
-            <img class="wish-art" :src="selectedChar.wishArt" alt="Character Wish Art">
+            <div class="dt sd"><img class="wish-art" :src="selectedChar.wishArt" alt="Character Wish Art"></div>
         </section>
         <section>
             <h1>Passive Abilities</h1>
@@ -72,6 +72,7 @@ export default {
         font-size: 3.3rem;
         color: #101520;
         text-transform: uppercase;
+        margin-left: 1rem;
     }
     .abilities-icons-holder {
         display: grid;
@@ -200,5 +201,69 @@ export default {
         50% {transform: translateY(5px);}
         75% {transform: translateY(-5px);}
         100% {transform: translateY(0px);}
+    }
+    @media only screen and (max-width: 599.98px) {
+        section {
+            min-width: 100%;
+        }
+        .abilities {
+            grid-template-columns: 1fr;
+            margin-top: 1rem;
+        }
+        .abilityGif {
+            margin-top: 2rem;
+            width: 300px;
+        }
+        .abilitiesInfo {
+            max-width: 15rem;
+            margin-left: 1rem;
+        }
+        p >>> h3 {
+            font-size: 1.25rem;
+        }
+    }
+
+    @media (min-width: 600px) and (max-width: 767.98px) {
+        .abilities {
+            grid-template-columns: 1fr;
+        }
+        .abilityGif {
+            margin-top: 2rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .abilities {
+            grid-template-columns: 1fr;
+        }
+        .abilityGif {
+            margin-top: 2rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+        p >>> h3 {
+            font-size: 1.1rem;
+        }
+        .abilityIcon {
+            min-width: 64px;
+            min-height: 64px;
+        }
+        .abilityIcon>img {
+            width: 36px;
+            height: 36px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1299.98px) {
+        .abilityGif {
+            width: 380px;
+        }
+    }
+
+    @media only screen and (min-width: 1300px) {
+        h1 {
+            margin-left: 0;
+        }
     }
 </style>
