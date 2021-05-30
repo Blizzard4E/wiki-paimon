@@ -347,18 +347,20 @@ export default {
             -ms-overflow-style: none;  /* IE and Edge */
             scrollbar-width: none;  /* Firefox */
         }
-        .character-summary>div {
-            margin-top: 8rem;
-        }
     }
 
     @media (min-width: 992px) and (max-width: 1199.98px) {
         .character-selection {
             margin: 0 1rem;
         }
+        .character-summary>div {
+            margin-top: 3rem;
+        }
     }
 
     @media only screen and (min-width: 1200px) {
-
+        .character-summary>div {
+            margin-top: 3rem;
+        }
     }
 </style>
