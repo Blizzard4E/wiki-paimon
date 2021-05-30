@@ -348,7 +348,7 @@ export default {
             scrollbar-width: none;  /* Firefox */
         }
         .character-summary {
-            margin-top: 3rem;
+            margin-top: 8rem;
         }
     }
 
