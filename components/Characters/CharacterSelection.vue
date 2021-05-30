@@ -240,9 +240,6 @@ export default {
         transition: 0.15s;
         padding: 1rem 0;
     }
-    .character-list>li>a:hover,.character-list>li>a:focus,.character-list>li>a:active {
-        margin-left: 0.7rem;
-    }
     .character-summary {
         display: flex;
         justify-content: center;
@@ -355,11 +352,17 @@ export default {
         .character-summary>div {
             margin-top: 9rem;
         }
+        .character-list>li>a:hover,.character-list>li>a:focus,.character-list>li>a:active {
+            margin-left: 0.7rem;
+        }
     }
 
     @media only screen and (min-width: 1200px) {
         .character-summary>div {
             margin-top: 9rem;
+        }
+        .character-list>li>a:hover,.character-list>li>a:focus,.character-list>li>a:active {
+            margin-left: 0.7rem;
         }
     }
 </style>
