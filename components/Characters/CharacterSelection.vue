@@ -240,7 +240,7 @@ export default {
         transition: 0.15s;
         padding: 1rem 0;
     }
-    .character-list>li>a:hover,.character-list>li>a:active {
+    .character-list>li>a:hover,.character-list>li>a:focus,.character-list>li>a:active {
         margin-left: 0.7rem;
     }
     .character-summary {
