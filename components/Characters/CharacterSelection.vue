@@ -245,6 +245,7 @@ export default {
     }
     .character-summary {
         display: flex;
+        justify-content: center;
         align-items: center;
     }
     .character-title {
