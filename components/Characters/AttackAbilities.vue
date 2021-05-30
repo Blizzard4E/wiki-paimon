@@ -299,14 +299,25 @@ export default {
         }
         .abilityGif {
             margin-top: 2rem;
-            width: 300px;
+            width: 280px;
         }
         .abilitiesInfo {
-            max-width: 15rem;
+            max-width: 14rem;
             margin-left: 1rem;
+        }
+        h1 {
+            font-size: 3.1rem;
         }
         p >>> h3 {
             font-size: 1.25rem;
+        }
+        .abilityIcon {
+            min-width: 56px;
+            min-height: 56px;
+        }
+        .abilityIcon>img {
+            width: 32px;
+            height: 32px;
         }
     }
 
