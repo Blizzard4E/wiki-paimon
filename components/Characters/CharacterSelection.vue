@@ -347,6 +347,9 @@ export default {
             -ms-overflow-style: none;  /* IE and Edge */
             scrollbar-width: none;  /* Firefox */
         }
+        .character-summary {
+            margin-top: 3rem;
+        }
     }
 
     @media (min-width: 992px) and (max-width: 1199.98px) {
