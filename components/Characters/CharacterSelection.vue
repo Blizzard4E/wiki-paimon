@@ -246,7 +246,6 @@ export default {
     .character-summary {
         display: flex;
         justify-content: center;
-        align-items: center;
     }
     .character-title {
         font-family: 'Big Shoulders Display';
@@ -354,13 +353,13 @@ export default {
             margin: 0 1rem;
         }
         .character-summary>div {
-            margin-top: 5rem;
+            margin-top: 9rem;
         }
     }
 
     @media only screen and (min-width: 1200px) {
         .character-summary>div {
-            margin-top: 5rem;
+            margin-top: 9rem;
         }
     }
 </style>
