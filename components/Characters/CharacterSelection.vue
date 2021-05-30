@@ -354,13 +354,13 @@ export default {
             margin: 0 1rem;
         }
         .character-summary>div {
-            margin-top: 3rem;
+            margin-top: 5rem;
         }
     }
 
     @media only screen and (min-width: 1200px) {
         .character-summary>div {
-            margin-top: 3rem;
+            margin-top: 5rem;
         }
     }
 </style>
