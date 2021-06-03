@@ -190,7 +190,7 @@ export default {
     },
     mounted() {
         this.characters = characters;
-        this.updateSelectedChar('albedo');
+        this.updateSelectedChar('aether');
     }
 }
 </script>

@@ -234,6 +234,9 @@ export default {
         background: #B15DFF;
     }
     @media only screen and (max-width: 599.98px) {
+        .elements-icons-holder {
+            margin-left: 1rem;
+        }
         section {
             min-width: 100%;
         }
@@ -266,6 +269,9 @@ export default {
     }
 
     @media (min-width: 600px) and (max-width: 767.98px) {
+        .elements-icons-holder {
+            margin-left: 1rem;
+        }
         .elements {
             grid-template-columns: 1fr;
         }

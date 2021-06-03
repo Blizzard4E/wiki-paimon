@@ -206,6 +206,9 @@ export default {
         section {
             min-width: 100%;
         }
+        .abilities-icons-holder {
+            margin-left: 1rem;
+        }
         .abilities {
             grid-template-columns: 1fr;
             margin-top: 1rem;
@@ -230,6 +233,9 @@ export default {
     }
 
     @media (min-width: 600px) and (max-width: 767.98px) {
+        .abilities-icons-holder {
+            margin-left: 1rem;
+        }
         .abilities {
             grid-template-columns: 1fr;
         }
