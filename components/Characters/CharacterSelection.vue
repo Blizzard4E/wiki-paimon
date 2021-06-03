@@ -108,12 +108,17 @@ import characters from '../../data/characters.json';
 import elementIcons from '../../data/elements_icon';
 
 export default {
+    props: ['selectedChar'],
     data() {
         return {
             characters: [],
-            selectedChar: {},
             elementIcon: null,
             triggerAnimation: false
+        }
+    },
+    watch: {
+        selectedChar: function() {
+            this.CheckElement();
         }
     },
     methods: {
@@ -122,13 +127,36 @@ export default {
             //Stop Rendering Image
             this.triggerAnimation = false;
 
-            //Import Selected Character From Data
-            let newSelectedChar = await import(`../../data/characters/${charName.replace(' ', '')}.json`);
+            //Import Selected Character From Datas
+                //Checking For Traveler Speciaal Case
+            let newSelectedChar = null;
+            if(charName == "aether")
+            {
+                newSelectedChar = await import(`../../data/characters/aether_anemo.json`);
+            }
+            else if(charName == "lumine")
+            {
+                newSelectedChar = await import(`../../data/characters/lumine_anemo.json`);
+            }
+            else {
+                newSelectedChar = await import(`../../data/characters/${charName.replace(' ', '')}.json`);
+            }
             this.selectedChar = newSelectedChar;
 
             //Update Selected Character For Parents
             this.$emit('update-selected-char', this.selectedChar);
 
+            this.CheckElement();
+            
+            //Remove Selected Character from Character List
+            let newCharList = characters;
+            newCharList = newCharList.filter(character => character !== this.selectedChar.name.toLowerCase());
+            this.characters = newCharList;
+
+            //Start rendering image to start animation again
+            this.triggerAnimation = true;
+        },
+        CheckElement() {
             //Change Element Icons
             if(this.selectedChar.element == "Anemo")
             {
@@ -158,14 +186,6 @@ export default {
             {
                 this.elementIcon = elementIcons.Cryo;
             }
-            
-            //Remove Selected Character from Character List
-            let newCharList = characters;
-            newCharList = newCharList.filter(character => character !== this.selectedChar.name.toLowerCase());
-            this.characters = newCharList;
-
-            //Start rendering image to start animation again
-            this.triggerAnimation = true;
         }
     },
     mounted() {

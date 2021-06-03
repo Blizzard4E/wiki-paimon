@@ -1,0 +1,52 @@
+{
+    "name": "Aether",
+    "title": "Outlander",
+    "affiliation": "",
+    "rarity": 5,
+    "weapon": "Sword",
+    "element": "Geo",
+    "birthday": "",
+    "intro": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689598/Wiki%20Paimon/Characters/Aether/Character_Traveler__Male__Portrait_ejp7vc.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689608/Wiki%20Paimon/Characters/Aether/Travelers_eky3vs.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Foreign Rockblade",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689609/Wiki%20Paimon/Characters/Aether/Geo/Talent_Foreign_Rockblade_Normal__28Aether_29_tede7n.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689606/Wiki%20Paimon/Characters/Aether/Geo/Talent_Foreign_Rockblade_Charged__28Aether_29_ayjrmr.gif"
+            ]
+        },
+        "skill": {
+            "title": "Starfell Sword",
+            "info": "You disgorge a meteorite from the depths of the earth, dealing <span class='geo'>AoE Geo DMG</span>. The meteorite is considered a <span class='geo'>Geo Construct</span>, and can be climbed or used to block attacks.<h3>Hold</h3>This skill's positioning may be adjusted.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689601/Wiki%20Paimon/Characters/Aether/Geo/Asset_16_gpyegh.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689608/Wiki%20Paimon/Characters/Aether/Geo/Talent_Starfell_Sword_Press__28Aether_29_mexdcs.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689624/Wiki%20Paimon/Characters/Aether/Geo/Talent_Starfell_Sword_Hold__28Aether_29_ihuggj.gif"
+            ]
+        },
+        "burst": {
+            "title": "Wake of Earth",
+            "info": "Energizing the Geo elements deep underground, you set off expanding shockwaves.<br><br>Launches surrounding opponents back and deals <span class='geo'>AoE Geo DMG</span>.<br>A stone wall is erected at the edges of the shockwave.<br>The stone wall is considered a <span class='geo'>Geo Construct</span>, and may be used to block attacks.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689600/Wiki%20Paimon/Characters/Aether/Geo/Asset_15_jsnqkf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689612/Wiki%20Paimon/Characters/Aether/Geo/Talent_Wake_of_Earth__28Aether_29_ygdgwn.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Shattered Darkrock",
+            "info": "Reduces <span class='ability-ref'>Starfell Sword</span>'s CD by 2s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689599/Wiki%20Paimon/Characters/Aether/Geo/Asset_14_ldf3v6.svg"
+        },
+        {
+            "title": "Frenzied Rockslide",
+            "info": "The final hit of a <span class='ability-ref'>Normal Attack</span> combo triggers a collapse, dealing 60% of ATK as <span class='geo'>AoE Geo DMG</span>.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689599/Wiki%20Paimon/Characters/Aether/Geo/Asset_13_cuo1it.svg"
+        }
+    ]
+}

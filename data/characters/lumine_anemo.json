@@ -1,0 +1,51 @@
+{
+    "name": "Lumine",
+    "title": "Outlander",
+    "affiliation": "",
+    "rarity": 5,
+    "weapon": "Sword",
+    "element": "Anemo",
+    "birthday": "",
+    "intro": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689613/Wiki%20Paimon/Characters/Lumine/Character_Traveler__Female__Portrait_udgazs.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689625/Wiki%20Paimon/Characters/Lumine/Travelers_gexpww.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Foreign Ironwind",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689621/Wiki%20Paimon/Characters/Lumine/Anemo/Talent_Foreign_Ironwind_Normal__Lumine_bprvrn.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689616/Wiki%20Paimon/Characters/Lumine/Anemo/Talent_Foreign_Ironwind_Charged__28Lumine_29_aluayu.gif"
+            ]
+        },
+        "skill": {
+            "title": "Palm Vortex",
+            "info": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous <span class='anemo'>Anemo DMG</span> to opponents in front of you.<br>The vacuum vortex explodes when the skill duration ends, causing a greater amount of <span class='anemo'>Anemo DMG</span> over a larger area.<h3>Hold</h3>DMG and AoE will gradually increase.<h3>Elemental Absorption</h3>If the vortex comes into contact with <span class='hydro'>Hydro</span>/<span class='pyro'>Pyro</span>/<span class='cryo'>Cryo</span>/<span class='electro'>Electro</span> elements, it will deal additional elemental DMG of that type.<br>Elemental Absorption may only occur once per use.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689595/Wiki%20Paimon/Characters/Aether/Anemo/Asset_12_qflztj.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689617/Wiki%20Paimon/Characters/Lumine/Anemo/Talent_Palm_Vortex_Hold__Lumine_rptzbb.gif"
+            ]
+        },
+        "burst": {
+            "title": "Gust Surge",
+            "info": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing <span class='anemo'>Anemo DMG</span> each 0.5 seconds, 9 times.<h3>Elemental Absorption</h3>If the vortex comes into contact with <span class='hydro'>Hydro</span>/<span class='pyro'>Pyro</span>/<span class='cryo'>Cryo</span>/<span class='electro'>Electro</span> elements, it will deal additional elemental DMG of that type.<br>Elemental Absorption may only occur once per use.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689595/Wiki%20Paimon/Characters/Aether/Anemo/Asset_11_mmgeqg.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689627/Wiki%20Paimon/Characters/Lumine/Anemo/Talent_Gust_Surge__28Lumine_29_osbtxc.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Slitting Wind",
+            "info": "The last hit of a <span class='ability-ref'>Normal Attack</span> combo unleashes a wind blade, dealing 60% of ATK as <span class='anemo'>Anemo DMG</span> to all opponents in its path.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689595/Wiki%20Paimon/Characters/Aether/Anemo/Asset_10_jcmhef.svg"
+        },
+        {
+            "title": "Second Wind",
+            "info": "<span class='ability-ref'>Palm Vortex</span> kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689595/Wiki%20Paimon/Characters/Aether/Anemo/Asset_9_p6vtue.svg"
+        }
+    ]
+}

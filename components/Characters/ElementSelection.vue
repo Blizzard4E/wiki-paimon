@@ -1,33 +1,31 @@
 <template>
-    <article v-if="canShow" class="container abilities">
-        <section class="wish-art-display">
-            <div class="dt sd"><img class="wish-art" :src="selectedChar.wishArt" alt="Character Wish Art"></div>
-        </section>
+    <article v-if="canShow" class="container elements">
         <section>
-            <h1>Passive Abilities</h1>
-            <div class="abilities-icons-holder">
-                <div class="passive-ability" v-for="(passive, index) in selectedChar.passiveTalents" :key="index.id">
-                    <a @click="selectAbility(index)" v-bind:class="{
-                    abilityIcon: true,
-                    active: currentAbility == index,
-                    characterSelected: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }">
-                        <img :src="passive.svg" alt="Passive Ability Icon">
+            <h1>Elements</h1>
+            <div class="elements-icons-holder">
+                <div class="element">
+                    <a @click="selectElement('anemo')" v-bind:class="{
+                        elementIcon: true,
+                        active: currentElement == 'anemo',
+                        anemo: true
+                    }">
+                        <img src="https://res.cloudinary.com/duzvevuup/image/upload/v1622685165/Wiki%20Paimon/Elements%20Icon/Anemo_Icon_ryhcz5.svg" alt="Element Icon">
                     </a>
-                    <div class="line"><div></div></div>
+                    <div class="line">
+                        <div></div>
+                    </div>
                 </div>
-            </div>
-            <div v-for="(passive, index) in selectedChar.passiveTalents" :key="index.id">
-                <div v-if="currentAbility==index" class="abilitiesInfo">
-                    <h2>{{selectedChar.passiveTalents[index].title}}</h2>
-                    <p v-html="selectedChar.passiveTalents[index].info"></p>
+                <div class="element">
+                    <a @click="selectElement('geo')" v-bind:class="{
+                        elementIcon: true,
+                        active: currentElement == 'geo',
+                        geo: true
+                    }">
+                        <img src="https://res.cloudinary.com/duzvevuup/image/upload/v1622685165/Wiki%20Paimon/Elements%20Icon/Geo_Icon_vssgtb.svg" alt="Element Icon">
+                    </a>
+                    <div class="line">
+                        <div></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -42,27 +40,43 @@ export default {
     data() {
         return {
             canShow: false,
-            currentAbility: 0
+            currentElement: 'anemo',
+            selectedCharElement: {},
+            currentCharName: ''
         }
     },
     watch: {
-        selectedChar: function() {
-            this.canShow = true;
-            this.currentAbility = 0;
+        selectedChar: function(value) {
+            this.canShow = true
+            if(value.name != this.currentCharName)
+            {
+                this.currentElement = 'anemo'
+            }
         }
     },
     methods: {
-        selectAbility(ability) {
-            this.currentAbility = ability
+        async selectElement(element) {
+            this.currentElement = element;
+            this.currentCharName = this.selectedChar.name;
+            let charName = this.selectedChar;
+            charName = charName.name.toLowerCase();
+            let newSelectedChar = await import(`../../data/characters/${charName}_${this.currentElement}.json`);
+            this.selectedCharElement = newSelectedChar;
+            //Update Selected Character For Parents
+            this.$emit('update-selected-char', this.selectedCharElement);
+        },
+        CheckElement()
+        {
+            this.currentElement = this.selectedChar.element;
         }
     }
 }
 </script>
 
 <style scoped>
-    .abilities {
+    .elements {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 4fr 3fr;
         margin-top: 3.5rem;
         margin-bottom: 3rem;
     }
@@ -74,14 +88,14 @@ export default {
         text-transform: uppercase;
         margin-left: 1rem;
     }
-    .abilities-icons-holder {
+    .elements-icons-holder {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-right: 8rem;
         margin-left: 4rem;
         margin-top: 2rem;
     }
-    .passive-ability {
+    .element {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 1rem;
@@ -96,10 +110,10 @@ export default {
         min-height: 1px;
         background: #101520; 
     }
-    .passive-ability:nth-child(4n) > .line, .passive-ability:last-child > .line {
+    .element:nth-child(4n) > .line, .element:last-child > .line {
         display: none;
     }
-    .abilityIcon {
+    .elementIcon  {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -107,37 +121,38 @@ export default {
         min-width: 72px;
         border: #101520 1px solid;
         transition: 0.2s;
+        z-index: 0;
     }
-    .abilityIcon:hover, .active {
-        background: #101520; 
-    }
-    .abilityIcon.anemo:hover>img, .active.anemo>img {
+    .elementIcon.anemo:hover>img, .active.anemo>img {
         filter: invert(100%) sepia(22%) saturate(6010%) hue-rotate(78deg) brightness(99%) contrast(105%);
     }
-    .abilityIcon.geo:hover>img, .active.geo>img {
+    .elementIcon.geo:hover>img, .active.geo>img {
         filter: invert(81%) sepia(73%) saturate(4934%) hue-rotate(0deg) brightness(108%) contrast(103%);
     }
-    .abilityIcon.pyro:hover>img, .active.pyro>img {
+    .elementIcon.pyro:hover>img, .active.pyro>img {
         filter: invert(36%) sepia(35%) saturate(4266%) hue-rotate(343deg) brightness(110%) contrast(94%);
     }
-    .abilityIcon.hydro:hover>img, .active.hydro>img {
+    .elementIcon.hydro:hover>img, .active.hydro>img {
         filter: invert(73%) sepia(41%) saturate(6341%) hue-rotate(146deg) brightness(102%) contrast(101%);
     }
-    .abilityIcon.cryo:hover>img, .active.cryo>img {
+    .elementIcon.cryo:hover>img, .active.cryo>img {
         filter: invert(76%) sepia(32%) saturate(885%) hue-rotate(145deg) brightness(106%) contrast(99%);
     }
-    .abilityIcon.electro:hover>img, .active.electro>img {
+    .elementIcon.electro:hover>img, .active.electro>img {
         filter: invert(39%) sepia(71%) saturate(875%) hue-rotate(234deg) brightness(104%) contrast(103%);
     }
-    .abilityIcon.dendro:hover>img, .active.dendro>img {
+    .elementIcon.dendro:hover>img, .active.dendro>img {
         filter: invert(83%) sepia(22%) saturate(1533%) hue-rotate(25deg) brightness(109%) contrast(82%);
     }
-    .abilityIcon>img {
+    .elementIcon:hover, .active {
+        background: #101520; 
+    }
+    .elementIcon>img {
         width: 47px;
         height: 47px;
         filter: invert(5%) sepia(42%) saturate(802%) hue-rotate(183deg) brightness(97%) contrast(94%);
     }
-    .abilitiesInfo {
+    .elementsInfo {
         max-width: 30rem;
         margin-left: 4rem;
         margin-top: 1.5rem;
@@ -167,7 +182,7 @@ export default {
         font-size: 1rem;
         color: #101520;
     }
-    p >>> .ability-ref {
+    p >>> .element-ref {
         color: #ece6da;
     }
     p >>> span {
@@ -185,31 +200,52 @@ export default {
         margin-top: 0.6rem;
         color: #101520;
     }
-    .wish-art-display {
+    .elements-display>div {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
-    .wish-art {
-        width: 100%;
+    .elementGif {
+        width: 500px;
         height: auto;
-        animation: moving 8s linear infinite;
+        padding: 2px;
+        border: #101520 0.5rem solid;
+        margin: 0.25rem 0;
+        animation-name: fade-in-up;
+        animation-duration: 0.2s;
     }
-    @keyframes moving {
-        0% {transform: translateY(0px);}
-        25% {transform: translateY(-5px);}
-        50% {transform: translateY(5px);}
-        75% {transform: translateY(-5px);}
-        100% {transform: translateY(0px);}
+    .elementGif.anemo {
+        background: #38FFBD;
+    }
+    .elementGif.geo {
+        background: #FFCC00;
+    }
+    .elementGif.pyro {
+        background: #F84F38;
+    }
+    .elementGif.hydro {
+        background: #00CBEA;
+    }
+    .elementGif.cryo {
+        background: #4EF3FE;
+    }
+    .elementGif.electro {
+        background: #B15DFF;
     }
     @media only screen and (max-width: 599.98px) {
         section {
             min-width: 100%;
         }
-        .abilities {
+        .elements {
             grid-template-columns: 1fr;
             margin-top: 1rem;
-        }        .abilitiesInfo {
+        }
+        .elementGif {
+            margin-top: 2rem;
+            width: 280px;
+        }
+        .elementsInfo {
             max-width: 14rem;
             margin-left: 1rem;
         }
@@ -219,30 +255,30 @@ export default {
         p >>> h3 {
             font-size: 1.25rem;
         }
-        .abilityIcon {
+        .elementIcon {
             min-width: 56px;
             min-height: 56px;
         }
-        .abilityIcon>img {
+        .elementIcon>img {
             width: 32px;
             height: 32px;
         }
     }
 
     @media (min-width: 600px) and (max-width: 767.98px) {
-        .abilities {
+        .elements {
             grid-template-columns: 1fr;
         }
-        .abilityGif {
+        .elementGif {
             margin-top: 2rem;
         }
     }
 
     @media (min-width: 768px) and (max-width: 991.98px) {
-        .abilities {
+        .elements {
             grid-template-columns: 1fr;
         }
-        .abilityGif {
+        .elementGif {
             margin-top: 2rem;
         }
         h2 {
@@ -251,19 +287,22 @@ export default {
         p >>> h3 {
             font-size: 1.1rem;
         }
-        .abilityIcon {
+        .elementIcon {
             min-width: 64px;
             min-height: 64px;
         }
-        .abilityIcon>img {
+        .elementIcon>img {
             width: 36px;
             height: 36px;
         }
     }
 
     @media (min-width: 992px) and (max-width: 1299.98px) {
-        .abilityGif {
+        .elementGif {
             width: 380px;
+        }
+        h1 {
+            margin-left: 0;
         }
     }
 
