@@ -1,79 +1,92 @@
 <template>
-    <article v-if="canShow" class="container abilities">
-        <section>
-            <h1>Attack Abilities</h1>
-            <div class="abilities-icons-holder">
-                <a @click="selectAbility(0)" v-bind:class="{
-                    abilityIcon: true,
-                    active: currentAbility == 0,
-                    characterSelected: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }">
-                    <img :src="selectedChar.attackTalents.normalAttack.svg" alt="Ability Icon">
-                </a>
-                <div class="line">
-                    <div></div>
+    <div class="background">
+        <article v-if="canShow" class="container abilities">
+            <section>
+                <h1>Attack Abilities</h1>
+                <div class="abilities-icons-holder">
+                    <a @click="selectAbility(0)" v-bind:class="{
+                        abilityIcon: true,
+                        active: currentAbility == 0,
+                        characterSelected: true,
+                        pyro: selectedChar.element == 'Pyro',
+                        anemo: selectedChar.element == 'Anemo',
+                        geo: selectedChar.element == 'Geo',
+                        hydro: selectedChar.element == 'Hydro',
+                        cryo: selectedChar.element == 'Cryo',
+                        electro: selectedChar.element == 'Electro',
+                        dendro: selectedChar.element == 'Dendro'
+                    }">
+                        <img :src="selectedChar.attackTalents.normalAttack.svg" alt="Ability Icon">
+                    </a>
+                    <div class="line">
+                        <div></div>
+                    </div>
+                    <a @click="selectAbility(1)" v-bind:class="{
+                        abilityIcon: true,
+                        active: currentAbility == 1,
+                        characterSelected: true,
+                        pyro: selectedChar.element == 'Pyro',
+                        anemo: selectedChar.element == 'Anemo',
+                        geo: selectedChar.element == 'Geo',
+                        hydro: selectedChar.element == 'Hydro',
+                        cryo: selectedChar.element == 'Cryo',
+                        electro: selectedChar.element == 'Electro',
+                        dendro: selectedChar.element == 'Dendro'
+                    }">
+                        <img :src="selectedChar.attackTalents.skill.svg" alt="Ability Icon">
+                    </a>
+                    <div class="line">
+                        <div></div>
+                    </div>
+                    <a @click="selectAbility(2)" v-bind:class="{
+                        abilityIcon: true,
+                        active: currentAbility == 2,
+                        characterSelected: true,
+                        pyro: selectedChar.element == 'Pyro',
+                        anemo: selectedChar.element == 'Anemo',
+                        geo: selectedChar.element == 'Geo',
+                        hydro: selectedChar.element == 'Hydro',
+                        cryo: selectedChar.element == 'Cryo',
+                        electro: selectedChar.element == 'Electro',
+                        dendro: selectedChar.element == 'Dendro'
+                    }">
+                        <img :src="selectedChar.attackTalents.burst.svg" alt="Ability Icon">
+                    </a>
                 </div>
-                <a @click="selectAbility(1)" v-bind:class="{
-                    abilityIcon: true,
-                    active: currentAbility == 1,
-                    characterSelected: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }">
-                    <img :src="selectedChar.attackTalents.skill.svg" alt="Ability Icon">
-                </a>
-                <div class="line">
-                    <div></div>
+                <div>
+                    <div v-if="currentAbility==0" class="abilitiesInfo">
+                        <h2 >{{selectedChar.attackTalents.normalAttack.title}}</h2>
+                        <p v-html="selectedChar.attackTalents.normalAttack.info"></p>
+                    </div>
                 </div>
-                <a @click="selectAbility(2)" v-bind:class="{
-                    abilityIcon: true,
-                    active: currentAbility == 2,
-                    characterSelected: true,
-                    pyro: selectedChar.element == 'Pyro',
-                    anemo: selectedChar.element == 'Anemo',
-                    geo: selectedChar.element == 'Geo',
-                    hydro: selectedChar.element == 'Hydro',
-                    cryo: selectedChar.element == 'Cryo',
-                    electro: selectedChar.element == 'Electro',
-                    dendro: selectedChar.element == 'Dendro'
-                }">
-                    <img :src="selectedChar.attackTalents.burst.svg" alt="Ability Icon">
-                </a>
-            </div>
-            <div>
-                <div v-if="currentAbility==0" class="abilitiesInfo">
-                    <h2 >{{selectedChar.attackTalents.normalAttack.title}}</h2>
-                    <p v-html="selectedChar.attackTalents.normalAttack.info"></p>
+                <div>
+                    <div v-if="currentAbility==1" class="abilitiesInfo">
+                        <h2>{{selectedChar.attackTalents.skill.title}}</h2>
+                        <p v-html="selectedChar.attackTalents.skill.info"></p>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div v-if="currentAbility==1" class="abilitiesInfo">
-                    <h2>{{selectedChar.attackTalents.skill.title}}</h2>
-                    <p v-html="selectedChar.attackTalents.skill.info"></p>
+                <div>
+                    <div v-if="currentAbility==2" class="abilitiesInfo">
+                        <h2>{{selectedChar.attackTalents.burst.title}}</h2>
+                        <p v-html="selectedChar.attackTalents.burst.info"></p>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div v-if="currentAbility==2" class="abilitiesInfo">
-                    <h2>{{selectedChar.attackTalents.burst.title}}</h2>
-                    <p v-html="selectedChar.attackTalents.burst.info"></p>
+            </section>
+            <section class="abilities-display">
+                <div v-if="currentAbility==0">
+                        <img v-for="gif in selectedChar.attackTalents.normalAttack.gifs" :key="gif.id" :src="gif" v-bind:class="{
+                        abilityGif: true,
+                        pyro: selectedChar.element == 'Pyro',
+                        anemo: selectedChar.element == 'Anemo',
+                        geo: selectedChar.element == 'Geo',
+                        hydro: selectedChar.element == 'Hydro',
+                        cryo: selectedChar.element == 'Cryo',
+                        electro: selectedChar.element == 'Electro',
+                        dendro: selectedChar.element == 'Dendro'
+                    }" alt="Abilities Gif Showcase">
                 </div>
-            </div>
-        </section>
-        <section class="abilities-display">
-            <div v-if="currentAbility==0">
-                    <img v-for="gif in selectedChar.attackTalents.normalAttack.gifs" :key="gif.id" :src="gif" v-bind:class="{
+                <div v-if="currentAbility==1">
+                    <img v-for="gif in selectedChar.attackTalents.skill.gifs" :key="gif.id" :src="gif" v-bind:class="{
                     abilityGif: true,
                     pyro: selectedChar.element == 'Pyro',
                     anemo: selectedChar.element == 'Anemo',
@@ -83,33 +96,22 @@
                     electro: selectedChar.element == 'Electro',
                     dendro: selectedChar.element == 'Dendro'
                 }" alt="Abilities Gif Showcase">
-            </div>
-            <div v-if="currentAbility==1">
-                <img v-for="gif in selectedChar.attackTalents.skill.gifs" :key="gif.id" :src="gif" v-bind:class="{
-                abilityGif: true,
-                pyro: selectedChar.element == 'Pyro',
-                anemo: selectedChar.element == 'Anemo',
-                geo: selectedChar.element == 'Geo',
-                hydro: selectedChar.element == 'Hydro',
-                cryo: selectedChar.element == 'Cryo',
-                electro: selectedChar.element == 'Electro',
-                dendro: selectedChar.element == 'Dendro'
-            }" alt="Abilities Gif Showcase">
-            </div>
-            <div v-if="currentAbility==2">
-                <img v-for="gif in selectedChar.attackTalents.burst.gifs" :key="gif.id" :src="gif" v-bind:class="{
-                abilityGif: true,
-                pyro: selectedChar.element == 'Pyro',
-                anemo: selectedChar.element == 'Anemo',
-                geo: selectedChar.element == 'Geo',
-                hydro: selectedChar.element == 'Hydro',
-                cryo: selectedChar.element == 'Cryo',
-                electro: selectedChar.element == 'Electro',
-                dendro: selectedChar.element == 'Dendro'
-            }" alt="Abilities Gif Showcase">
-            </div>
-        </section>
-    </article>
+                </div>
+                <div v-if="currentAbility==2">
+                    <img v-for="gif in selectedChar.attackTalents.burst.gifs" :key="gif.id" :src="gif" v-bind:class="{
+                    abilityGif: true,
+                    pyro: selectedChar.element == 'Pyro',
+                    anemo: selectedChar.element == 'Anemo',
+                    geo: selectedChar.element == 'Geo',
+                    hydro: selectedChar.element == 'Hydro',
+                    cryo: selectedChar.element == 'Cryo',
+                    electro: selectedChar.element == 'Electro',
+                    dendro: selectedChar.element == 'Dendro'
+                }" alt="Abilities Gif Showcase">
+                </div>
+            </section>
+        </article>
+    </div>
 </template>
 
 <script>
@@ -141,8 +143,7 @@ export default {
     .abilities {
         display: grid;
         grid-template-columns: 4fr 3fr;
-        margin-top: 3.5rem;
-        margin-bottom: 3rem;
+        padding-top: 3.5rem;
     }
     h1 {
         font-family: 'Big Shoulders Display';

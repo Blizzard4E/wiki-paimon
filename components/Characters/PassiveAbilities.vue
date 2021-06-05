@@ -63,8 +63,8 @@ export default {
     .abilities {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: 3.5rem;
-        margin-bottom: 3rem;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
     }
     h1 {
         font-family: 'Big Shoulders Display';

@@ -1,9 +1,9 @@
 <template>
     <main>
-        <section class="background">
+        <section>
             <CharacterSelection v-bind:selectedChar="character" @update-selected-char='updateSelectedChar'></CharacterSelection>
         </section>
-        <section>
+        <section class="background">
             <div v-show="character.name=='Aether' || character.name=='Lumine'">
                 <ElementSelection v-bind:selectedChar="character" @update-selected-char='updateSelectedChar'></ElementSelection>
             </div>
@@ -42,6 +42,6 @@ export default {
 
 <style scoped>
     .background {
-        background: #101520;
+        background: #ece6da;
     }
 </style>

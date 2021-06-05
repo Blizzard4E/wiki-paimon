@@ -77,8 +77,7 @@ export default {
     .elements {
         display: grid;
         grid-template-columns: 4fr 3fr;
-        margin-top: 3.5rem;
-        margin-bottom: 3rem;
+        padding-top: 3.5rem;
     }
     h1 {
         font-family: 'Big Shoulders Display';
