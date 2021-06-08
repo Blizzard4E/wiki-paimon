@@ -7,35 +7,55 @@
                     <h2>Talent Books</h2>
                     <div>
                         <a v-for="book in talentBooks.Monday_Thursday_Sunday" :key="book.id" class="item-holder">
-                            <img class="green" :src="book.variety[0]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="green" :src="book.variety[0]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="blue" :src="book.variety[1]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="blue" :src="book.variety[1]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="purple" :src="book.variety[2]">
+                            <div class="mat">
+                                <img class="purple" :src="book.variety[2]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </section>
                 <section>
-                    <h2>Weapon Ascension Materials</h2>
+                    <h2>Weapon Ascension</h2>
                     <div>
                         <a v-for="mat in weaponMats.Monday_Thursday_Sunday" :key="mat.id" class="item-holder">
-                            <img class="green" :src="mat.variety[0]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="green" :src="mat.variety[0]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="blue" :src="mat.variety[1]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="blue" :src="mat.variety[1]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="purple" :src="mat.variety[2]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="purple" :src="mat.variety[2]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="gold" :src="mat.variety[3]">
+                            <div class="mat">
+                                <img class="gold" :src="mat.variety[3]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </section>
@@ -46,35 +66,55 @@
                     <h2>Talent Books</h2>
                     <div>
                         <a v-for="book in talentBooks.Tuesday_Friday_Sunday" :key="book.id" class="item-holder">
-                            <img class="green" :src="book.variety[0]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="green" :src="book.variety[0]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="blue" :src="book.variety[1]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="blue" :src="book.variety[1]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="purple" :src="book.variety[2]">
+                            <div class="mat">
+                                <img class="purple" :src="book.variety[2]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </section>
                 <section>
-                    <h2>Weapon Ascension Materials</h2>
+                    <h2>Weapon Ascension</h2>
                     <div>
                         <a v-for="mat in weaponMats.Tuesday_Friday_Sunday" :key="mat.id" class="item-holder">
-                            <img class="green" :src="mat.variety[0]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="green" :src="mat.variety[0]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="blue" :src="mat.variety[1]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="blue" :src="mat.variety[1]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="purple" :src="mat.variety[2]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="purple" :src="mat.variety[2]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="gold" :src="mat.variety[3]">
+                            <div class="mat">
+                                <img class="gold" :src="mat.variety[3]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </section>
@@ -85,35 +125,55 @@
                     <h2>Talent Books</h2>
                     <div>
                         <a v-for="book in talentBooks.Wednesday_Saturday_Sunday" :key="book.id" class="item-holder">
-                            <img class="green" :src="book.variety[0]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="green" :src="book.variety[0]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="blue" :src="book.variety[1]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="blue" :src="book.variety[1]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="purple" :src="book.variety[2]">
+                            <div class="mat">
+                                <img class="purple" :src="book.variety[2]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </section>
                 <section>
-                    <h2>Weapon Ascension Materials</h2>
+                    <h2>Weapon Ascension</h2>
                     <div>
                         <a v-for="mat in weaponMats.Wednesday_Saturday_Sunday" :key="mat.id" class="item-holder">
-                            <img class="green" :src="mat.variety[0]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="green" :src="mat.variety[0]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="blue" :src="mat.variety[1]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="blue" :src="mat.variety[1]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="purple" :src="mat.variety[2]">
-                            <div class="line">
-                                <div></div>
+                            <div class="mat">
+                                <img class="purple" :src="mat.variety[2]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
                             </div>
-                            <img class="gold" :src="mat.variety[3]">
+                            <div class="mat">
+                                <img class="gold" :src="mat.variety[3]">
+                                <div class="line">
+                                    <div></div>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </section>
@@ -141,6 +201,11 @@ export default {
 </script>
 
 <style scoped>
+    .mat {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 1rem;
+    }
     .green {
         background: #38FFBD;
     }
@@ -158,8 +223,8 @@ export default {
     }
     .item-holder {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        margin: 1rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 1rem;
     }
     .line {
         display: flex;
@@ -170,6 +235,9 @@ export default {
         min-width: 100%;
         min-height: 2px;
         background: #101520; 
+    }
+    .mat:nth-child(4n) > .line, .mat:last-child > .line {
+        display: none;
     }
     a {
         display: block;
@@ -224,7 +292,7 @@ export default {
         }
         section {
             flex-wrap: wrap;
-            margin-left: 1rem;
+            margin-left: 2rem;
         }
     }
 
