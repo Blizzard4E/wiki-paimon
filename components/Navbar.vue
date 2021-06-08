@@ -45,7 +45,7 @@
 export default {
     data() {
         return {
-            currentTab: 1
+            currentTab: 0
         }
     },
     methods: {
@@ -58,7 +58,7 @@ export default {
     },
     mounted()
     {
-        this.selectTab(1);
+        this.selectTab(0);
     }
 }
 </script>
@@ -120,11 +120,15 @@ export default {
         };
     }
     @media only screen and (max-width: 599.98px) {
+        a {
+            padding: 0.5rem;
+        }
         a > img {
             width: 24px;
         }
         header {
             display: block;
+            padding: 1rem 0;
         }
         h1 {
             font-size: 2rem;
@@ -142,11 +146,15 @@ export default {
     }
 
     @media (min-width: 600px) and (max-width: 767.98px) {
+        a {
+            padding: 0.5rem;
+        }
         a > img {
             width: 24px;
         }
         header {
             display: block;
+            padding: 1rem 0;
         }
         h1 {
             font-size: 2rem;

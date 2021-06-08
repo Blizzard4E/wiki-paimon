@@ -1,0 +1,62 @@
+{
+    "Monday_Thursday_Sunday": [
+        {
+            "name": "Decarabian",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032165/Wiki%20Paimon/Weapon%20Materials/Item_Tile_of_Decarabian_27s_Tower_lnb9vg.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Debris_of_Decarabian_27s_City_q5ymcs.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Fragment_of_Decarabian_27s_Epic_rpksyp.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Scattered_Piece_of_Decarabian_27s_Dream_nnkhdp.png"
+            ]
+        },
+        {
+            "name": "Luminous",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Luminous_Sands_from_Guyun_ulwacp.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Lustrous_Stone_from_Guyun_ebi8jl.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Relic_from_Guyun_b9mpoe.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Divine_Body_from_Guyun_sxtmdf.png"
+            ]
+        }
+    ],
+    "Tuesday_Friday_Sunday": [
+        {
+            "name": "Boreal Wolf",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032162/Wiki%20Paimon/Weapon%20Materials/Item_Boreal_Wolf_27s_Milk_Tooth_tsciuy.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032162/Wiki%20Paimon/Weapon%20Materials/Item_Boreal_Wolf_27s_Cracked_Tooth_peju0j.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032162/Wiki%20Paimon/Weapon%20Materials/Item_Boreal_Wolf_27s_Broken_Fang_ecpqyy.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032162/Wiki%20Paimon/Weapon%20Materials/Item_Boreal_Wolf_27s_Nostalgia_tmg0zn.png"
+            ]
+        },
+        {
+            "name": "Mist Veiled",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Mist_Veiled_Lead_Elixir_uqpwhe.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Mist_Veiled_Mercury_Elixir_eqjfxa.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Mist_Veiled_Gold_Elixir_nmxz01.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Mist_Veiled_Primo_Elixir_sd6xyd.png"
+            ]
+        }
+    ],
+    "Wednesday_Saturday_Sunday": [
+        {
+            "name": "Dandelion Gladiator",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Fetters_of_the_Dandelion_Gladiator_thdd96.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032162/Wiki%20Paimon/Weapon%20Materials/Item_Chains_of_the_Dandelion_Gladiator_stq1ey.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032165/Wiki%20Paimon/Weapon%20Materials/Item_Shackles_of_the_Dandelion_Gladiator_zscvjw.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Dream_of_the_Dandelion_Gladiator_v1yvd1.png"
+            ]
+        },
+        {
+            "name": "Aerosiderite",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Grain_of_Aerosiderite_etedf3.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Piece_of_Aerosiderite_b5wutw.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032162/Wiki%20Paimon/Weapon%20Materials/Item_Bit_of_Aerosiderite_mhdyod.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Chunk_of_Aerosiderite_i67rmo.png"
+            ]
+        }
+    ]
+}

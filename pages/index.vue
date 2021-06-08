@@ -1,18 +1,21 @@
 <template>
-  <div>
-      <Navbar @update-selected-tab='updateSelectedTab'></Navbar>
-      <Characters v-if="tab==1"></Characters>
-  </div>
+    <div>
+        <Navbar @update-selected-tab='updateSelectedTab'></Navbar>
+        <Daily v-if="tab==0"></Daily>
+        <Characters v-if="tab==1"></Characters>
+    </div>
 </template>
 
 <script>
 import Characters from '../components/Characters'
 import Navbar from '../components/Navbar'
+import Daily from '../components/Daily'
 
 export default {
     components: {
         Characters,
-        Navbar
+        Navbar,
+        Daily
     },
     data() {
         return {

@@ -1,0 +1,56 @@
+{
+    "Monday_Thursday_Sunday": [
+        {
+            "name": "Freedom",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955243/Wiki%20Paimon/Talent%20Materials/Item_Teachings_of_Freedom_pawx8l.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Guide_to_Freedom_z3twow.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Philosophies_of_Freedom_pqrdeu.png"
+            ]
+        },
+        {
+            "name": "Prosperity",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955243/Wiki%20Paimon/Talent%20Materials/Item_Teachings_of_Prosperity_grre3m.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Guide_to_Prosperity_bkhhuk.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Philosophies_of_Prosperity_dhxnrr.png"
+            ]
+        }
+    ],
+    "Tuesday_Friday_Sunday": [
+        {
+            "name": "Resistance",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955244/Wiki%20Paimon/Talent%20Materials/Item_Teachings_of_Resistance_a371w8.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Guide_to_Resistance_krrlhi.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955243/Wiki%20Paimon/Talent%20Materials/Item_Philosophies_of_Resistance_ctbbcq.png"
+            ]
+        },
+        {
+            "name": "Diligence",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955243/Wiki%20Paimon/Talent%20Materials/Item_Teachings_of_Diligence_gob6bg.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Guide_to_Diligence_gqc5zo.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Philosophies_of_Diligence_drv12h.png"
+            ]
+        }
+    ],
+    "Wednesday_Saturday_Sunday": [
+        {
+            "name": "Ballad",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955243/Wiki%20Paimon/Talent%20Materials/Item_Teachings_of_Ballad_u8pgjd.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Guide_to_Ballad_jgjz2d.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Philosophies_of_Ballad_ygck69.png"
+            ]
+        },
+        {
+            "name": "Gold",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955243/Wiki%20Paimon/Talent%20Materials/Item_Teachings_of_Gold_y7fgsy.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Guide_to_Gold_uscwit.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1622955242/Wiki%20Paimon/Talent%20Materials/Item_Philosophies_of_Gold_c9c9hx.png"
+            ]
+        }
+    ]
+}
