@@ -233,7 +233,7 @@ export default {
     }
     .line>div {
         min-width: 100%;
-        min-height: 2px;
+        min-height: 1px;
         background: #101520; 
     }
     .mat:nth-child(4n) > .line, .mat:last-child > .line {
@@ -255,7 +255,7 @@ export default {
         align-items: center;
     }
     img {
-        border: #101520 solid 2px;
+        border: #101520 solid 1px;
         width: 64px;
         height: auto;
         image-rendering:-moz-crisp-edges;          /* Firefox        */
