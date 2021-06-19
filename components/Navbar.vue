@@ -58,7 +58,7 @@ export default {
     },
     mounted()
     {
-        this.selectTab(2);
+        this.selectTab(1);
     }
 }
 </script>
