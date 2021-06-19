@@ -197,7 +197,9 @@ export default {
     }
 
     @media (min-width: 992px) and (max-width: 1199.98px) {
-
+        img {
+            height: 400px;
+        }
     }
 
     @media only screen and (min-width: 1200px) {
