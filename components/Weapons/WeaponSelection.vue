@@ -64,7 +64,7 @@ export default {
     mounted() {
         this.weaponsList = weaponsList;
         this.GetWeapons();
-        this.SelectWeapon('Cool Steel');
+        this.SelectWeapon('Amos\' Bow');
     }
 }
 </script>
@@ -148,5 +148,45 @@ export default {
     }
     li:hover > div > img, .active > div > img{
         transform: scale(1.3);
+    }
+    @media only screen and (max-width: 599.98px) {
+        ul {
+            grid-template-columns: 1fr;
+        }
+        h1 {
+            padding-top: 1rem;
+            padding-bottom: 0rem;
+            font-size: 3rem;
+        }
+    }
+
+    @media (min-width: 600px) and (max-width: 767.98px) {
+        ul {
+            grid-template-columns: 1fr;
+        }
+        h1 {
+            padding-top: 1rem;
+            padding-bottom: 0rem;
+            font-size: 3rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        ul {
+            grid-template-columns: 1fr 1fr;
+        }
+        h1 {
+            padding-top: 1rem;
+            padding-bottom: 0rem;
+            font-size: 3.1rem;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    }
+
+    @media only screen and (min-width: 1200px) {
+
     }
 </style>

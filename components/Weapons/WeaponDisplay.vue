@@ -130,4 +130,77 @@ export default {
         75% {transform: translateY(-6px);}
         100% {transform: translateY(0px);}
     }
+
+    @media only screen and (max-width: 599.98px) {
+        .weapon-display {
+            grid-template-columns: 1fr;
+        }
+        img {
+            height: 240px;
+        }
+        .weapon-stats {
+            margin: 1rem;
+        }
+        .weapon-name {
+            font-size: 2rem;
+            margin: 0.5rem;
+        }
+        .weapon-stat {
+            font-size: 1.8rem;
+            margin: 0.5rem;
+        }
+        .weapon-effect-name {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.25rem;
+        }
+        .weapon-effect-info {
+            margin: 1 0.5rem;
+        }
+    }
+
+    @media (min-width: 600px) and (max-width: 767.98px) {
+        .weapon-display {
+            grid-template-columns: 1fr;
+        }
+        img {
+            height: 260px;
+        }
+        .weapon-stats {
+            margin: 1rem;
+        }
+        .weapon-name {
+            font-size: 2rem;
+            margin: 0.5rem;
+        }
+        .weapon-stat {
+            font-size: 1.8rem;
+            margin: 0.5rem;
+        }
+        .weapon-effect-name {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.25rem;
+        }
+        .weapon-effect-info {
+            margin: 1 0.5rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .weapon-display {
+            grid-template-columns: 1fr 1fr;
+        }
+        img {
+            height: 360px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    }
+
+    @media only screen and (min-width: 1200px) {
+
+    }
 </style>
