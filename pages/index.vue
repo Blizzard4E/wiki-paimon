@@ -3,6 +3,7 @@
         <Navbar @update-selected-tab='updateSelectedTab'></Navbar>
         <Daily v-if="tab==0"></Daily>
         <Characters v-if="tab==1"></Characters>
+        <Weapons v-if="tab==2"></Weapons>
     </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Characters from '../components/Characters'
 import Navbar from '../components/Navbar'
 import Daily from '../components/Daily'
+import Weapons from '../components/Weapons'
 
 export default {
     components: {
         Characters,
         Navbar,
-        Daily
+        Daily,
+        Weapons
     },
     data() {
         return {

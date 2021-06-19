@@ -1,0 +1,2060 @@
+[
+    {
+        "name": "Cool Steel",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765705/Wiki%20Paimon/Weapons/Swords/Weapon_Cool_Steel_2nd_xblmzj.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765706/Wiki%20Paimon/Weapons/Swords/Weapon_Cool_Steel_2nd_3D_zntde4.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401" 
+        ],
+        "baseStat": [
+            "7.7%",
+            "35.2%",
+            "ATK"
+        ],
+        "passive": [
+            "Bane of Water and Ice",
+            "Increases DMG against opponents affected by Hydro or Cryo by 12-24%."
+        ]
+    },
+    {
+        "name": "Aquila Favonia",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765703/Wiki%20Paimon/Weapons/Swords/Weapon_Aquila_Favonia_2nd_bogk8f.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765703/Wiki%20Paimon/Weapons/Swords/Weapon_Aquila_Favonia_2nd_3D_dcoilh.png"
+        ],
+        "baseAtk": [
+            "48",
+            "674" 
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "Phys DMG Bonus"
+        ],
+        "passive": [
+            "Falcon's Defiance",
+            "ATK is increased by 20-40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 100-160% of ATK and dealing 200-320% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
+        ]
+    },
+    {
+        "name": "Dark Iron Sword",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765705/Wiki%20Paimon/Weapons/Swords/Weapon_Dark_Iron_Sword_2nd_tl785y.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765706/Wiki%20Paimon/Weapons/Swords/Weapon_Dark_Iron_Sword_2nd_3D_t1txwk.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401" 
+        ],
+        "baseStat": [
+            "31",
+            "141",
+            "EM"
+        ],
+        "passive": [
+            "Overloaded",
+            "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by 20-40% for 12s."
+        ]
+    },
+    {
+        "name": "Fillet Blade",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765707/Wiki%20Paimon/Weapons/Swords/Weapon_Fillet_Blade_2nd_mash9c.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765707/Wiki%20Paimon/Weapons/Swords/Weapon_Fillet_Blade_2nd_3D_xeizm3.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401" 
+        ],
+        "baseStat": [
+            "7.7%",
+            "35.2%",
+            "ATK"
+        ],
+        "passive": [
+            "Gash",
+            "On hit, has 50% chance to deal 240-400% ATK DMG to a single enemy. Can only occur once every 15-11s."
+        ]
+    },
+    {
+        "name": "Harbinger of Dawn",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765707/Wiki%20Paimon/Weapons/Swords/Weapon_Harbinger_of_Dawn_2nd_zyby9l.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765708/Wiki%20Paimon/Weapons/Swords/Weapon_Harbinger_Of_Dawn_2nd_3D_p6rfpy.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401" 
+        ],
+        "baseStat": [
+            "10.2%",
+            "46.9%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Vigorous",
+            "When HP is above 90%, increases CRIT Rate by 14-28%."
+        ]
+    },
+    {
+        "name": "Skyrider Sword",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765709/Wiki%20Paimon/Weapons/Swords/Weapon_Skyrider_Sword_2nd_yt4m1t.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765709/Wiki%20Paimon/Weapons/Swords/Weapon_Skyrider_Sword_2nd_3D_hnn6wo.png"
+        ],
+        "baseAtk": [
+            "38",
+            "354" 
+        ],
+        "baseStat": [
+            "11.3%",
+            "51.7%",
+            "ER"
+        ],
+        "passive": [
+            "Determination",
+            "Using an Elemental Burst grants a 12-24% increase in ATK and Movement SPD for 15s."
+        ]
+    },
+    {
+        "name": "Traveler's Handy Sword",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765711/Wiki%20Paimon/Weapons/Swords/Weapon_Traveler_27s_Handy_Sword_2nd_jhrty3.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765712/Wiki%20Paimon/Weapons/Swords/Weapon_Traveler_27s_Handy_Sword_2nd_3D_ieux00.png"
+        ],
+        "baseAtk": [
+            "40",
+            "448" 
+        ],
+        "baseStat": [
+            "6.4%",
+            "27.5%",
+            "DEF"
+        ],
+        "passive": [
+            "Journey",
+            "Each Elemental Orb or Particle collected restores 1-2% HP."
+        ]
+    },
+    {
+        "name": "Blackcliff Longsword",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765706/Wiki%20Paimon/Weapons/Swords/Weapon_Blackcliff_Longsword_2nd_rb6svr.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765705/Wiki%20Paimon/Weapons/Swords/Weapon_Blackcliff_Longsword_2nd_3D_e91a4k.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565" 
+        ],
+        "baseStat": [
+            "8%",
+            "36.8%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Press the Advantage",
+            "After defeating an opponent, ATK is increased by 12-24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
+        ]
+    },
+    {
+        "name": "Favonius Sword",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765706/Wiki%20Paimon/Weapons/Swords/Weapon_Favonius_Sword_2nd_qnzmhr.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765704/Wiki%20Paimon/Weapons/Swords/Favonius_Sword_A2_3D_caxucp.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454" 
+        ],
+        "baseStat": [
+            "13.3%",
+            "61.3%",
+            "ER"
+        ],
+        "passive": [
+            "Windfall",
+            "CRIT hits have a 60-100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12-6s."
+        ]
+    },
+    {
+        "name": "Festering Desire",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765707/Wiki%20Paimon/Weapons/Swords/Weapon_Festering_Desire_2nd_gmnkb6.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765707/Wiki%20Paimon/Weapons/Swords/Weapon_Festering_Desire_2nd_3D_o3usys.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510" 
+        ],
+        "baseStat": [
+            "10.0%",
+            "45.9%",
+            "ER"
+        ],
+        "passive": [
+            "Undying Admiration",
+            "Increases Elemental Skill DMG by 16-32% and Elemental Skill CRIT Rate by 6-12%."
+        ]
+    },
+    {
+        "name": "Iron Sting",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765707/Wiki%20Paimon/Weapons/Swords/Weapon_Iron_Sting_2nd_ixjd7c.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765708/Wiki%20Paimon/Weapons/Swords/Weapon_Iron_Sting_2nd_3D_pg8v0p.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510" 
+        ],
+        "baseStat": [
+            "36",
+            "165",
+            "EM"
+        ],
+        "passive": [
+            "Infusion Stinger",
+            "Dealing Elemental DMG increases all DMG by 6-12% for 6s. Max 2 stacks. Can only occur once every 1s."
+        ]
+    },
+    {
+        "name": "Lion's Roar",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765708/Wiki%20Paimon/Weapons/Swords/Weapon_Lion_27s_Roar_2nd_yke1qa.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765708/Wiki%20Paimon/Weapons/Swords/Weapon_Lion_27s_Roar_2nd_3D_zogx7z.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510" 
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Bane of Fire and Thunder",
+            "Increases DMG against enemies affected by Pyro or Electro by 20-36%."
+        ]
+    },
+    {
+        "name": "Prototype Rancour",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765708/Wiki%20Paimon/Weapons/Swords/Weapon_Prototype_Rancour_2nd_ghwkhn.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765705/Wiki%20Paimon/Weapons/Swords/Prototype_Rancour__28Ascension_29_3D_m0ovxg.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565" 
+        ],
+        "baseStat": [
+            "7.5%",
+            "34.5%",
+            "Physical DMG Bonus"
+        ],
+        "passive": [
+            "Smashed Stone",
+            "On hit, Normal or Charged Attacks increase ATK and DEF by 4-8% for 6s. Max 4 stacks. Can only occur once every 0.3s."
+        ]
+    },
+    {
+        "name": "Royal Longsword",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765709/Wiki%20Paimon/Weapons/Swords/Weapon_Royal_Longsword_2nd_brtbli.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765709/Wiki%20Paimon/Weapons/Swords/Weapon_Royal_Longsword_3D_2nd_qgh8g6.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Focus",
+            "Upon dealing damage to an opponent, increases CRIT Rate by 8-16%. Max 5 stacks. A CRIT hit removes all existing stacks."
+        ]
+    },
+    {
+        "name": "Sacrificial Sword",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765709/Wiki%20Paimon/Weapons/Swords/Weapon_Sacrificial_Sword_2nd_wub2ql.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765705/Wiki%20Paimon/Weapons/Swords/Sacrificial_Sword__282nd_Ascension_29.jpg_mfphb2.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "13.3%",
+            "61.3%",
+            "ER"
+        ],
+        "passive": [
+            "Composed",
+            "After dealing damage to an opponent with an Elemental Skill, the skill has a 40-80% chance to end its own CD. Can only occur once every 30-16s."
+        ]
+    },
+    {
+        "name": "Sword of Descension",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765710/Wiki%20Paimon/Weapons/Swords/Weapon_Sword_of_Descension_2nd_mnjs1j.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765715/Wiki%20Paimon/Weapons/Swords/Weapon_Sword_of_Descension_2nd_3D.jpg_biqzbf.png"
+        ],
+        "baseAtk": [
+            "39",
+            "440"
+        ],
+        "baseStat": [
+            "7.7%",
+            "35.2%",
+            "ATK"
+        ],
+        "passive": [
+            "Descension",
+            "Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66."
+        ]
+    },
+    {
+        "name": "The Alley Flash",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765710/Wiki%20Paimon/Weapons/Swords/Weapon_The_Alley_Flash_2nd_mtorww.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765711/Wiki%20Paimon/Weapons/Swords/Weapon_The_Alley_Flash_Full_slaust.png"
+        ],
+        "baseAtk": [
+            "45",
+            "620"
+        ],
+        "baseStat": [
+            "12",
+            "55",
+            "EM"
+        ],
+        "passive": [
+            "Itinerant Hero",
+            "Increases DMG dealt by the character equipping this weapon by 12-24%. Taking DMG disables this effect for 5s."
+        ]
+    },
+    {
+        "name": "The Black Sword",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765711/Wiki%20Paimon/Weapons/Swords/Weapon_The_Black_Sword_2nd_pgeyc0.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765711/Wiki%20Paimon/Weapons/Swords/Weapon_The_Black_Sword_2nd_3D_urnqid.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Justice",
+            "Increases DMG dealt by Normal and Charged Attacks by 20-40%.Additionally, regenerates 60-100% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s."
+        ]
+    },
+    {
+        "name": "The Flute",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765711/Wiki%20Paimon/Weapons/Swords/Weapon_The_Flute_2nd_rbty3u.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765706/Wiki%20Paimon/Weapons/Swords/Flute_2nd_Ascension_3D_gu3ik8.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Chord",
+            "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals 100-200% ATK DMG to surrounding enemies. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s."
+        ]
+    },
+    {
+        "name": "Primordial Jade Cutter",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765709/Wiki%20Paimon/Weapons/Swords/Weapon_Skyrider_Sword_2nd_yt4m1t.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765709/Wiki%20Paimon/Weapons/Swords/Weapon_Primordial_Jade_Cutter_2nd_3D_tmx7ou.png"
+        ],
+        "baseAtk": [
+            "44",
+            "542"
+        ],
+        "baseStat": [
+            "9.6%",
+            "44.1%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Protector's Virtue",
+            "HP increased by 20-40%. Additionally, provides an ATK Bonus based on 1.2-2.4% of the wielder's Max HP."
+        ]
+    },
+    {
+        "name": "Skyward Blade",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765710/Wiki%20Paimon/Weapons/Swords/Weapon_Skyward_Blade_2nd_du8ab3.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765710/Wiki%20Paimon/Weapons/Swords/Weapon_Skyward_Blade_2nd_3D_su3vey.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "ER"
+        ],
+        "passive": [
+            "Sky-Piercing Fang",
+            "Crit Rate increased by 4-8%. Gains Skypiercing Might upon using Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and Normal and Charged hits deal additional DMG equal to 20-40% of ATK. Skypiercing Might lasts for 12s."
+        ]
+    },
+    {
+        "name": "Summit Shaper",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765710/Wiki%20Paimon/Weapons/Swords/Weapon_Summit_Shaper_2nd_ggq1at.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1623765710/Wiki%20Paimon/Weapons/Swords/Weapon_Summit_Shaper_2nd_3D_ihqbj3.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "10.8%",
+            "49.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Golden Majesty",
+            "Increases Shield Strength by 20-40%. Scoring hits on opponents increases ATK by 4-8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+        ]
+    },
+    {
+        "name": "Black Tassel",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003913/Wiki%20Paimon/Weapons/Polearms/Weapon_Black_Tassel_2nd_hkdmhc.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003913/Wiki%20Paimon/Weapons/Polearms/Weapon_Black_Tassel_2nd_3D_uhsggu.png"
+        ],
+        "baseAtk": [
+            "38",
+            "354"
+        ],
+        "baseStat": [
+            "10.2%",
+            "46.9%",
+            "HP"
+        ],
+        "passive": [
+            "Bane of the Soft",
+            "Increases DMG against slimes by 40-80%."
+        ]
+    },
+    {
+        "name": "White Tassel",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_White_Tassel_2nd_mqv6ae.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_White_Tassel_2nd_3D_jsjhpg.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401"
+        ],
+        "baseStat": [
+            "5.1%",
+            "23.4%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Sharp",
+            "Increases Normal Attack DMG by 24-48%."
+        ]
+    },
+    {
+        "name": "Halberd",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003915/Wiki%20Paimon/Weapons/Polearms/Weapon_Halberd_2nd_n7hjlo.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003915/Wiki%20Paimon/Weapons/Polearms/Weapon_Halberd_2nd_3D_i5riz6.png"
+        ],
+        "baseAtk": [
+            "40",
+            "448"
+        ],
+        "baseStat": [
+            "5.1%",
+            "23.4%",
+            "ATK"
+        ],
+        "passive": [
+            "Heavy",
+            "Normal Attacks deal an additional 160-320% DMG. Can only occur once every 10s."
+        ]
+    },
+    {
+        "name": "Lithic Spear",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003915/Wiki%20Paimon/Weapons/Polearms/Weapon_Halberd_2nd_n7hjlo.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003916/Wiki%20Paimon/Weapons/Polearms/Weapon_Lithic_Spear_2nd_3D_udragq.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Lithic Axiom - Unity",
+            "For every character in the party who hails from Liyue, the character who equips this weapon gains 7-11% ATK increase and a 3-7% CRIT Rate increase. This effect stacks up to 4 times."
+        ]
+    },
+    {
+        "name": "Dragonspine Spear",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003915/Wiki%20Paimon/Weapons/Polearms/Weapon_Dragonspine_Spear_2nd_ys3hh2.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003915/Wiki%20Paimon/Weapons/Polearms/Weapon_Dragonspine_Spear_2nd_3D_hr2tig.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "15%",
+            "69%",
+            "Physical DMG Bonus"
+        ],
+        "passive": [
+            "Frost Burial",
+            "Hitting an opponent with Normal and Charged Attacks has a 60-100% chance of forming and dropping an Everfrost Icicle above them, dealing 80-140% AoE ATK DMG. Opponents affected by Cryo are dealt 200-360% ATK DMG instead by the icicle. Can only occur once every 10s."
+        ]
+    },
+    {
+        "name": "Royal Spear",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003916/Wiki%20Paimon/Weapons/Polearms/Weapon_Royal_Spear_2nd_fyonqs.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_Royal_Spear_2nd_3D_t92qrl.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Focus",
+            "Upon dealing damage to an opponent, increases CRIT Rate by 8-16%. Max 5 stacks. A CRIT hit removes all existing stacks."
+        ]
+    },
+    {
+        "name": "Favonius Lance",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003916/Wiki%20Paimon/Weapons/Polearms/Weapon_Favonius_Lance_2nd_uizr62.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003916/Wiki%20Paimon/Weapons/Polearms/Weapon_Favonius_Lance_3D_2_oz1tpt.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "6.7%",
+            "30.6%",
+            "ER"
+        ],
+        "passive": [
+            "Windfall",
+            "CRIT hits have a 60-100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12-6s."
+        ]
+    },
+    {
+        "name": "Crescent Pike",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003914/Wiki%20Paimon/Weapons/Polearms/Weapon_Crescent_Pike_2nd_gvxroj.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003914/Wiki%20Paimon/Weapons/Polearms/Weapon_Crescent_Pike_3D_2nd_wjlecm.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "7.5%",
+            "34.5%",
+            "Physical DMG Bonus"
+        ],
+        "passive": [
+            "Infusion Needle",
+            "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal an additional 20-40% ATK as DMG for 5s."
+        ]
+    },
+    {
+        "name": "Prototype Starglitter",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_Prototype_Grudge_2nd_qgdcyk.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_Prototype_Grudge_2nd_3D_gdj8qm.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "10%",
+            "45.9%",
+            "ER"
+        ],
+        "passive": [
+            "Magic Affinity",
+            "After using an Elemental Skill, increases Normal and Charged Attack DMG by 8-16% for 12s. Max 2 stacks."
+        ]
+    },
+    {
+        "name": "Dragon's Bane",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003915/Wiki%20Paimon/Weapons/Polearms/Weapon_Dragon_27s_Bane_2nd_f19fgw.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003915/Wiki%20Paimon/Weapons/Polearms/Weapon_Dragon_27s_Bane_2nd_3D_aidlxs.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "48",
+            "221",
+            "EM"
+        ],
+        "passive": [
+            "Bane of Flame and Water",
+            "Increases DMG against opponents affected by Hydro or Pyro by 20-36%."
+        ]
+    },
+    {
+        "name": "Blackcliff Pole",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003913/Wiki%20Paimon/Weapons/Polearms/Weapon_Blackcliff_Pole_2nd_d07g0r.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003913/Wiki%20Paimon/Weapons/Polearms/Weapon_Blackcliff_Pole_2nd_3D_iqmpn9.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Press the Advantage",
+            "After defeating an opponent, ATK is increased by 12-24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
+        ]
+    },
+    {
+        "name": "Deathmatch",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003914/Wiki%20Paimon/Weapons/Polearms/Weapon_Deathmatch_2nd_kazill.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003914/Wiki%20Paimon/Weapons/Polearms/Deathmatch_A2_kqvgnb.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "8%",
+            "36.8%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Gladiator",
+            "If there are at least 2 opponents nearby, ATK is increased by 16-32% and DEF is increased by 16-32%. If there are fewer than 2 opponents nearby, ATK is increased by 24-48%."
+        ]
+    },
+    {
+        "name": "Staff of Homa",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_Staff_of_Homa_2nd_v25xyn.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_Staff_of_Homa_2nd_3D_prlxf7.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "14.4%",
+            "66.2%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Reckless Cinnabar",
+            "HP increased by 20-40%. Additionally, provides an ATK Bonus based on 0.8-1.6% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK bonus is increased by an additional 1-1.8% of Max HP."
+        ]
+    },
+    {
+        "name": "Vortex Vanquisher",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_Vortex_Vanquisher_2nd_k1iwnv.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_Vortex_Vanquisher_2nd_3D_gh80by.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "10.8%",
+            "49.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Golden Majesty",
+            "Increases Shield Strength by 20-40%. Scoring hits on opponents increases ATK by 4-8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+        ]
+    },
+    {
+        "name": "Skyward Spine",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003917/Wiki%20Paimon/Weapons/Polearms/Weapon_Skyward_Spine_2nd_hh8w3u.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003913/Wiki%20Paimon/Weapons/Polearms/Skyward_Spine_A2_kc7ddr.png"
+        ],
+        "baseAtk": [
+            "48",
+            "674"
+        ],
+        "baseStat": [
+            "8%",
+            "36.8%",
+            "ER"
+        ],
+        "passive": [
+            "Blackwing",
+            "Increases CRIT Rate by 8-16% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vaccuum blade that deals 40-100% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s."
+        ]
+    },
+    {
+        "name": "Primordial Jade Winged-Spear",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003916/Wiki%20Paimon/Weapons/Polearms/Weapon_Primordial_Jade_Winged-Spear_2nd_mrzj4h.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624003916/Wiki%20Paimon/Weapons/Polearms/Weapon_Primordial_Jade_Winged-Spear_2nd_3D_dd7w0d.png"
+        ],
+        "baseAtk": [
+            "48",
+            "674"
+        ],
+        "baseStat": [
+            "4.8%",
+            "22.1%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Eagle Spear of Justice",
+            "On hit, increases ATK by 3.2-6.0% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 12-24%."
+        ]
+    },
+    {
+        "name": "Lost Prayer to the Sacred Winds",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Lost_Prayer_to_the_Sacred_Winds_2nd_bc0yql.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Lost_Prayer_to_the_Sacred_Winds_2nd_bc0yql.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "7.2%",
+            "33.1%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Boundless Blessing",
+            "Increases Movement SPD by 10%. When in battle, gain an 8-16% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat."
+        ]
+    },
+    {
+        "name": "Memory of Dust",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Memory_of_Dust_2nd_c8ziss.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Memory_of_Dust_2nd_c8ziss.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "10.8%",
+            "49.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Golden Majesty",
+            "Increases Shield Strength by 20-40%. Scoring hits on opponents increases ATK by 4-8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+        ]
+    },
+    {
+        "name": "Skyward Atlas",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Skyward_Atlas_2nd_hwtw9r.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Skyward_Atlas_2nd_hwtw9r.png"
+        ],
+        "baseAtk": [
+            "48",
+            "674"
+        ],
+        "baseStat": [
+            "7.2%",
+            "33.1%",
+            "ATK"
+        ],
+        "passive": [
+            "Wandering Clouds",
+            "Increases Elemental DMG Bonus by 12-24%. Normal Attack hits have a 50% chance to earn the favor of the clouds. which actively seek out nearby opponents to attack for 15s, dealing 160-320% ATK DMG. Can only occur once every 30s."
+        ]
+    },
+    {
+        "name": "The Widsith",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_The_Widsith_2nd_h6ovkh.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_The_Widsith_2nd_h6ovkh.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Debut",
+            "When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s.Recitative: ATK is increased by 60-120%.Aria: Increases all Elemental DMG by 48-96%.Interlude: Elemental Mastery is increased by 240-480."
+        ]
+    },
+    {
+        "name": "Wine and Song",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023632/Wiki%20Paimon/Weapons/Catalyst/Weapon_Wine_and_Song_2nd_vxjsjb.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023632/Wiki%20Paimon/Weapons/Catalyst/Weapon_Wine_and_Song_2nd_vxjsjb.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "6.7%",
+            "30.6%",
+            "ER"
+        ],
+        "passive": [
+            "Ever-Changing",
+            "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate sprint by 14-22% for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by 20-40% for 5s."
+        ]
+    },
+    {
+        "name": "Frostbearer",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Frostbearer_2nd_zyue00.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Frostbearer_2nd_zyue00.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Frost Burial",
+            "Hitting an opponent with Normal and Charged Attacks has a 60-100% chance of forming and dropping an Everfrost Icicle above them, dealing 80-140% AoE ATK DMG. Opponents affected by Cryo are dealt 200-360% ATK DMG instead by the icicle. Can only occur once every 10s."
+        ]
+    },
+    {
+        "name": "Eye of Perception",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023628/Wiki%20Paimon/Weapons/Catalyst/Weapon_Eye_of_Perception_2nd_p6kd2a.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023628/Wiki%20Paimon/Weapons/Catalyst/Weapon_Eye_of_Perception_2nd_p6kd2a.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "ATK"
+        ],
+        "passive": [
+            "Echo",
+            "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 240-360% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 12-8s."
+        ]
+    },
+    {
+        "name": "Dodoco Tales",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Dodoco_Tales_2nd_vtxv5b.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Dodoco_Tales_2nd_vtxv5b.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "ATK"
+        ],
+        "passive": [
+            "Dodoventure!",
+            "Normal Attack hits on opponents increase Charged Attack DMG by 16-32% for 6s.Charged Attack hits on opponents increase ATK by 8-16% for 6s."
+        ]
+    },
+    {
+        "name": "Solar Pearl",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Solar_Pearl_2nd_ut5hyr.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Solar_Pearl_2nd_ut5hyr.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Solar Shine",
+            "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by 20-40% for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by 20-40% for 6s."
+        ]
+    },
+    {
+        "name": "Sacrificial Fragments",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Sacrificial_Fragments_2nd_roesof.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Sacrificial_Fragments_2nd_roesof.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "48",
+            "221",
+            "EM"
+        ],
+        "passive": [
+            "Composed",
+            "After dealing damage to an opponent with an Elemental Skill, the skill has a 40-80% chance to end its own CD. Can only occur once every 30-16s."
+        ]
+    },
+    {
+        "name": "Royal Grimoire",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Royal_Grimoire_2nd_dlqpqc.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Royal_Grimoire_2nd_dlqpqc.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Focus",
+            "Upon dealing damage to an opponent, increases CRIT Rate by 8-16%. Max 5 stacks. A CRIT hit removes all existing stacks."
+        ]
+    },
+    {
+        "name": "Prototype Amber",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Prototype_Malice_2nd_degrgg.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Prototype_Malice_2nd_degrgg.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "HP"
+        ],
+        "passive": [
+            "Gilding",
+            "Using an Elemental Burst regenerates 4-6 Energy every 2s for 6s. All party members will regenerate 4-6% HP every 2s for this duration."
+        ]
+    },
+    {
+        "name": "Mappa Mare",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Mappa_Mare_2nd_fnsy6r.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Mappa_Mare_2nd_fnsy6r.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "24",
+            "110",
+            "EM"
+        ],
+        "passive": [
+            "Infusion Scroll",
+            "Triggering an Elemental reaction grants a 8-16% Elemental DMG Bonus for 10s. Max 2 stacks."
+        ]
+    },
+    {
+        "name": "Favonius Codex",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Favonius_Codex_2nd_x5klaf.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Favonius_Codex_2nd_x5klaf.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "10.0%",
+            "45.9%",
+            "ER"
+        ],
+        "passive": [
+            "Windfall",
+            "CRIT hits have a 60-100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12-6s."
+        ]
+    },
+    {
+        "name": "Blackcliff Agate",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Blackcliff_Amulet_2nd_bp5g3x.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Blackcliff_Amulet_2nd_bp5g3x.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Press the Advantage",
+            "After defeating an opponent, ATK is increased by 12-24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
+        ]
+    },
+    {
+        "name": "Magic Guide",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Magic_Guide_2nd_e37brt.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Magic_Guide_2nd_e37brt.png"
+        ],
+        "baseAtk": [
+            "38",
+            "354"
+        ],
+        "baseStat": [
+            "41",
+            "187",
+            "EM"
+        ],
+        "passive": [
+            "Bane of Storm and Tide",
+            "Increases DMG against opponents affected by Hydro or Electro by 12-24%."
+        ]
+    },
+    {
+        "name": "Thrilling Tales of Dragon Slayers",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Thrilling_Tales_of_Dragon_Slayers_2nd_js5ufc.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023631/Wiki%20Paimon/Weapons/Catalyst/Weapon_Thrilling_Tales_of_Dragon_Slayers_2nd_js5ufc.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401"
+        ],
+        "baseStat": [
+            "7.7%",
+            "35.2%",
+            "HP"
+        ],
+        "passive": [
+            "Legacy",
+            "When switching characters, the new character taking the field has their ATK increased by 24-48% for 10s. This effect can only occur once every 20s."
+        ]
+    },
+    {
+        "name": "Twin Nephrite",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023632/Wiki%20Paimon/Weapons/Catalyst/Weapon_Twin_Nephrite_2nd_fvopzi.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023632/Wiki%20Paimon/Weapons/Catalyst/Weapon_Twin_Nephrite_2nd_fvopzi.png"
+        ],
+        "baseAtk": [
+            "40",
+            "448"
+        ],
+        "baseStat": [
+            "3.4%",
+            "15.6%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Guerilla Tactic",
+            "Defeating an opponent increases Movement SPD and ATK by 12-20% for 15s."
+        ]
+    },
+    {
+        "name": "Otherworldly Story",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Otherworldly_Story_2nd_rcphxa.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023630/Wiki%20Paimon/Weapons/Catalyst/Weapon_Otherworldly_Story_2nd_rcphxa.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401"
+        ],
+        "baseStat": [
+            "8.5%",
+            "39.0%",
+            "ER"
+        ],
+        "passive": [
+            "Energy Shower",
+            "Each Elemental Orb or Particle collected restores 1-2% HP."
+        ]
+    },
+    {
+        "name": "Emerald Orb",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Emerald_Orb_2nd_ujbl1r.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624023629/Wiki%20Paimon/Weapons/Catalyst/Weapon_Emerald_Orb_2nd_ujbl1r.png"
+        ],
+        "baseAtk": [
+            "40",
+            "448"
+        ],
+        "baseStat": [
+            "20",
+            "94",
+            "ER"
+        ],
+        "passive": [
+            "Rapids",
+            "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by 20-40% for 12s."
+        ]
+    },
+    {
+        "name": "Song of Broken Pines",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_Song_of_Broken_Pines_2nd_sdk44i.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_Song_of_Broken_Pines_2nd_3D_zgmxxl.png"
+        ],
+        "baseAtk": [
+            "49",
+            "741"
+        ],
+        "baseStat": [
+            "4.5%",
+            "20.7%",
+            "Physical DMG Bonus"
+        ],
+        "passive": [
+            "Rebel's Banner Hymn",
+            "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 16-32%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s.When you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 12-24% and increases ATK by 20-40%.Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement\", buffs of the same type will not stack."
+        ]
+    },
+    {
+        "name": "Skyward Pride",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035332/Wiki%20Paimon/Weapons/Claymore/Weapon_Skyward_Pride_2nd_fqdwht.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035332/Wiki%20Paimon/Weapons/Claymore/Weapon_Skyward_Pride_2nd_3D_gvktjr.png"
+        ],
+        "baseAtk": [
+            "48",
+            "674"
+        ],
+        "baseStat": [
+            "8%",
+            "36.8%",
+            "ER"
+        ],
+        "passive": [
+            "Sky-ripping Dragon Spine",
+            "Increases all DMG by 8-16%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does 80-160% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades."
+        ]
+    },
+    {
+        "name": "The Unforged",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_The_Unforged_2nd_zsjydj.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_The_Unforged_2nd_3D_tx1thl.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "10.8%",
+            "49.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Golden Majesty",
+            "Increases Shield Strength by 20-40%. Scoring hits on opponents increases ATK by 4-8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+        ]
+    },
+    {
+        "name": "Wolf's Gravestone",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035334/Wiki%20Paimon/Weapons/Claymore/Weapon_Wolf_27s_Gravestone_2nd_vjfzbo.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035334/Wiki%20Paimon/Weapons/Claymore/Wolf_A2_wrxdy3.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "10.8%",
+            "49.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Wolfish Tracker",
+            "Increases ATK by 20-40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40-80% for 12s. Can only occur once every 30s."
+        ]
+    },
+    {
+        "name": "Blackcliff Slasher",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035328/Wiki%20Paimon/Weapons/Claymore/Weapon_Blackcliff_Slasher_2nd_xc5p37.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035329/Wiki%20Paimon/Weapons/Claymore/Weapon_Blackcliff_Slasher_2nd_3D_wgd5re.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Press the Advantage",
+            "After defeating an opponent, ATK is increased by 12-24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
+        ]
+    },
+    {
+        "name": "Snow-Tombed Starsilver",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035332/Wiki%20Paimon/Weapons/Claymore/Weapon_Snow-Tombed_Starsilver_2nd_fku1g2.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035332/Wiki%20Paimon/Weapons/Claymore/Weapon_Snow-Tombed_Starsilver_2nd_3D_qt1gp7.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "7.5%",
+            "34.5%",
+            "Physical DMG Bonus"
+        ],
+        "passive": [
+            "Frost Burial",
+            "Hitting an opponent with Normal and Charged Attacks has a 60-100% chance of forming and dropping an Everfrost Icicle above them, dealing 80-140% AoE ATK DMG. Opponents affected by Cryo are dealt 200-360% ATK DMG instead by the icicle. Can only occur once every 10s."
+        ]
+    },
+    {
+        "name": "Sacrificial Greatsword",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035331/Wiki%20Paimon/Weapons/Claymore/Weapon_Sacrificial_Greatsword_2nd_wy0kzf.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035332/Wiki%20Paimon/Weapons/Claymore/Weapon_Sacrificial_Greatsword_2nd_3D_k4lkbf.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "6.7%",
+            "30.6%",
+            "Physical DMG Bonus"
+        ],
+        "passive": [
+            "Composed",
+            "After dealing damage to an opponent with an Elemental Skill, the skill has a 40-80% chance to end its own CD. Can only occur once every 30-16s."
+        ]
+    },
+    {
+        "name": "Lithic Blade",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035330/Wiki%20Paimon/Weapons/Claymore/Weapon_Lithic_Blade_2nd_kxjdbp.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035329/Wiki%20Paimon/Weapons/Claymore/Weapon_Lithic_Blade_2nd_3D_ra6obm.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Lithic Axiom - Unity",
+            "For every character in the party who hails from Liyue, the character who equips this weapon gains 7-11% ATK increase and 3-7% CRIT Rate increase. This effect stacks up to 4 times."
+        ]
+    },
+    {
+        "name": "Serpent Spine",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035331/Wiki%20Paimon/Weapons/Claymore/Weapon_Serpent_Spine_2nd_o0pfip.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035332/Wiki%20Paimon/Weapons/Claymore/Weapon_Serpent_Spine_2nd_3D_qkuyke.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Wavesplitter",
+            "Every 4s a character is on the field, they will deal 6-10% more DMG and take 3-2% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG."
+        ]
+    },
+    {
+        "name": "Whiteblind",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_Whiteblind_2nd_ds9tkq.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_Whiteblind_2nd_3D_rgp2ve.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "11.3%",
+            "51.7%",
+            "DEF"
+        ],
+        "passive": [
+            "Infusion Blade",
+            "On hit, Normal or Charged Attacks increase ATK and DEF by 6-12% for 6s. Max 4 stacks (24-48% total). Can only occur once every 0.5s."
+        ]
+    },
+    {
+        "name": "The Bell",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_The_Bell_2nd_rkzyzg.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_The_Bell_2nd_3D_qi8gac.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "HP"
+        ],
+        "passive": [
+            "Rebellious Guardian",
+            "Taking DMG generates a shield which absorbs DMG up to 20-32% of max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12-24% increased DMG."
+        ]
+    },
+    {
+        "name": "Royal Greatsword",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035330/Wiki%20Paimon/Weapons/Claymore/Weapon_Royal_Greatsword_2nd_golm84.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035330/Wiki%20Paimon/Weapons/Claymore/Weapon_Royal_Greatsword_2nd_3D_wgaymy.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Focus",
+            "Upon dealing damage to an opponent, increases CRIT Rate by 8-16%. Max 5 stacks. A CRIT hit removes all existing stacks."
+        ]
+    },
+    {
+        "name": "Rainslasher",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035330/Wiki%20Paimon/Weapons/Claymore/Weapon_Rainslasher_2nd_pzvfur.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035330/Wiki%20Paimon/Weapons/Claymore/Weapon_Rainslasher_2nd_3D_olozj9.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "36",
+            "165",
+            "EM"
+        ],
+        "passive": [
+            "Bane of Storm and Tide",
+            "Increases DMG against opponents affected by Hydro or Electro by 20-36%."
+        ]
+    },
+    {
+        "name": "Prototype Archaic",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035330/Wiki%20Paimon/Weapons/Claymore/Weapon_Prototype_Aminus_2nd_ovgchg.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035330/Wiki%20Paimon/Weapons/Claymore/Weapon_Prototype_Aminus_2nd_3D_wlg3ap.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Crush",
+            "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 240-480% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
+        ]
+    },
+    {
+        "name": "Favonius Greatsword",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035328/Wiki%20Paimon/Weapons/Claymore/Weapon_Favonius_Greatsword_2nd_amtbkh.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035329/Wiki%20Paimon/Weapons/Claymore/Weapon_Favonius_Greatsword_2nd_3D_xhujk0.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "13.3%",
+            "61.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Windfall",
+            "CRIT hits have a 60-100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12-6s."
+        ]
+    },
+    {
+        "name": "White Iron Greatsword",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035333/Wiki%20Paimon/Weapons/Claymore/Weapon_White_Iron_Greatsword_2nd_urs2ro.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035334/Wiki%20Paimon/Weapons/Claymore/Weapon_White_Iron_Greatsword_2nd_3D_arxeab.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401"
+        ],
+        "baseStat": [
+            "9.6%",
+            "43.9%",
+            "DEF"
+        ],
+        "passive": [
+            "Cull the Weak",
+            "Defeating an opponent restores 8-16% HP."
+        ]
+    },
+    {
+        "name": "Skyrider Greatsword",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035331/Wiki%20Paimon/Weapons/Claymore/Weapon_Skyrider_Greatsword_2nd_qc5bae.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035332/Wiki%20Paimon/Weapons/Claymore/Weapon_Skyrider_Greatsword_2nd_3D_kaytab.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401"
+        ],
+        "baseStat": [
+            "9.6%",
+            "43.9%",
+            "Physical DMG Bonus"
+        ],
+        "passive": [
+            "Courage",
+            "On hit, Normal or Charged Attacks increase ATK by 6-10% for 6s. Max 4 stacks. Can only occur once every 0.5s."
+        ]
+    },
+    {
+        "name": "Ferrous Shadow",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035329/Wiki%20Paimon/Weapons/Claymore/Weapon_Ferrous_Shadow_2nd_bqtrtq.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035329/Wiki%20Paimon/Weapons/Claymore/Weapon_Ferrous_Shadow_2nd_3D_qqpm6c.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401"
+        ],
+        "baseStat": [
+            "7.7%",
+            "35.2%",
+            "HP"
+        ],
+        "passive": [
+            "Unbending",
+            "When HP falls below 70-90%, increases Charged Attack DMG by 30-50%, and Charged Attacks become much harder to interrupt."
+        ]
+    },
+    {
+        "name": "Debate Club",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035328/Wiki%20Paimon/Weapons/Claymore/Weapon_Debate_Club_2nd_icalul.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035328/Wiki%20Paimon/Weapons/Claymore/Weapon_Debate_Club_2nd_3D_upiyof.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401"
+        ],
+        "baseStat": [
+            "7.7%",
+            "35.2%",
+            "ATK"
+        ],
+        "passive": [
+            "Blunt Conclusion",
+            "After using an Elemental Skill, Normal or Charged Attacks, on hit, deal an additional 60-120% ATK DMG in a small area. Effect lasts 15s. DMG can only occur once every 3s."
+        ]
+    },
+    {
+        "name": "Bloodtainted Greatsword",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035328/Wiki%20Paimon/Weapons/Claymore/Weapon_Bloodtainted_Greatsword_2nd_keaduq.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624035328/Wiki%20Paimon/Weapons/Claymore/Weapon_Bloodtainted_Greatsword_2nd_3D_celjkk.png"
+        ],
+        "baseAtk": [
+            "41",
+            "187"
+        ],
+        "baseStat": [
+            "7.7%",
+            "35.2%",
+            "ATK"
+        ],
+        "passive": [
+            "Bane of Fire and Thunder",
+            "Increases DMG against opponents affected by Pyro or Electro by 12-24%."
+        ]
+    },
+    {
+        "name": "Amos' Bow",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110677/Wiki%20Paimon/Weapons/Bows/Weapon_Amos_27_Bow_2nd_jhlvpb.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110678/Wiki%20Paimon/Weapons/Bows/Weapon_Amos_27_Bow_2nd_3D_gxqs09.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "10.8%",
+            "49.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Strong-Willed",
+            "Increases Normal Attack and Charged Attack DMG by 12-24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8-16% every 0.1 seconds the arrow is in the air for up to 5 times."
+        ]
+    },
+    {
+        "name": "Elegy for the End",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110678/Wiki%20Paimon/Weapons/Bows/Weapon_Elegy_for_the_End_2nd_uakrxd.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110679/Wiki%20Paimon/Weapons/Bows/Weapon_Elegy_for_the_End_Full_hvyzqp.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608"
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "ER"
+        ],
+        "passive": [
+            "The Parting Refrain",
+            "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 60-120. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 100-200 and increases ATK by 20-40%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+        ]
+    },
+    {
+        "name": "Skyward Harp",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Skyward_Harp_2nd_hvxmyb.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110682/Wiki%20Paimon/Weapons/Bows/Weapon_Skyward_Harp_2nd_3D_ymbwek.png"
+        ],
+        "baseAtk": [
+            "48",
+            "674"
+        ],
+        "baseStat": [
+            "4.8%",
+            "22.1%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Echoing Ballad",
+            "Increases CRIT DMG by 20-40%. Hits have a 60-100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4-2s."
+        ]
+    },
+    {
+        "name": "Compound Bow",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110678/Wiki%20Paimon/Weapons/Bows/Weapon_Compound_Bow_2nd_yb6ulc.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110678/Wiki%20Paimon/Weapons/Bows/Weapon_Compound_Bow_2nd_3D_y6eo9t.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "15%",
+            "69.0%",
+            "Physical DMG Bonus"
+        ],
+        "passive": [
+            "Infusion Arrow",
+            "Normal Attack and Charged Attack hits increase ATK by 4-8% and Normal ATK SPD by 1.2-2.4% for 6s. Max 4 stacks. Can only occur once every 0.3s."
+        ]
+    },
+    {
+        "name": "Favonius Warbow",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110679/Wiki%20Paimon/Weapons/Bows/Weapon_Favonius_Warbow_2nd_ankec0.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110679/Wiki%20Paimon/Weapons/Bows/Weapon_Favonius_Warbow_2nd_Ascension_3D_jf0kpf.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454"
+        ],
+        "baseStat": [
+            "13.3%",
+            "61.3%",
+            "ER"
+        ],
+        "passive": [
+            "Windfall",
+            "CRIT hits have a 60-100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12-6s."
+        ]
+    },
+    {
+        "name": "Windblume Ode",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110682/Wiki%20Paimon/Weapons/Bows/Weapon_Windblume_Ode_2nd_sbnmoq.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110683/Wiki%20Paimon/Weapons/Bows/Windblume_Ode_2nd_Ascension_vkninm.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "36",
+            "165",
+            "EM"
+        ],
+        "passive": [
+            "Windblume Wish",
+            "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16-32% for 6s."
+        ]
+    },
+    {
+        "name": "Alley Hunter",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110677/Wiki%20Paimon/Weapons/Bows/Weapon_Alley_Hunter_2nd_ntakay.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110677/Wiki%20Paimon/Weapons/Bows/Weapon_Alley_Hunter_Full_Icon_cl5rgg.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "ATK"
+        ],
+        "passive": [
+            "Urban Guerrilla",
+            "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16-32% for 6s.While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2-4% every second up to a max of 20-40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4-8% per second until it reaches 0%."
+        ]
+    },
+    {
+        "name": "Blackcliff Warbow",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110678/Wiki%20Paimon/Weapons/Bows/Weapon_Blackcliff_Warbow_2nd_uuuyb5.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110679/Wiki%20Paimon/Weapons/Bows/Weapon_Blackcliff_Warbow_2nd_3D_jti3hp.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "8%",
+            "36.8%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Press the Advantage",
+            "After defeating an opponent, ATK is increased by 12-24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
+        ]
+    },
+    {
+        "name": "The Viridescent Hunt",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110682/Wiki%20Paimon/Weapons/Bows/Weapon_The_Viridescent_Hunt_2nd_ausytl.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110677/Wiki%20Paimon/Weapons/Bows/Virihunt2_w9xuot.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "6%",
+            "27.6%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Verdant Wind",
+            "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40-80% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14-10s."
+        ]
+    },
+    {
+        "name": "Prototype Crescent",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Prototype_Crescent_2nd_jdjjm7.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110680/Wiki%20Paimon/Weapons/Bows/Weapon_Prototype_Crescent_2nd_3D_hythdn.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Unreturning",
+            "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36-72% for 10s."
+        ]
+    },
+    {
+        "name": "Sacrificial Bow",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Sacrificial_Bow_2nd_f8do96.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624111112/Wiki%20Paimon/Weapons/Bows/Weapon_Sacrificial_Bow_2nd_3D_qe1usb.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565"
+        ],
+        "baseStat": [
+            "6.7%",
+            "30.6%",
+            "ER"
+        ],
+        "passive": [
+            "Composed",
+            "After dealing damage to an opponent with an Elemental Skill, the skill has a 40-80% chance to end its own CD. Can only occur once every 30-16s."
+        ]
+    },
+    {
+        "name": "The Stringless",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110682/Wiki%20Paimon/Weapons/Bows/Weapon_The_Stringless_2nd_eepu74.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110682/Wiki%20Paimon/Weapons/Bows/Weapon_The_Stringless_2nd_3D_mta3yt.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "36",
+            "165",
+            "EM"
+        ],
+        "passive": [
+            "Arrowless Song",
+            "Increases Elemental Skill and Elemental Burst DMG by 24-48%."
+        ]
+    },
+    {
+        "name": "Rust",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Rust_2nd_ng4ycg.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110677/Wiki%20Paimon/Weapons/Bows/Rust_A2_s3x9gv.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Rapid Firing",
+            "Increases Normal Attack DMG by 40-80% but decreases Charged Attack DMG by 10%."
+        ]
+    },
+    {
+        "name": "Royal Bow",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Royal_Bow_2nd_jqeeza.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Royal_Bow_2nd_3D_ppy1in.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "9%",
+            "41.3%",
+            "ATK"
+        ],
+        "passive": [
+            "Focus",
+            "Upon dealing damage to an opponent, increases CRIT Rate by 8-16%. Max 5 stacks. A CRIT hit removes all existing stacks."
+        ]
+    },
+    {
+        "name": "Mitternachts Waltz",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110680/Wiki%20Paimon/Weapons/Bows/Weapon_Mitternachts_Waltz_2nd_huc0qd.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110680/Wiki%20Paimon/Weapons/Bows/Weapon_Mitternachts_Waltz_Full_Icon_tng467.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510"
+        ],
+        "baseStat": [
+            "11.3%",
+            "51.7%",
+            "Physical Damage Bonus"
+        ],
+        "passive": [
+            "Evernight Duet",
+            "Normal Attack hits on opponents increase Elemental Skill DMG by 20-40% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20-40% for 5s."
+        ]
+    },
+    {
+        "name": "Slingshot",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110682/Wiki%20Paimon/Weapons/Bows/Weapon_Slingshot_2nd_vdapdk.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110682/Wiki%20Paimon/Weapons/Bows/Weapon_Slingshot_2nd_3D_vyznp9.png"
+        ],
+        "baseAtk": [
+            "38",
+            "354"
+        ],
+        "baseStat": [
+            "6.8%",
+            "31.2%",
+            "CRIT Rate"
+        ],
+        "passive": [
+            "Slingshot",
+            "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36-60%. Otherwise, decreases DMG by 10%."
+        ]
+    },
+    {
+        "name": "Messenger",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110679/Wiki%20Paimon/Weapons/Bows/Weapon_Messenger_2nd_o76myn.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110680/Wiki%20Paimon/Weapons/Bows/Weapon_Messenger_2nd_3D_n0028j.png"
+        ],
+        "baseAtk": [
+            "40",
+            "448"
+        ],
+        "baseStat": [
+            "6.8%",
+            "31.2%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Archer's Message",
+            "Charged Attack hits on weak spots deal an additional 100-200% ATK DMG as CRIT DMG. Can only occur once every 10s."
+        ]
+    },
+    {
+        "name": "Recurve Bow",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110680/Wiki%20Paimon/Weapons/Bows/Weapon_Recurve_Bow_2nd_fzzojn.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Recurve_Bow_2nd_3D_gbjtv4.png"
+        ],
+        "baseAtk": [
+            "38",
+            "354"
+        ],
+        "baseStat": [
+            "10.2%",
+            "46.9%",
+            "HP"
+        ],
+        "passive": [
+            "Cull the Weak",
+            "Defeating an opponent restores 8-16% HP."
+        ]
+    },
+    {
+        "name": "Sharpshooter's Oath",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Sharpshooter_27s_Oath_2nd_awftwb.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Sharpshooter_27s_Oath_2nd_3D_bafmxr.png"
+        ],
+        "baseAtk": [
+            "39",
+            "401"
+        ],
+        "baseStat": [
+            "10.2%",
+            "46.9%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Precise",
+            "Increases DMG against weak spots by 24-48%."
+        ]
+    },
+    {
+        "name": "Raven Bow",
+        "rarity": 3,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110680/Wiki%20Paimon/Weapons/Bows/Weapon_Raven_Bow_2nd_tmas55.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1624110681/Wiki%20Paimon/Weapons/Bows/Weapon_Raven_Bow_2nd_3D_dt5gfh.png"
+        ],
+        "baseAtk": [
+            "40",
+            "448"
+        ],
+        "baseStat": [
+            "20",
+            "94",
+            "EM"
+        ],
+        "passive": [
+            "Bane of Flame and Water",
+            "Increases DMG against opponents affected by Hydro or Pyro by 12-24%"
+        ]
+    }
+]
