@@ -1,0 +1,58 @@
+{
+    "name": "Kazuha",
+    "title": "Scarlet Leaves Pursue Wild Waves",
+    "affiliation": "The Crux",
+    "rarity": 5,
+    "weapon": "Sword",
+    "element": "Anemo",
+    "birthday": "29 October",
+    "intro": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1625335007/Wiki%20Paimon/Characters/Kazuha/Character_Kazuha_Game_qowybt.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1625333481/Wiki%20Paimon/Characters/Kazuha/Character_Kazuha_Wish_i1hmmk.png",
+    "attackTalents": {
+        "normalAttack": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1625333486/Wiki%20Paimon/Characters/Kazuha/Talent_Garyuu_Bladework_Normal_f7dtj2.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1625333487/Wiki%20Paimon/Characters/Kazuha/Talent_Garyuu_Bladework_Charged_ngopgq.gif"
+            ],
+            "title": "Garyuu Bladework",
+            "info": "<h3>Normal Attack</h3> Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "skill": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1625333478/Wiki%20Paimon/Characters/Kazuha/Asset_4_tcmepw.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1625333482/Wiki%20Paimon/Characters/Kazuha/Talent_Chihayaburu_Press_dmkp8n.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1625333494/Wiki%20Paimon/Characters/Kazuha/Talent_Chihayaburu_Hold_l7hbh2.gif"
+            ],
+            "title": "Chihayaburu",
+            "info": "Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing <span class='anemo'>Anemo DMG</span> and lifting Kazuha into the air on a rushing gust of wind.<h3>Press</h3>Can be used in mid-air.<h3>Hold</h3>Charges up before unleashing greater <span class='anemo'>Anemo DMG</span> over a larger AoE than Press Mode.<h3>Plunging Attack: Midare Ranzan</h3>Within 10s of remaining airborne after casting <span class='ability-ref'>Chihayaburu</span>, Kazuha can unleash a powerful <span class='ability-ref'>Plunging Attack</span> known as Midare Ranzan.<br>When a <span class='ability-ref'>Plunging Attack</span> is performed using the effects of the Elemental Skill <span class='ability-ref'>Chihayaburu</span>, Plunging Attack DMG is converted to <span class='anemo'>Anemo DMG</span>. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents. Midare Ranzan's DMG is considered Plunging Attack DMG."
+        },
+        "burst": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1625333478/Wiki%20Paimon/Characters/Kazuha/Asset_3_tdu3fn.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1625333484/Wiki%20Paimon/Characters/Kazuha/Talent_Kazuha_Slash_a5nhhi.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1625333487/Wiki%20Paimon/Characters/Kazuha/Talent_Kazuha_Slash_Absorption_r14myk.gif"
+            ],
+            "title": "Kazuha Slash",
+            "info": "The signature technique of Kazuha's self-styled bladework — a single slash that strikes with the force of the first winds of autumn, dealing <span class='anemo'>AoE Anemo DMG</span>. The blade's passage will leave behind a field named \"Autumn \" that periodically deals <span class='anemo'>AoE Anemo DMG</span> to opponents within its range.<h3>Elemental Absorption</h3>If Autumn Whirlwind comes into contact with <span class='hydro'>Hydro</span>/<span class='pyro'>Pyro</span>/<span class='cryo'>Cryo</span>/<span class='electro'>Electro</span>, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Soumon Swordsmanship",
+            "info": "If <span class='ability-ref'>Chihayaburu</span> comes into contact with <span class='hydro'>Hydro</span>/<span class='pyro'>Pyro</span>/<span class='cryo'>Cryo</span>/<span class='electro'>Electro</span> when cast, <span class='ability-ref'>Chihayaburu</span> will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.Elemental Absorption may only occur once per use of <span class='ability-ref'>Chihayaburu</span>.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1625333478/Wiki%20Paimon/Characters/Kazuha/Asset_1_rab590.svg"
+        },
+        {
+            "title": "Poetics of Fuubutsu",
+            "info": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1625333478/Wiki%20Paimon/Characters/Kazuha/Asset_2_i5gptg.svg"
+        },
+        {
+            "title": "Cloud Strider",
+            "info": "Decreases sprinting Stamina consumption for your own party members by 20%.<br>Not stackable with Passive Talents that provide the exact same effects.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616579440/Wiki%20Paimon/Characters/Kaeya/Hidden_Strength_djrrjr.svg"
+        }
+    ]
+}
