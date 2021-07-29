@@ -1,0 +1,50 @@
+{
+    "name": "Lumine",
+    "title": "Outlander",
+    "affiliation": "",
+    "rarity": 5,
+    "weapon": "Sword",
+    "element": "Electro",
+    "birthday": "",
+    "intro": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689598/Wiki%20Paimon/Characters/Aether/Character_Traveler__Male__Portrait_ejp7vc.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1622689608/Wiki%20Paimon/Characters/Aether/Travelers_eky3vs.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Foreign Thundershock",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                ""
+            ]
+        },
+        "skill": {
+            "title": "Lightning Blade",
+            "info": "Unleashes three swift thunder shadows that deal <span class='electro'>Electro DMG</span> to opponents and leave an Abundance Amulet behind after hitting an opponent.<br>2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.<h3>Abundance Amulets</h3>When a character is near an Abundance Amulet, they will absorb it and obtain the following effects:<br>▪ Restores Elemental Energy<br>▪ Increases Energy Recharge during the Abundance Amulet's duration.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627546861/Wiki%20Paimon/Characters/Aether/Electro/Asset_3_evyinv.svg",
+            "gifs": [
+                ""
+            ]
+        },
+        "burst": {
+            "title": "Bellowing Thunder",
+            "info": "You call upon the protection of lightning, knocking nearby opponents back and dealing <span class='electro'>Electro DMG</span> to them.<h3>Lightning Shroud</h3>When your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing <span class='electro'>Electro DMG</span>.<br>When Falling Thunder hits opponents, it will regenerate Energy for that character.<br>One instance of Falling Thunder can be generated every 0.5s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627546861/Wiki%20Paimon/Characters/Aether/Electro/Asset_4_pjczat.svg",
+            "gifs": [
+                ""
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Thunderflash",
+            "info": "When another nearby character in the party obtains an Abundance Amulet created by <span class='ability-ref'>Lightning Blade</span>, <span class='ability-ref'>Lightning Blade</span>'s CD is decreased by 1.5s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627546861/Wiki%20Paimon/Characters/Aether/Electro/Asset_1_xjbm35.svg"
+        },
+        {
+            "title": "Resounding Roar",
+            "info": "Increases the Energy Recharge effect granted by <span class='ability-ref'>Lightning Blade</span>'s Abundance Amulet by 10% of the Traveler's Energy Recharge.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627546861/Wiki%20Paimon/Characters/Aether/Electro/Asset_2_d3whk6.svg"
+        }
+    ]
+}

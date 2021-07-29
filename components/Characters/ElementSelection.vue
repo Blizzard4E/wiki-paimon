@@ -27,6 +27,18 @@
                         <div></div>
                     </div>
                 </div>
+                <div class="element">
+                    <a @click="selectElement('electro')" v-bind:class="{
+                        elementIcon: true,
+                        active: currentElement == 'electro',
+                        electro: true
+                    }">
+                        <img src="https://res.cloudinary.com/duzvevuup/image/upload/v1622685165/Wiki%20Paimon/Elements%20Icon/Electro_Icon_b1xnb2.svg" alt="Element Icon">
+                    </a>
+                    <div class="line">
+                        <div></div>
+                    </div>
+                </div>
             </div>
         </section>
     </article>

@@ -1,0 +1,61 @@
+{
+    "name": "Ayaka",
+    "title": "Frostflake Heron",
+    "affiliation": "Yashiro Commission",
+    "rarity": 5,
+    "weapon": "Sword",
+    "element": "Cryo",
+    "birthday": "28 September",
+    "intro": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1627542655/Wiki%20Paimon/Characters/Ayaka/Character_Kamisato_Ayaka_Portrait_wyjyai.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1627542656/Wiki%20Paimon/Characters/Ayaka/Character_Kamisato_Ayaka_Wish_t5g17p.png",
+    "attackTalents": {
+        "normalAttack": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627542660/Wiki%20Paimon/Characters/Ayaka/Talent_Kamisato_Art_Kabuki_Normal_ch8nev.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627542654/Wiki%20Paimon/Characters/Ayaka/Talent_Kamisato_Art_Kabuki_Charged_dshenh.gif"
+            ],
+            "title": "Kamisato Art: Kabuki",
+            "info": "<h3>Normal Attack</h3> Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash a continuous stream of sword ki.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "skill": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627542647/Wiki%20Paimon/Characters/Ayaka/Asset_4_zykila.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627542659/Wiki%20Paimon/Characters/Ayaka/Talent_Kamisato_Art_Hyouka_yadywr.gif"
+            ],
+            "title": "Kamisato Art: Hyouka",
+            "info": "Summons blooming ice to launch nearby opponents, dealing <span class='cryo'>AoE Cryo DMG</span>."
+        },
+        "burst": {
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627542647/Wiki%20Paimon/Characters/Ayaka/Asset_1_r36bhc.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627542659/Wiki%20Paimon/Characters/Ayaka/Talent_Kamisato_Art_Soumetsu_topq0q.gif"
+            ],
+            "title": "Kamisato Art: Soumetsu",
+            "info": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.<br><h3>Frostflake Seki no To</h3>▪ A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing <span class='cryo'>Cryo DMG</span><br>▪ The snowstorm explodes after its duration ends, dealing <span class='cryo'>AoE Cryo DMG</span>."
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Kamisato Art: Senho",
+            "info": "Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her. In Senho form, she moves swiftly upon water.<br><br>When she reappears, the following effects occur:<br>▪ Ayaka unleashes frigid energy to apply <span class='cryo'>Cryo</span> on nearby opponents.<br>▪ Coldness condenses around Ayaka's blade, infusing her attacks with <span class='cryo'>Cryo</span> for a brief period.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627542648/Wiki%20Paimon/Characters/Ayaka/Asset_2_l5wlu0.svg"
+        },
+        {
+            "title": "Amatsumi Kunitsumi Sanctification",
+            "info": "After using <span class='ability-ref'>Kamisato Art: Hyouka</span>, Kamisato Ayaka's Normal Attack and Charged attacks deal 30% increased DMG for 6s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627542647/Wiki%20Paimon/Characters/Ayaka/Asset_3_j7jmcr.svg"
+        },
+        {
+            "title": "Kanten Senmyou Blessing",
+            "info": "When the <span class='cryo'>Cryo</span> application at the end of <span class='ability-ref'>Kamisato Art: Senho</span> hits an opponent, Kamisato Ayaka gains the following effects:<br>▪ Restores 10 Stamina<br>▪ Gains 18% <span class='cryo'>Cryo DMG Bonus</span> for 10s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627542647/Wiki%20Paimon/Characters/Ayaka/Asset_5_gq7eqp.svg"
+        },
+        {
+            "title": "Fruits of Shinsa",
+            "info": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616321651/Wiki%20Paimon/Characters/Albedo/Genius_Unearthed_xq24nd.svg"
+        }
+    ]
+}
