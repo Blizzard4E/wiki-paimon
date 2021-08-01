@@ -17,6 +17,15 @@
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Relic_from_Guyun_b9mpoe.png",
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Divine_Body_from_Guyun_sxtmdf.png"
             ]
+        },
+        {
+            "name": "Branch of a Distant Sea",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821879/Wiki%20Paimon/Weapon%20Materials/Item_Coral_Branch_of_a_Distant_Sea_uicv8d.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821880/Wiki%20Paimon/Weapon%20Materials/Item_Jeweled_Branch_of_a_Distant_Sea_k5s1p6.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821880/Wiki%20Paimon/Weapon%20Materials/Item_Jade_Branch_of_a_Distant_Sea_rg46tt.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821880/Wiki%20Paimon/Weapon%20Materials/Item_Golden_Branch_of_a_Distant_Sea_pqvy04.png"
+            ]
         }
     ],
     "Tuesday_Friday_Sunday": [
@@ -37,6 +46,15 @@
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Mist_Veiled_Gold_Elixir_nmxz01.png",
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Mist_Veiled_Primo_Elixir_sd6xyd.png"
             ]
+        },
+        {
+            "name": "Narukami",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821880/Wiki%20Paimon/Weapon%20Materials/Item_Narukami_27s_Wisdom_aaolxo.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821880/Wiki%20Paimon/Weapon%20Materials/Item_Narukami_s_Joy_epawxw.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821880/Wiki%20Paimon/Weapon%20Materials/Item_Narukami_27s_Affection_zrsqrd.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821881/Wiki%20Paimon/Weapon%20Materials/Item_Narukami_s_Valor_fifsil.png"
+            ]
         }
     ],
     "Wednesday_Saturday_Sunday": [
@@ -56,6 +74,15 @@
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1623032164/Wiki%20Paimon/Weapon%20Materials/Item_Piece_of_Aerosiderite_b5wutw.png",
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1623032162/Wiki%20Paimon/Weapon%20Materials/Item_Bit_of_Aerosiderite_mhdyod.png",
                 "https://res.cloudinary.com/duzvevuup/image/upload/v1623032163/Wiki%20Paimon/Weapon%20Materials/Item_Chunk_of_Aerosiderite_i67rmo.png"
+            ]
+        },
+        {
+            "name": "Mask",
+            "variety": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821879/Wiki%20Paimon/Weapon%20Materials/Item_Mask_of_the_Wicked_Lieutenant_ic9jas.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821879/Wiki%20Paimon/Weapon%20Materials/Item_Mask_of_the_Tiger_27s_Bite_aw9tv2.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821879/Wiki%20Paimon/Weapon%20Materials/Item_Mask_of_the_One-Horned_k4y0no.png",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1627821879/Wiki%20Paimon/Weapon%20Materials/Item_Mask_of_the_Kijin_qxqrd3.png"
             ]
         }
     ]
