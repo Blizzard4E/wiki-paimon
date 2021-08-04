@@ -1,5 +1,131 @@
 [
     {
+        "name": "Mistsplitter Reforged",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053609/Wiki%20Paimon/Weapons/Swords/Weapon_Mistsplitter_Reforged_2nd_ptvaex.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053611/Wiki%20Paimon/Weapons/Swords/Weapon_Mistsplitter_Reforged_2nd_Ascension_Full_Icon_ekfojc.png"
+        ],
+        "baseAtk": [
+            "48",
+            "674" 
+        ],
+        "baseStat": [
+            "96%",
+            "44.1%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Mistsplitter's Edge",
+            "Gain a 12~24% Elemental DMG Bonus for every element and receive the might of Mistsplitter's Emblem. At stack levels 1/2/3, Mistsplitter's Emblem provides a 8/16/28~16/32/56% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        ]
+    },
+    {
+        "name": "Amenoma Kageuchi",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053610/Wiki%20Paimon/Weapons/Swords/Weapon_Amenoma_Kageuchi_2nd_u7fi3v.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053610/Wiki%20Paimon/Weapons/Swords/Weapon_Amenoma_Kageuchi_2nd_3D_grnub1.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454" 
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "ATK"
+        ],
+        "passive": [
+            "Iwakura Succession",
+            "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates 6~12 Energy for each seed consumed."
+        ]
+    },
+    {
+        "name": "Katsuragikiri Nagamasa",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053496/Wiki%20Paimon/Weapons/Claymore/Weapon_Katsuragikiri_Nagamasa_2nd_zcbupa.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053497/Wiki%20Paimon/Weapons/Claymore/Weapon_Katsuragikiri_Nagamasa_2nd_3D_iu75wa.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510" 
+        ],
+        "baseStat": [
+            "10%",
+            "45.9%",
+            "ER"
+        ],
+        "passive": [
+            "Samurai Conduct",
+            "Increases Elemental Skill DMG by 6~12%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3~5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        ]
+    },
+    {
+        "name": "Kitain Cross Spear",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053389/Wiki%20Paimon/Weapons/Polearms/Weapon_Kitain_Cross_Spear_2nd_u9jsa3.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053390/Wiki%20Paimon/Weapons/Polearms/Weapon_Kitain_Cross_Spear_3D_urnbrq.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565" 
+        ],
+        "baseStat": [
+            "24",
+            "110",
+            "EM"
+        ],
+        "passive": [
+            "Samurai Conduct",
+            "Increases Elemental Skill DMG by 6~12%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3~5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+        ]
+    },
+    {
+        "name": "Hakushin Ring",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053289/Wiki%20Paimon/Weapons/Catalyst/Weapon_Hakushin_Ring_2nd_ae5i8d.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628053289/Wiki%20Paimon/Weapons/Catalyst/Weapon_Hakushin_Ring_2nd_ae5i8d.png"
+        ],
+        "baseAtk": [
+            "44",
+            "565" 
+        ],
+        "baseStat": [
+            "6.7%",
+            "30.6%",
+            "ER"
+        ],
+        "passive": [
+            "Sakura Saiguu",
+            "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a 10~20% Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked."
+        ]
+    },
+    {
+        "name": "Hamayumi",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628052851/Wiki%20Paimon/Weapons/Bows/Weapon_Hamayumi_2nd_ihfxci.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1628052851/Wiki%20Paimon/Weapons/Bows/Weapon_Hamayumi_3D_yjpfij.png"
+        ],
+        "baseAtk": [
+            "41",
+            "454" 
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "ATK"
+        ],
+        "passive": [
+            "Full Draw",
+            "Increases Normal Attack DMG by 16-32% and Charged Attack DMG by 12-24%. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
+        ]
+    },
+    {
         "name": "Freedom-Sworn",
         "rarity": 5,
         "img": [
