@@ -64,7 +64,7 @@ export default {
     mounted() {
         this.weaponsList = weaponsList;
         this.GetWeapons();
-        this.SelectWeapon('Amos\' Bow');
+        this.SelectWeapon('Thundering Pulse');
     }
 }
 </script>

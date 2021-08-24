@@ -1,5 +1,26 @@
 [
     {
+        "name": "Thundering Pulse",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1629774861/Wiki%20Paimon/Weapons/Bows/Weapon_Thundering_Pulse_2nd_h1s5sz.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1629774862/Wiki%20Paimon/Weapons/Bows/Weapon_Thundering_Pulse_Wish_vds04x.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608" 
+        ],
+        "baseStat": [
+            "14.4%",
+            "66.2%",
+            "CRIT DMG"
+        ],
+        "passive": [
+            "Rule By Thunder",
+            "Increases ATK by 20~40% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 12/24/40~24/48/80%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+        ]
+    },
+    {
         "name": "Mistsplitter Reforged",
         "rarity": 5,
         "img": [
@@ -11,7 +32,7 @@
             "674" 
         ],
         "baseStat": [
-            "96%",
+            "9.6%",
             "44.1%",
             "CRIT DMG"
         ],

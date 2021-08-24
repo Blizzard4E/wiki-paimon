@@ -1,0 +1,56 @@
+{
+    "name": "Yoimiya",
+    "title": "Frolicking Flames",
+    "affiliation": "Naganohara Fireworks",
+    "rarity": 5,
+    "weapon": "Bow",
+    "element": "Pyro",
+    "birthday": "21 June",
+    "intro": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival\", she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1629773613/Wiki%20Paimon/Characters/Yoimiya/Character_Yoimiya_Portrait_agtmhx.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1629773620/Wiki%20Paimon/Characters/Yoimiya/Character_Yoimiya_Wish_s6fq2o.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Firework Flare-Up",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 consecutive shots with a bow.<h3>Charged Attack</h3> Perform a more precise Aimed Shot with increased DMG.While aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:<br>▪ Charge Level 1: Fires off a flaming arrow that deals <span class='pyro'>Pyro DMG</span>.<br>▪ Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing <span class='pyro'>Pyro DMG</span> on hit.<h3>Plunging Attack</h3>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616419005/Wiki%20Paimon/Weapon%20Styles/Bow_Weapon_emtwos.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629773628/Wiki%20Paimon/Characters/Yoimiya/Talent_Firework_Flare-Up_Normal_p0kbsn.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629773629/Wiki%20Paimon/Characters/Yoimiya/Talent_Firework_Flare-Up_Charged_Level_2_jiunoc.gif"
+            ]
+        },
+        "skill": {
+            "title": "Niwabi Fire-Dance",
+            "info": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.<h3>Niwabi Enshou</h3>During this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to <span class='pyro'>Pyro DMG</span>. during this time, <span class='ability-ref'>Normal Attack: Firework Flare-Up</span> will not generate Kindling Arrows at Charge Level 2.<br>This effect will deactivate when Yoimiya leaves the field.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629773612/Wiki%20Paimon/Characters/Yoimiya/Asset_4_znur60.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629773627/Wiki%20Paimon/Characters/Yoimiya/Talent_Niwabi_Fire-Dance_Normal_zolcpf.gif"
+            ]
+        },
+        "burst": {
+            "title": "Ryuukin Saxifrage",
+            "info": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage\", and fires forth blazing rockets bursting with surprises that deal <span class='pyro'>AoE Pyro DMG</span> and mark one of the hit opponents with Aurous Blaze.<br><h3>Aurous Blaze</h3>All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <span class='pyro'>AoE Pyro DMG</span>.<br>When an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.<br>One Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629773612/Wiki%20Paimon/Characters/Yoimiya/Asset_3_j0h6q8.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629773618/Wiki%20Paimon/Characters/Yoimiya/Talent_Ryuukin_Saxifrage_ighb9r.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Tricks of the Trouble-Maker",
+            "info": "During <span class='ability-ref'>Niwabi Fire-Dance</span>, shots from Yoimiya's <span class='ability-ref'>Normal Attack</span> will increase her <span class='pyro'>Pyro DMG Bonus</span> by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629773612/Wiki%20Paimon/Characters/Yoimiya/Asset_1_nyynyp.svg"
+        },
+        {
+            "title": "Summer Night's Dawn",
+            "info": "Using <span class='ability-ref'>Ryuukin Saxifrage</span> causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using <span class='ability-ref'>Ryuukin Saxifrage</span>. Each stack increases this ATK Bonus by 1%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629773612/Wiki%20Paimon/Characters/Yoimiya/Asset_2_q8glct.svg"
+        },
+        {
+            "title": "Blazing Match",
+            "info": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629773612/Wiki%20Paimon/Characters/Yoimiya/Asset_5_pt8bjo.svg"
+        }
+    ]
+}

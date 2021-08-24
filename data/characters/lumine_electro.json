@@ -15,8 +15,8 @@
             "info": "<h3>Normal Attack</h3>Perform up to 5 rapid strikes.<br> <h3>Charged Attack</h3>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616322198/Wiki%20Paimon/Weapon%20Styles/Sword_Weapon_qe4aa9.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689609/Wiki%20Paimon/Characters/Aether/Geo/Talent_Foreign_Rockblade_Normal__28Aether_29_tede7n.gif",
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1622689606/Wiki%20Paimon/Characters/Aether/Geo/Talent_Foreign_Rockblade_Charged__28Aether_29_ayjrmr.gif"
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629775058/Wiki%20Paimon/Characters/Lumine/Electro/Talent_Foreign_Thundershock_Normal__Lumine_sctm33.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629775053/Wiki%20Paimon/Characters/Lumine/Electro/Talent_Foreign_Thundershock_Charged__Lumine_dmgfdz.gif"
             ]
         },
         "skill": {
@@ -24,8 +24,7 @@
             "info": "Unleashes three swift thunder shadows that deal <span class='electro'>Electro DMG</span> to opponents and leave an Abundance Amulet behind after hitting an opponent.<br>2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.<h3>Abundance Amulets</h3>When a character is near an Abundance Amulet, they will absorb it and obtain the following effects:<br>▪ Restores Elemental Energy<br>▪ Increases Energy Recharge during the Abundance Amulet's duration.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627546861/Wiki%20Paimon/Characters/Aether/Electro/Asset_3_evyinv.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1627826504/Wiki%20Paimon/Characters/Aether/Electro/skill1_sitw11.gif",
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1627826508/Wiki%20Paimon/Characters/Aether/Electro/skill2_hvty9w.gif"
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629775052/Wiki%20Paimon/Characters/Lumine/Electro/Talent_Lightning_Blade__Lumine_inoif7.gif"
             ]
         },
         "burst": {
@@ -33,8 +32,7 @@
             "info": "You call upon the protection of lightning, knocking nearby opponents back and dealing <span class='electro'>Electro DMG</span> to them.<h3>Lightning Shroud</h3>When your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing <span class='electro'>Electro DMG</span>.<br>When Falling Thunder hits opponents, it will regenerate Energy for that character.<br>One instance of Falling Thunder can be generated every 0.5s.",
             "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1627546861/Wiki%20Paimon/Characters/Aether/Electro/Asset_4_pjczat.svg",
             "gifs": [
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1627826505/Wiki%20Paimon/Characters/Aether/Electro/burst1_wdqtgh.gif",
-                "https://res.cloudinary.com/duzvevuup/image/upload/v1627826507/Wiki%20Paimon/Characters/Aether/Electro/burst2_jciddm.gif"
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629775055/Wiki%20Paimon/Characters/Lumine/Electro/Talent_Bellowing_Thunder__28Lumine_29_ukmsa5.gif"
             ]
         }
     },
