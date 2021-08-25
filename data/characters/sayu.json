@@ -1,0 +1,58 @@
+{
+    "name": "Sayu",
+    "title": "Mujina Ninja",
+    "affiliation": "Inazuma",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "element": "Anemo",
+    "birthday": "19 October",
+    "intro": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1629879317/Wiki%20Paimon/Characters/Sayu/Character_Sayu_Portrait_yeenyr.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1629879321/Wiki%20Paimon/Characters/Sayu/Character_Sayu_Wish_jdcj8z.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Shuumatsuban Ninja Blade",
+            "info": "<h3>Normal Attack</h3>Performs up to 4 consecutive slashes.<h3>Charged Attack</h3>Drains Stamina over time to perform continuous swirling attacks against all nearby opponents. At end of the sequence, perform a more powerful slash.<h3>Plunging Attack</h3>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616507056/Wiki%20Paimon/Weapon%20Styles/Claymore_Weapon_y7kpsf.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629879323/Wiki%20Paimon/Characters/Sayu/Talent_Shuumatsuban_Ninja_Blade_Normal_hmb6cu.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629879334/Wiki%20Paimon/Characters/Sayu/Talent_Shuumatsuban_Ninja_Blade_Charged_qkcjmi.gif"
+            ]
+        },
+        "skill": {
+            "title": "Yoohoo Art: Fuuin Dash",
+            "info": "The special technique of the Yoohoo Ninja Arts!<br>Sayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing <span class='anemo'>Anemo DMG</span>.<br>When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing <span class='anemo'>AoE Anemo DMG</span>.<h3>Press</h3>Enters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.<h3>Hold</h3>Rolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.<br>During this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.<br>The Hold version of this skill can trigger Elemental Absorption.<br>This skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.<h3>Elemental Absorption</h3>If Sayu comes into contact with <span class='hydro'>Hydro</span>/<span class='pyro'>Pyro</span>/<span class='cryo'>Cryo</span>/<span class='electro'>Electro</span> while in her Windwheel state, she will deal additional elemental DMG of that type.<br>Elemental Absorption may only occur once per use of this skill.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629879316/Wiki%20Paimon/Characters/Sayu/Asset_3_eamzp0.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629879322/Wiki%20Paimon/Characters/Sayu/Talent_Yoohoo_Art_Fuuin_Dash_Press_vaxzzn.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629879328/Wiki%20Paimon/Characters/Sayu/Talent_Yoohoo_Art_Fuuin_Dash_Elemental_Absorption_rznwv4.gif"
+            ]
+        },
+        "burst": {
+            "title": "Yoohoo Art: Mujina Flurry",
+            "info": "The other super special technique of the Yoohoo Ninja Arts!<br>It summons a pair of helping hands for Sayu.<br>Deals <span class='anemo'>Anemo DMG</span> to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.<h3>Muji-Muji Daruma</h3>At specific intervals, the Daruma will take one of several actions based on the situation around it:<br>▪ If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing <span class='anemo'>Anemo DMG</span>.<br>▪ If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left.<br>If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629879316/Wiki%20Paimon/Characters/Sayu/Asset_2_lg15d9.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629879323/Wiki%20Paimon/Characters/Sayu/Talent_Yoohoo_Art_Mujina_Flurry_aasg8y.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1629879492/Wiki%20Paimon/Characters/Sayu/Talent_Yoohoo_Art_Mujina_Flurry_No_Opponents_vxhuf3.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Someone More Capable",
+            "info": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.<br>This effect can be triggered once every 2s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629879316/Wiki%20Paimon/Characters/Sayu/Asset_4_twqu00.svg"
+        },
+        {
+            "title": "No Work Today!",
+            "info": "The Muji-Muji Daruma created by Yoohoo Art: Mujina Flurry gains the following effects:<br>▪ When healing a character, it will also heal characters near that healed character for 20% the amount of HP.<br>▪ Increases the AoE of its attack against opponents.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629879316/Wiki%20Paimon/Characters/Sayu/Asset_5_zwy9vr.svg"
+        },
+        {
+            "title": "Yoohoo Art: Silencer's Secret",
+            "info": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.<br>Check the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1629879316/Wiki%20Paimon/Characters/Sayu/Asset_1_egexe9.svg"
+        }
+    ]
+}
