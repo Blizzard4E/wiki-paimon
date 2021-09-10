@@ -64,7 +64,7 @@ export default {
     mounted() {
         this.weaponsList = weaponsList;
         this.GetWeapons();
-        this.SelectWeapon('Thundering Pulse');
+        this.SelectWeapon('Engulfing Lightning');
     }
 }
 </script>

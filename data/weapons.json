@@ -1,5 +1,47 @@
 [
     {
+        "name": "Engulfing Lightning",
+        "rarity": 5,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1631272047/Wiki%20Paimon/Weapons/Polearms/Weapon_Engulfing_Lightning_2nd_f9eeb6.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1631272047/Wiki%20Paimon/Weapons/Polearms/Weapon_Engulfing_Lightning_2nd_3d_tf9zd5.png"
+        ],
+        "baseAtk": [
+            "46",
+            "608" 
+        ],
+        "baseStat": [
+            "12%",
+            "55.1%",
+            "ER"
+        ],
+        "passive": [
+            "Timeless Dream: Eternal Stove",
+            "ATK increased by 28~56% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80~120% ATK. Gain 30~50% Energy Recharge for 12s after using an Elemental Burst."
+        ]
+    },
+    {
+        "name": "\"The Catch\"",
+        "rarity": 4,
+        "img": [
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1631272047/Wiki%20Paimon/Weapons/Polearms/Weapon_The_Catch_2nd_bbbxzg.png",
+            "https://res.cloudinary.com/duzvevuup/image/upload/v1631272047/Wiki%20Paimon/Weapons/Polearms/Weapon_The_Catch_2nd_3D_qu2nky.png"
+        ],
+        "baseAtk": [
+            "42",
+            "510" 
+        ],
+        "baseStat": [
+            "10%",
+            "45.9%",
+            "ER"
+        ],
+        "passive": [
+            "Shanty",
+            "Increases Elemental Burst DMG by 16~32% and Elemental Burst CRIT Rate by 6~12%."
+        ]
+    },
+    {
         "name": "Thundering Pulse",
         "rarity": 5,
         "img": [
