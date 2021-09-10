@@ -1,0 +1,57 @@
+{
+    "name": "Sara",
+    "title": "Crowfeather Kaburaya",
+    "affiliation": "Tenryou Commission",
+    "rarity": 4,
+    "weapon": "Bow",
+    "element": "Electro",
+    "birthday": "14 July",
+    "intro": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+    "cutout": "https://res.cloudinary.com/duzvevuup/image/upload/v1631273518/Wiki%20Paimon/Characters/Sara/Character_Kujou_Sara_Portrait_cvwjlx.png",
+    "wishArt": "https://res.cloudinary.com/duzvevuup/image/upload/v1631273520/Wiki%20Paimon/Characters/Sara/Character_Kujou_Sara_Wish_dosevv.png",
+    "attackTalents": {
+        "normalAttack": {
+            "title": "Tengu Bowmanship",
+            "info": "<h3>Normal Attack</h3>Perform up to 5 consecutive shots with a bow.<h3>Charged Attack</h3>Perform a more precise Aimed Shot with increased DMG. While aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal <span class='electro'>Electro DMG</span>.<br>When in the <span class='ability-ref'>Crowfeather Cover</span> state, a fully-charged arrow will leave a Crowfeather behind after it hits.<h3>Plunging Attack</h3>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1616419005/Wiki%20Paimon/Weapon%20Styles/Bow_Weapon_emtwos.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1631273527/Wiki%20Paimon/Characters/Sara/Talent_Tengu_Bowmanship_Normal_f6juqi.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1631273525/Wiki%20Paimon/Characters/Sara/Talent_Tengu_Bowmanship_Charged_dgloqp.gif"
+            ]
+        },
+        "skill": {
+            "title": "Tengu Stormcall",
+            "info": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather. Gains <span class='ability-ref'>Crowfeather Cover</span> for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, <span class='ability-ref'>Crowfeather Cover</span> will be consumed, and will leave a Crowfeather at the target location.<br>Crowfeathers will trigger <span class='ability-ref'>Tengu Juurai: Ambush</span> after a short time, dealing <span class='electro'>Electro DMG</span> and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.<br><br>The ATK Bonuses from different <span class='ability-ref'>Tengu Juurai</span> will not stack, and their effects and duration will be determined by the last <span class='ability-ref'>Tengu Juurai</span> to take effect.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1631273512/Wiki%20Paimon/Characters/Sara/Asset_1_i953l6.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1631273522/Wiki%20Paimon/Characters/Sara/Talent_Tengu_Stormcall_wnvebw.gif",
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1631273524/Wiki%20Paimon/Characters/Sara/Talent_Tengu_Stormcall_Crowfeather_Cover_viqwqg.gif"
+            ]
+        },
+        "burst": {
+            "title": "Subjugation: Koukou Sendou",
+            "info": "Casts down <span class='ability-ref'>Tengu Juurai: Titanbreaker</span>, dealing AoE Electro DMG. Afterwards, <span class='ability-ref'>Tengu Juurai: Titanbreaker</span> spreads out into 4 consecutive bouts of <span class='ability-ref'>Tengu Juurai: Stormcluster</span>, dealing AoE Electro DMG.<br><span class='ability-ref'>Tengu Juurai: Titanbreaker</span> and <span class='ability-ref'>Tengu Juurai: Stormcluster</span> can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, <span class='ability-ref'>Tengu Stormcall</span>.<br><br>The ATK Bonuses from different <span class='ability-ref'>Tengu Juurai</span> will not stack, and their effects and duration will be determined by the last <span class='ability-ref'>Tengu Juurai</span> to take effect.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1631273512/Wiki%20Paimon/Characters/Sara/Asset_2_u4saww.svg",
+            "gifs": [
+                "https://res.cloudinary.com/duzvevuup/image/upload/v1631273526/Wiki%20Paimon/Characters/Sara/Talent_Subjugation_Koukou_Sendou_nnjvos.gif"
+            ]
+        }
+    },
+    "passiveTalents": [
+        {
+            "title": "Immovable Will",
+            "info": "While in the <span class='ability-ref'>Crowfeather Cover</span> state provided by <span class='ability-ref'>Tengu Stormcall</span>, Aimed Shot charge times are decreased by 60%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1631273512/Wiki%20Paimon/Characters/Sara/Asset_4_z2wjqs.svg"
+        },
+        {
+            "title": "Decorum",
+            "info": "When <span class='ability-ref'>Tengu Juurai: Ambush</span> hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1631273512/Wiki%20Paimon/Characters/Sara/Asset_5_ueej00.svg"
+        },
+        {
+            "title": "Land Survey",
+            "info": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%.",
+            "svg": "https://res.cloudinary.com/duzvevuup/image/upload/v1631273512/Wiki%20Paimon/Characters/Sara/Asset_3_td4yqj.svg"
+        }
+    ]
+}
